@@ -1,25 +1,26 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>465635840000</ElapsedGameTime>
+  <ElapsedGameTime>467686400000</ElapsedGameTime>
   <SessionName>AAA World</SessionName>
   <SpectatorPosition>
-    <Position x="21126.05497863159" y="54021.764303562944" z="20521.214718385723" />
-    <Forward x="-0.232625112" y="0.589924753" z="-0.773223341" />
-    <Up x="0.737123251" y="0.6255861" z="0.2555217" />
+    <Position x="21132.799259485553" y="54006.138846806774" z="20527.625559231372" />
+    <Forward x="-0.232625067" y="0.589924753" z="-0.773223341" />
+    <Up x="0.7371233" y="0.625586033" z="0.255521685" />
     <Orientation>
       <X>0.242717385</X>
-      <Y>0.233402237</Y>
+      <Y>0.233402222</Y>
       <Z>-0.358183265</Z>
       <W>0.870813668</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>129635706440352623</CameraEntity>
   <ControlledObject>129635706440352623</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-02-27T21:42:33.2907341+02:00</LastSaveTime>
+  <LastSaveTime>2016-02-27T22:53:19.7301391+02:00</LastSaveTime>
   <SpectatorDistance>2.63152957</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
@@ -61,7 +62,7 @@
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
             <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>Window1x2FlatInv</SubtypeId>
+            <SubtypeId>DB_Powerline_top</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -71,7 +72,7 @@
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
             <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+            <SubtypeId>DB_PowerlineTurn_top</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -81,7 +82,7 @@
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
             <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>Window1x1FlatInv</SubtypeId>
+            <SubtypeId>DeadTech_CatwalkArmourBlock</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -162,16 +163,6 @@
           <DefinitionId>
             <TypeId>MyObjectBuilder_AnimationDefinition</TypeId>
             <SubtypeId>FacePalm</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>22</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_TextPanel</TypeId>
-            <SubtypeId>LargeTextPanel</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -1018,6 +1009,10 @@
   </Factions>
   <Mods>
     <ModItem>
+      <Name>321588701.sbm</Name>
+      <PublishedFileId>321588701</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>583415747.sbm</Name>
       <PublishedFileId>583415747</PublishedFileId>
     </ModItem>
@@ -1032,10 +1027,6 @@
     <ModItem>
       <Name>577318708.sbm</Name>
       <PublishedFileId>577318708</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>572717560.sbm</Name>
-      <PublishedFileId>572717560</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>509687242.sbm</Name>
@@ -1054,24 +1045,28 @@
       <PublishedFileId>298913292</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>309057836.sbm</Name>
-      <PublishedFileId>309057836</PublishedFileId>
-    </ModItem>
-    <ModItem>
       <Name>363371127.sbm</Name>
       <PublishedFileId>363371127</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>563872040.sbm</Name>
-      <PublishedFileId>563872040</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>530693136.sbm</Name>
       <PublishedFileId>530693136</PublishedFileId>
     </ModItem>
     <ModItem>
+      <Name>563872040.sbm</Name>
+      <PublishedFileId>563872040</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>628727250.sbm</Name>
       <PublishedFileId>628727250</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>309057836.sbm</Name>
+      <PublishedFileId>309057836</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>572717560.sbm</Name>
+      <PublishedFileId>572717560</PublishedFileId>
     </ModItem>
   </Mods>
   <PromotedUsers />
@@ -1468,89 +1463,12 @@
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="99019111875417076">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>40.476716212462861</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
             <CameraControllerSettings EntityId="91082460517410484">
               <IsFirstPerson>true</IsFirstPerson>
               <Distance>1.7594410181045534</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
-          <BuildColorSlots>
-            <Vector3>
-              <X>0</X>
-              <Y>-1</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0</Y>
-              <Z>0.05</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.48</Y>
-              <Z>-0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>-0.1</Y>
-              <Z>0.26</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.95</Y>
-              <Z>0.4</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.96</Y>
-              <Z>-0.5</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.85</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0.15</Y>
-              <Z>0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.329999983</Y>
-              <Z>-0.049999997</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0.15</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>0.0500000045</Y>
-              <Z>0.459999979</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.799999952</Y>
-              <Z>0.6</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.809999943</Y>
-              <Z>-0.3</Z>
-            </Vector3>
-          </BuildColorSlots>
         </Value>
       </item>
       <item>
@@ -1663,13 +1581,7 @@
             <Distance>2.63152960537859</Distance>
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
-          <EntityCameraData>
-            <CameraControllerSettings EntityId="99019111875417076">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>86.122950258772548</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-          </EntityCameraData>
+          <EntityCameraData />
         </Value>
       </item>
     </dictionary>
@@ -1774,25 +1686,27 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
-      <SpawnInfos />
+      <SpawnInfos>
+        <Info X="21132.645097149431" Y="54006.75024159599" Z="20527.770043725759" S="4233" A="43343" />
+      </SpawnInfos>
       <TimeoutInfos />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855874</PiratesIdentity>
+      <Drones />
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ScriptManager">
       <variables>
         <dictionary />
       </variables>
-    </MyObjectBuilder_SessionComponent>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
-      <PiratesIdentity>144115188075855874</PiratesIdentity>
-      <Drones />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <LastCoordSysId>3</LastCoordSysId>
       <CoordSystems>
         <CoordSysInfo>
           <Id>1</Id>
-          <EntityCount>10</EntityCount>
+          <EntityCount>11</EntityCount>
           <Rotation x="0.229098976" y="0.3928893" z="-0.09216451" w="0.8858089" />
           <Position x="21126.545289039612" y="54018.424279689789" z="20516.754534602165" />
         </CoordSysInfo>
