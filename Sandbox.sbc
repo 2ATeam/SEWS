@@ -6,7 +6,7 @@
   <SpectatorPosition>
     <Position x="20863.759622875692" y="54489.744856250458" z="19757.727043638446" />
     <Forward x="-0.964988351" y="-0.240456462" z="-0.104776926" />
-    <Up x="-0.239051461" y="0.9706599" z="-0.0259558652" />
+    <Up x="-0.239051461" y="0.9706599" z="-0.0259558633" />
     <Orientation>
       <X>-0.09014872</X>
       <Y>0.662936449</Y>
@@ -20,7 +20,7 @@
   <ControlledObject>98428813025752849</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-03-02T23:07:30.9810953+02:00</LastSaveTime>
+  <LastSaveTime>2016-03-02T23:14:18.7383359+02:00</LastSaveTime>
   <SpectatorDistance>12.981082</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
@@ -1788,6 +1788,7 @@
             <HeadAngle x="-44.6647377" y="0" />
           </CharacterCameraData>
           <EntityCameraData />
+          <BuildColorSlots />
         </Value>
       </item>
     </dictionary>
@@ -2858,3 +2859,4 @@
   </MissionTriggers>
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
+<!-- Saved '2016-03-02T23:14:19.0524375+02:00' with SEToolbox version '1.123.4.1' -->
