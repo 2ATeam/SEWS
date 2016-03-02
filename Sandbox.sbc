@@ -20,7 +20,7 @@
   <ControlledObject>83622036572382036</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-03-02T02:49:02.9418145+02:00</LastSaveTime>
+  <LastSaveTime>2016-03-02T03:08:42.4857124+02:00</LastSaveTime>
   <SpectatorDistance>7.43593025</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
@@ -2867,3 +2867,4 @@
   </MissionTriggers>
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
+<!-- Saved '2016-03-02T03:08:42.7807105+02:00' with SEToolbox version '1.123.4.1' -->

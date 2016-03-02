@@ -959,8 +959,8 @@
                           <PersistentFlags>CastShadows InScene</PersistentFlags>
                           <PositionAndOrientation>
                             <Position x="21137.316659118726" y="54006.553897085483" z="20503.210043662013" />
-                            <Forward x="-0.0728633553" y="0.9937282" z="0.08482435" />
-                            <Up x="0.557626069" y="-0.02992344" z="0.82955277" />
+                            <Forward x="-0.07286337" y="0.993728161" z="0.084824264" />
+                            <Up x="0.557626" y="-0.0299233571" z="0.82955277" />
                             <Orientation>
                               <X>0.696713</X>
                               <Y>0.238753363</Y>
@@ -1137,8 +1137,8 @@
                           <PersistentFlags>CastShadows InScene</PersistentFlags>
                           <PositionAndOrientation>
                             <Position x="21142.587088849141" y="54013.53615260392" z="20524.472771518649" />
-                            <Forward x="0.39367" y="0.0218304563" z="0.9189926" />
-                            <Up x="0.9191971" y="-0.0202581268" z="-0.393276364" />
+                            <Forward x="0.393669963" y="0.02183047" z="0.9189926" />
+                            <Up x="0.9191971" y="-0.02025814" z="-0.393276364" />
                             <Orientation>
                               <X>0.6980835</X>
                               <Y>0.6871504</Y>
@@ -6132,6 +6132,7 @@
           <Title>Title</Title>
           <AccessFlag>READ_AND_WRITE_ALL</AccessFlag>
           <ChangeInterval>0</ChangeInterval>
+          <SelectedImages />
           <FontSize>2.7</FontSize>
           <PublicDescription>                        
 
@@ -6546,11 +6547,11 @@
           <MasterToSlaveTransform>
             <Position x="-7.5326224759919569E-06" y="0.4208369255065918" z="1.0055620805360377E-05" />
             <Forward x="-0.309878558" y="1.94774941E-07" z="-0.95077616" />
-            <Up x="1.06311724E-07" y="1" z="1.702096E-07" />
+            <Up x="1.06311717E-07" y="1" z="1.702096E-07" />
             <Orientation>
               <X>9.239017E-08</X>
               <Y>0.156881884</Y>
-              <Z>-3.91462471E-08</Z>
+              <Z>-3.91462436E-08</Z>
               <W>0.9876174</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -8011,6 +8012,7 @@
           <Title>Title</Title>
           <AccessFlag>READ_AND_WRITE_ALL</AccessFlag>
           <ChangeInterval>0</ChangeInterval>
+          <SelectedImages />
           <FontSize>1.2</FontSize>
           <PublicDescription />
           <PublicTitle>Public title</PublicTitle>
@@ -9910,6 +9912,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="3" z="7" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9917,6 +9920,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="3" z="4" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9924,6 +9928,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="2" z="-2" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9931,6 +9936,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="5" z="7" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9949,6 +9955,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="-3" y="5" z="4" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9970,6 +9977,7 @@
           <StartDirection>Left</StartDirection>
           <EndPosition x="-1" y="1" z="8" />
           <EndDirection>Right</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9977,6 +9985,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="4" z="-2" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9984,6 +9993,7 @@
           <StartDirection>Backward</StartDirection>
           <EndPosition x="-3" y="1" z="8" />
           <EndDirection>Forward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -9991,6 +10001,7 @@
           <StartDirection>Backward</StartDirection>
           <EndPosition x="0" y="1" z="8" />
           <EndDirection>Forward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -10009,6 +10020,7 @@
           <StartDirection>Down</StartDirection>
           <EndPosition x="-3" y="4" z="4" />
           <EndDirection>Up</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -10016,6 +10028,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-2" y="1" z="8" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -10023,6 +10036,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-1" y="1" z="8" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -10932,13 +10946,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21132.163220908238" y="54011.788801076706" z="20517.727279179515" />
-        <Forward x="-0.226757377" y="0.965598345" z="-0.127282992" />
-        <Up x="0.632215142" y="0.0465197526" z="-0.773395061" />
+        <Forward x="-0.226757392" y="0.9655984" z="-0.127282962" />
+        <Up x="0.632215142" y="0.0465197451" z="-0.7733951" />
         <Orientation>
-          <X>-0.146056011</X>
+          <X>-0.146056</X>
           <Y>-0.64422524</Y>
           <Z>0.6748391</Z>
-          <W>-0.328988969</W>
+          <W>-0.3289889</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -10959,8 +10973,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21130.37637284" y="54009.809667470749" z="20521.077769749583" />
-        <Forward x="-0.712671638" y="0.426541328" z="-0.5569216" />
-        <Up x="-0.6322236" y="-0.0465417542" z="0.773386836" />
+        <Forward x="-0.7126716" y="0.426541328" z="-0.5569216" />
+        <Up x="-0.6322236" y="-0.04654166" z="0.773386836" />
         <Orientation>
           <X>0.445415944</X>
           <Y>0.152130961</Y>
@@ -10986,13 +11000,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21133.083051230504" y="54009.585138204391" z="20518.34667729658" />
-        <Forward x="0.29277882" y="-0.938523531" z="0.182904676" />
-        <Up x="0.6322134" y="0.0464992523" z="-0.7733977" />
+        <Forward x="0.2927788" y="-0.938523531" z="0.1829046" />
+        <Up x="0.632213354" y="0.0464992933" z="-0.7733977" />
         <Orientation>
           <X>-0.6807629</X>
-          <Y>-0.357790738</Y>
-          <Z>-0.115378767</Z>
-          <W>0.6286775</W>
+          <Y>-0.3577907</Y>
+          <Z>-0.115378782</Z>
+          <W>0.628677547</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -11013,13 +11027,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21129.909957434727" y="54011.441999318893" z="20520.794705861033" />
-        <Forward x="0.772757769" y="-0.110172272" z="0.625066042" />
-        <Up x="-0.632214248" y="-0.04651758" z="0.7733959" />
+        <Forward x="0.772757769" y="-0.110172242" z="0.625066042" />
+        <Up x="-0.632214248" y="-0.04651764" z="0.773396" />
         <Orientation>
           <X>-0.635502458</X>
           <Y>0.639272749</Y>
           <Z>0.34553647</Z>
-          <W>-0.260905266</W>
+          <W>-0.260905236</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -11040,11 +11054,11 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21130.92476990421" y="54009.409910085495" z="20519.0368685655" />
-        <Forward x="-0.694507539" y="0.476516277" z="-0.5390654" />
-        <Up x="0.3434429" y="0.8779329" z="0.3335878" />
+        <Forward x="-0.6945075" y="0.476516277" z="-0.5390654" />
+        <Up x="0.343442857" y="0.8779329" z="0.3335878" />
         <Orientation>
-          <X>0.231961727</X>
-          <Y>0.420310646</Y>
+          <X>0.231961742</X>
+          <Y>0.420310616</Y>
           <Z>-0.08501359</Z>
           <W>0.873101</W>
         </Orientation>
@@ -11066,10 +11080,10 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="-0.53600823879241943" y="0.65649807453155518" z="-0.32631883025169373" />
-            <Forward x="-0.07482155" y="0.000107067368" z="-0.9971969" />
-            <Up x="-1.88546583E-05" y="1" z="0.000108783024" />
+            <Forward x="-0.07482155" y="0.000107067375" z="-0.9971969" />
+            <Up x="-1.88546583E-05" y="1" z="0.000108783031" />
             <Orientation>
-              <X>5.40004548E-05</X>
+              <X>5.40004621E-05</X>
               <Y>0.037437018</Y>
               <Z>1.14569766E-05</Z>
               <W>0.999299</W>
@@ -11214,12 +11228,12 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="-0.3900415301322937" y="0.656548261642456" z="0.7193799614906311" />
-            <Forward x="-0.979843557" y="-1.39966269E-05" z="0.199766517" />
-            <Up x="-2.38423982E-05" y="1" z="-4.6880712E-05" />
+            <Forward x="-0.979843557" y="-1.39966251E-05" z="0.199766636" />
+            <Up x="-2.38424072E-05" y="1" z="-4.68807157E-05" />
             <Orientation>
               <X>-2.40603713E-05</X>
-              <Y>0.774521351</Y>
-              <Z>-1.06143261E-05</Z>
+              <Y>0.7745213</Y>
+              <Z>-1.0614327E-05</Z>
               <W>0.6325478</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -11253,13 +11267,13 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="0.35450395941734314" y="0.65653061866760254" z="0.74102622270584106" />
-            <Forward x="-0.2573229" y="-0.000128922591" z="0.9663254" />
-            <Up x="-0.000264395348" y="0.99999994" z="6.300943E-05" />
+            <Forward x="-0.257322937" y="-0.000128922591" z="0.966325462" />
+            <Up x="-0.000264395378" y="0.99999994" z="6.30094146E-05" />
             <Orientation>
               <X>-0.000126992032</X>
               <Y>0.9915456</Y>
-              <Z>4.839213E-05</Z>
-              <W>0.129758492</W>
+              <Z>4.839212E-05</Z>
+              <W>0.1297585</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -11297,12 +11311,12 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="0.68100935220718384" y="0.65654438734054565" z="0.31982576847076416" />
-            <Forward x="0.49067077" y="4.8730526E-05" z="0.871345043" />
-            <Up x="4.489658E-06" y="1" z="-5.84538466E-05" />
+            <Forward x="0.4906708" y="4.873053E-05" z="0.871345043" />
+            <Up x="4.489658E-06" y="1" z="-5.845385E-05" />
             <Orientation>
-              <X>9.58421151E-06</X>
+              <X>9.584212E-06</X>
               <Y>0.967301667</Y>
-              <Z>-2.77019E-05</Z>
+              <Z>-2.77019026E-05</Z>
               <W>-0.253628641</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -11453,6 +11467,8 @@
           <Direction>0</Direction>
           <DockingModeEnabled>false</DockingModeEnabled>
           <CollisionAvoidance>true</CollisionAvoidance>
+          <Coords />
+          <Names />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>SmallBlockArmorBlock</SubtypeName>
@@ -12053,6 +12069,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="2" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12060,6 +12077,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="1" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12067,6 +12085,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="0" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -12182,8 +12201,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21087.778041388585" y="54103.492921712692" z="20457.633914463939" />
-        <Forward x="-0.832792" y="-0.2954275" z="-0.468166769" />
-        <Up x="-0.438509017" y="-0.16413714" z="0.883611262" />
+        <Forward x="-0.8327919" y="-0.295427531" z="-0.468166828" />
+        <Up x="-0.438509047" y="-0.16413717" z="0.8836112" />
         <Orientation>
           <X>0.299200475</X>
           <Y>0.419994831</Y>
@@ -12614,12 +12633,12 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21087.9685187598" y="54097.888284566696" z="20464.698972218455" />
-        <Forward x="-0.830577254" y="0.449567854" z="-0.328679472" />
-        <Up x="0.343301326" y="0.878038764" z="0.333454818" />
+        <Forward x="-0.8305773" y="0.449567854" z="-0.328679323" />
+        <Up x="0.343301356" y="0.878038764" z="0.3334548" />
         <Orientation>
           <X>0.240720615</X>
           <Y>0.5269857</Y>
-          <Z>-0.055083584</Z>
+          <Z>-0.0550835952</Z>
           <W>0.8132069</W>
         </Orientation>
       </PositionAndOrientation>
@@ -12712,7 +12731,7 @@
           <MasterToSlaveTransform>
             <Position x="-0.00017767198733054101" y="0.42086786031723022" z="-9.7587762866169214E-06" />
             <Forward x="-0.701403141" y="-1.09705343E-05" z="-0.7127648" />
-            <Up x="-1.52920911E-05" y="1" z="-3.431901E-07" />
+            <Up x="-1.52920911E-05" y="1" z="-3.43189186E-07" />
             <Orientation>
               <X>-3.05641061E-06</X>
               <Y>0.378969133</Y>
@@ -12744,11 +12763,11 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="-0.00010346354974899441" y="0.42086327075958252" z="7.9332448876812123E-06" />
-            <Forward x="0.720480263" y="7.61185265E-06" z="-0.693475366" />
-            <Up x="-1.09323209E-05" y="1" z="-3.81656264E-07" />
+            <Forward x="0.720480263" y="7.611852E-06" z="-0.6934754" />
+            <Up x="-1.09323209E-05" y="1" z="-3.81655582E-07" />
             <Orientation>
-              <X>1.96433552E-06</X>
-              <Y>-0.391487271</Y>
+              <X>1.9643353E-06</X>
+              <Y>-0.391487241</Y>
               <Z>5.104577E-06</Z>
               <W>0.920183539</W>
             </Orientation>
@@ -12985,8 +13004,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21089.875394370152" y="54096.673601033981" z="20473.431203358592" />
-        <Forward x="0.823774338" y="0.319695741" z="0.468177855" />
-        <Up x="0.438499779" y="0.164113924" z="-0.883620143" />
+        <Forward x="0.823774338" y="0.3196957" z="0.468177825" />
+        <Up x="0.438499749" y="0.164113909" z="-0.883620143" />
         <Orientation>
           <X>0.485988647</X>
           <Y>0.7056231</Y>
@@ -13424,40 +13443,13 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>123634642443716854</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19773.323012854649" y="55592.03087032109" z="18891.624988072337" />
-        <Forward x="0.4317255" y="-0.4721219" z="-0.7685792" />
-        <Up x="0.124152415" y="0.8750715" z="-0.467799127" />
-        <Orientation>
-          <X>-0.249884591</X>
-          <Y>-0.230798781</Y>
-          <Z>-0.004682421</Z>
-          <W>0.940355062</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_VoxelMap">
       <SubtypeName />
       <EntityId>807919846936060365</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21031.5752325058" y="53957.779269218445" z="20820.928675711155" />
-        <Forward x="-0.9224635" y="0.381808966" z="-0.0572982244" />
+        <Forward x="-0.9224634" y="0.381808966" z="-0.05729822" />
         <Up x="0.3418891" y="0.8767708" z="0.3382083" />
         <Orientation>
           <X>0.247638538</X>
@@ -13468,114 +13460,6 @@
       </PositionAndOrientation>
       <ContentChanged>true</ContentChanged>
       <StorageName>P(EarthLike-889424039d120000-0)S((85, 123, 85))A(SnowCoverageIronCore__264)-0</StorageName>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>111755179596907901</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19773.005019690587" y="55592.2155627039" z="18892.010608189525" />
-        <Forward x="-0.6438656" y="0.7150026" z="-0.272412181" />
-        <Up x="-0.2013065" y="0.185186788" z="0.9618636" />
-        <Orientation>
-          <X>0.565814257</X>
-          <Y>0.208921343</Y>
-          <Z>0.295399457</Z>
-          <W>0.7409084</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>129309101405173904</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19758.5490870734" y="55587.80381953984" z="18819.923327916087" />
-        <Forward x="-0.944195867" y="0.312799275" z="0.103202447" />
-        <Up x="0.328565955" y="0.872351" z="0.3620057" />
-        <Orientation>
-          <X>0.252020717</X>
-          <Y>0.698632</Y>
-          <Z>0.0176081285</Z>
-          <W>0.6693943</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>109296456993602026</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.945327307774" y="55592.597154500778" z="18892.109241002025" />
-        <Forward x="0.9899464" y="-0.0409506746" z="0.135385111" />
-        <Up x="-0.06390402" y="-0.9834016" z="0.16981627" />
-        <Orientation>
-          <X>0.7491613</X>
-          <Y>-0.0803113654</Y>
-          <Z>-0.6560931</Z>
-          <W>0.0430032872</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>116344030277227131</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19772.845473792149" y="55592.22960078984" z="18891.6158327989" />
-        <Forward x="0.790728748" y="-0.0358063" z="-0.435917377" />
-        <Up x="-0.4369396" y="-0.0240117" z="-0.7906107" />
-        <Orientation>
-          <X>-0.376171</X>
-          <Y>-0.342481375</Y>
-          <Z>0.6097389</Z>
-          <W>0.6077996</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>299.045952</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>299.045952</AmountDecimal>
-      </Item>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_VoxelMap">
       <SubtypeName />
@@ -13595,41 +13479,14 @@
       <ContentChanged>true</ContentChanged>
       <StorageName>P(EarthLike-889424039d120000-0-1)S((83, 123, 82))A(StoneCoverageIronCore__902)-2</StorageName>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>122711526482662235</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19772.321303870274" y="55592.69737422734" z="18891.562732212962" />
-        <Forward x="0.7493058" y="-0.278236061" z="-0.6009372" />
-        <Up x="0.514311433" y="0.8161478" z="0.2634132" />
-        <Orientation>
-          <X>-0.00440233853</X>
-          <Y>-0.4466677</Y>
-          <Z>-0.3031612</Z>
-          <W>0.8417612</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>97231351086058716</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21134.053218390538" y="54003.949994924362" z="20509.312466137828" />
-        <Forward x="-0.6012206" y="0.226751655" z="0.7662359" />
-        <Up x="-0.61650753" y="0.4784296" z="-0.6253188" />
+        <Forward x="-0.6012206" y="0.226751626" z="0.7662358" />
+        <Up x="-0.61650753" y="0.478429526" z="-0.6253188" />
         <Orientation>
           <X>-0.441425085</X>
           <Y>0.8296155</Y>
@@ -13649,232 +13506,16 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>108533122251842401</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19758.119277503087" y="55587.42588985234" z="18821.262683384837" />
-        <Forward x="-0.29813993" y="0.0391021632" z="0.2278068" />
-        <Up x="-0.0668252558" y="-0.370509654" z="-0.02386034" />
-        <Orientation>
-          <X>0.89058435</X>
-          <Y>-0.09378631</Y>
-          <Z>0.444898874</Z>
-          <W>0.0113417637</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>21.701112</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Gold</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Gold_01</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>21.701112</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>137623336119174841</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19772.4318995734" y="55592.388902547653" z="18891.996570103587" />
-        <Forward x="0.519878268" y="-0.109819196" z="0.8471519" />
-        <Up x="-0.290934682" y="-0.95517695" z="0.0547172837" />
-        <Orientation>
-          <X>0.9494077</X>
-          <Y>-0.148999974</Y>
-          <Z>-0.276067942</Z>
-          <W>-0.0145095475</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>107459709662636734</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="20614.572249915196" y="55332.72813594609" z="18217.982409947337" />
-        <Forward x="-0.192362309" y="0.134104028" z="-0.0171189718" />
-        <Up x="0.13121444" y="0.192368388" z="0.03251742" />
-        <Orientation>
-          <X>0.248729512</X>
-          <Y>0.633820534</Y>
-          <Z>-0.170421883</Z>
-          <W>0.712293148</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>5.246336</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>5.246336</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>114956143491511031</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19940.599990393712" y="55526.21299922734" z="18757.139026158275" />
-        <Forward x="0.06065546" y="-0.260926127" z="0.363330245" />
-        <Up x="0.2908567" y="0.301568568" z="0.168015376" />
-        <Orientation>
-          <X>0.309826344</X>
-          <Y>0.898024261</Y>
-          <Z>0.264532775</Z>
-          <W>-0.1660799</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>37.201792</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>37.201792</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>81051481697330485</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.077041174962" y="55593.31407344609" z="18891.559558384837" />
-        <Forward x="-0.4033778" y="0.0405025929" z="0.174988046" />
-        <Up x="0.1270386" y="0.368446141" z="0.207565755" />
-        <Orientation>
-          <X>0.2618763</X>
-          <Y>0.7934535</Y>
-          <Z>0.119209222</Z>
-          <W>0.5363222</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>34.817024</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>34.817024</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>77130167849798780</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.295669104649" y="55593.12364375859" z="18891.825549595775" />
-        <Forward x="0.611548543" y="-0.005747333" z="-0.791186035" />
-        <Up x="0.409955531" y="0.8575753" z="0.3106462" />
-        <Orientation>
-          <X>0.0835985541</X>
-          <Y>-0.312118977</Y>
-          <Z>-0.2534238</Z>
-          <W>0.9117946</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>103249446998735247</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19770.634902503087" y="55589.846666219528" z="18861.108142369212" />
-        <Forward x="-0.8406676" y="0.22767204" z="0.491368949" />
-        <Up x="-0.4584787" y="-0.782116055" z="-0.4220092" />
-        <Orientation>
-          <X>0.8002676</X>
-          <Y>-0.324432224</Y>
-          <Z>0.5006294</Z>
-          <W>-0.0607100576</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>134652614682632746</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19763.271010901524" y="55595.04112422734" z="18885.583240025462" />
-        <Forward x="-0.887719333" y="-0.0328459367" z="-0.459211916" />
-        <Up x="-0.05529299" y="0.997838259" z="0.035516765" />
-        <Orientation>
-          <X>0.00078228343</X>
-          <Y>0.519993663</Y>
-          <Z>0.03286708</Z>
-          <W>0.8535372</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>79622793869555983</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21137.414844061925" y="53999.950551870163" z="20507.088176243724" />
-        <Forward x="-0.6165034" y="0.478439" z="-0.6253156" />
-        <Up x="0.336794347" y="0.878120065" z="0.339815646" />
+        <Forward x="-0.6165035" y="0.478439033" z="-0.625315547" />
+        <Up x="0.336794376" y="0.878120065" z="0.339815676" />
         <Orientation>
-          <X>0.228170767</X>
+          <X>0.228170782</X>
           <Y>0.367804736</Y>
           <Z>-0.09422349</Z>
           <W>0.8965376</W>
@@ -13959,9 +13600,9 @@
           <MasterToSlaveTransform>
             <Position x="0.557506799697876" y="1.0958728790283203" z="1.6618688106536865" />
             <Forward x="-0.3711845" y="0.000370524824" z="0.928559065" />
-            <Up x="-2.6682872E-05" y="0.99999994" z="-0.0004096983" />
+            <Up x="-2.66828647E-05" y="0.99999994" z="-0.0004096983" />
             <Orientation>
-              <X>-5.181717E-05</X>
+              <X>-5.18171655E-05</X>
               <Y>0.981977344</Y>
               <Z>-0.000198635724</Z>
               <W>0.188998491</W>
@@ -14075,7 +13716,7 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="1.0427491664886475" y="1.0951505899429321" z="-0.61937558650970459" />
-            <Forward x="0.9990463" y="5.49709221E-05" z="0.0436633825" />
+            <Forward x="0.9990463" y="5.49709221E-05" z="0.04366339" />
             <Up x="-5.98882471E-05" y="1" z="0.000111310932" />
             <Orientation>
               <X>6.01166066E-05</X>
@@ -14312,12 +13953,12 @@
           <WeldedEntityId xsi:nil="true" />
           <MasterToSlaveTransform>
             <Position x="-0.49271935224533081" y="1.093389630317688" z="1.6300985813140869" />
-            <Forward x="-0.90931344" y="-0.000959033147" z="0.416111" />
-            <Up x="-0.000736481859" y="0.9999995" z="0.000695343" />
+            <Forward x="-0.909313262" y="-0.00095903303" z="0.4161109" />
+            <Up x="-0.0007364818" y="0.999999464" z="0.000695343" />
             <Orientation>
               <X>-0.000122006735</X>
               <Y>0.8414603</Y>
-              <Z>0.000491519342</Z>
+              <Z>0.0004915194</Z>
               <W>0.540318668</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -14689,8 +14330,8 @@
           </BuildToolbar>
           <PilotRelativeWorld>
             <Position x="-2.0061941146850586" y="-0.22440408170223236" z="0.88122206926345825" />
-            <Forward x="0.716784835" y="-0.527427733" z="-0.456113577" />
-            <Up x="0.4211803" y="0.8487943" z="-0.3196177" />
+            <Forward x="0.7167847" y="-0.527427733" z="-0.456113577" />
+            <Up x="0.4211803" y="0.8487942" z="-0.319617748" />
             <Orientation>
               <X>-0.250406682</X>
               <Y>-0.457427263</Y>
@@ -14864,6 +14505,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-16" y="7" z="1" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -14932,95 +14574,14 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>83952191158969815</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19775.918471839024" y="55589.7106798914" z="18805.858142369212" />
-        <Forward x="-0.212343231" y="-0.8336828" z="0.5097876" />
-        <Up x="0.215111509" y="0.4690091" z="0.85659647" />
-        <Orientation>
-          <X>0.147947446</X>
-          <Y>0.8561573</Y>
-          <Z>0.493565619</Z>
-          <W>0.03871934</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>115721479441936338</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.435561682774" y="55583.648301961715" z="18819.355456822337" />
-        <Forward x="-0.314047068" y="0.0531316847" z="-0.281437844" />
-        <Up x="-0.048342023" y="0.401833028" z="0.129803926" />
-        <Orientation>
-          <X>0.118974268</X>
-          <Y>0.393408179</Y>
-          <Z>0.114632778</Z>
-          <W>0.9043973</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>31.049284</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Gold</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Gold_01</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>31.049284</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>125787295678683608</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.005996253087" y="55592.908067586715" z="18892.168811314525" />
-        <Forward x="0.5409737" y="-0.0702790245" z="0.4880052" />
-        <Up x="0.105735376" y="0.72415036" z="-0.012925026" />
-        <Orientation>
-          <X>0.0697149</X>
-          <Y>0.910221159</Y>
-          <Z>0.021521844</Z>
-          <W>-0.4076445</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>158.823424</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>158.823424</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>109090715966183959</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21134.63294556339" y="54001.001184346969" z="20516.383990757884" />
-        <Forward x="0.482108474" y="0.8572841" z="0.180652663" />
-        <Up x="0.61649406" y="-0.478464574" z="0.6253053" />
+        <Forward x="0.4821084" y="0.8572841" z="0.180652648" />
+        <Up x="0.61649406" y="-0.478464574" z="0.625305355" />
         <Orientation>
           <X>0.755251169</X>
           <Y>0.141145214</Y>
@@ -15040,46 +14601,19 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>124227557279273686</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19763.465468909337" y="55594.88438594609" z="18885.81553983015" />
-        <Forward x="0.251399845" y="0.2149885" z="-0.100373723" />
-        <Up x="-0.196415365" y="0.106538735" z="-0.2637562" />
-        <Orientation>
-          <X>-0.0640324354</X>
-          <Y>-0.592214644</Y>
-          <Z>0.5846375</Z>
-          <W>0.5508</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>16.693166</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Gold</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Gold_01</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>16.693166</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>141973052635559700</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21130.633384253575" y="54003.836374166305" z="20512.597115986766" />
-        <Forward x="-0.6945995" y="0.04348535" z="0.7180812" />
-        <Up x="-0.6165135" y="0.4784141" z="-0.6253248" />
+        <Forward x="-0.69459945" y="0.0434853733" z="0.7180811" />
+        <Up x="-0.6165135" y="0.478414118" z="-0.6253247" />
         <Orientation>
-          <X>-0.466083258</X>
+          <X>-0.4660832</X>
           <Y>0.801128566</Y>
-          <Z>-0.208708733</Z>
-          <W>0.312089831</W>
+          <Z>-0.208708748</Z>
+          <W>0.31208986</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -15101,13 +14635,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21137.135129477574" y="54000.271531942184" z="20513.358705037059" />
-        <Forward x="-0.0406650268" y="0.7737747" z="0.632154346" />
-        <Up x="0.6164947" y="-0.478461" z="0.6253074" />
+        <Forward x="-0.0406650454" y="0.7737747" z="0.6321542" />
+        <Up x="0.6164948" y="-0.478460878" z="0.6253074" />
         <Orientation>
           <X>0.851017535</X>
           <Y>0.303061545</Y>
-          <Z>-0.122472912</Z>
-          <W>0.411002725</W>
+          <Z>-0.12247292</Z>
+          <W>0.411002755</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -15123,125 +14657,17 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>106691282624331040</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19817.5744776984" y="55567.437852742965" z="18810.054675572337" />
-        <Forward x="0.387062162" y="-0.411416382" z="0.2716012" />
-        <Up x="0.430967718" y="0.450055957" z="0.06755892" />
-        <Orientation>
-          <X>0.288693666</X>
-          <Y>0.7958149</Y>
-          <Z>0.240065053</Z>
-          <W>-0.475082546</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>99.681984</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>99.681984</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>122746076991132828</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19775.920669104649" y="55590.84483516484" z="18885.40245389265" />
-        <Forward x="0.3947317" y="0.811107755" z="0.4316145" />
-        <Up x="-0.463228017" y="-0.230002075" z="0.855873168" />
-        <Orientation>
-          <X>0.7834371</X>
-          <Y>-0.3194272</Y>
-          <Z>-0.0350356661</Z>
-          <W>0.531944752</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>129841412003644241</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="21134.078393485142" y="54003.121099355514" z="20504.555726521434" />
-        <Forward x="-0.004713352" y="0.0627865" z="-0.1389396" />
-        <Up x="-0.0604144335" y="-0.128396749" z="-0.05597272" />
-        <Orientation>
-          <X>0.0573981479</X>
-          <Y>-0.20319058</Y>
-          <Z>0.9578971</Z>
-          <W>0.194556266</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>1.430843</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Ice</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Snow</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>1.430843</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>113369313131180079</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19774.842177893712" y="55591.39463985234" z="18890.293811314525" />
-        <Forward x="0.7268011" y="-0.6545928" z="-0.208010614" />
-        <Up x="-0.5410567" y="-0.7322" z="0.4136917" />
-        <Orientation>
-          <X>-0.524662852</X>
-          <Y>0.347453</Y>
-          <Z>0.7686539</Z>
-          <W>0.11478854</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>79855480318631215</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21128.926156546666" y="53989.043847921188" z="20508.9186711244" />
-        <Forward x="-0.308626115" y="0.414728433" z="0.856008351" />
-        <Up x="0.0263094436" y="-0.895873964" z="0.443528622" />
+        <Forward x="-0.3086261" y="0.414728433" z="0.856008351" />
+        <Up x="0.0263094455" y="-0.895873964" z="0.443528622" />
         <Orientation>
           <X>0.9621203</X>
-          <Y>0.0482567139</Y>
+          <Y>0.04825671</Y>
           <Z>0.149202988</Z>
           <W>0.223011881</W>
         </Orientation>
@@ -15260,121 +14686,13 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>91454274233118460</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19773.198745276524" y="55584.997545125778" z="18814.250842564525" />
-        <Forward x="-0.349595368" y="0.336260885" z="-0.8744779" />
-        <Up x="0.0745117143" y="0.9403954" z="0.331819981" />
-        <Orientation>
-          <X>0.1725252</X>
-          <Y>0.181648225</Y>
-          <Z>-0.00611198135</Z>
-          <W>0.9680917</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>107653272637136008</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19768.638686682774" y="55593.784044149215" z="18891.569812291087" />
-        <Forward x="-0.105855927" y="0.23529312" z="0.777501166" />
-        <Up x="0.156976074" y="0.775220931" z="-0.213230938" />
-        <Orientation>
-          <X>0.0863982439</X>
-          <Y>0.983406663</Y>
-          <Z>-0.139189541</Z>
-          <W>0.07792875</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>222.734464</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>222.734464</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>85644565892440727</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19762.4152980109" y="55585.814439657028" z="18822.81651639265" />
-        <Forward x="-0.9636887" y="0.2670267" z="0.0009449162" />
-        <Up x="-0.265826881" y="-0.959682" z="0.09135948" />
-        <Orientation>
-          <X>0.704615</X>
-          <Y>-0.06316783</Y>
-          <Z>0.69524</Z>
-          <W>0.127156734</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>89567403445069678</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.944106604649" y="55592.647325399215" z="18892.992541783275" />
-        <Forward x="0.408019453" y="0.425857216" z="0.807567835" />
-        <Up x="-0.304976761" y="-0.770158947" z="0.560218155" />
-        <Orientation>
-          <X>0.927126646</X>
-          <Y>-0.210285738</Y>
-          <Z>-0.159736186</Z>
-          <W>0.265895545</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>126900237435871282</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21129.791057135655" y="53987.996793630417" z="20511.894216053905" />
-        <Forward x="0.5118706" y="0.0110119153" z="0.858992" />
+        <Forward x="0.5118706" y="0.0110119283" z="0.8589919" />
         <Up x="0.8500667" y="-0.150819778" z="-0.504618645" />
         <Orientation>
           <X>0.730378</X>
@@ -15405,222 +14723,6 @@
       <DestructibleBlocks>true</DestructibleBlocks>
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>94614564136601506</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19770.300673987462" y="55593.26280391484" z="18892.254138462962" />
-        <Forward x="-0.5369315" y="-0.1815936" z="-0.8238497" />
-        <Up x="-0.472670972" y="-0.744127154" z="0.472077221" />
-        <Orientation>
-          <X>0.235320181</X>
-          <Y>0.180830225</Y>
-          <Z>0.9037079</Z>
-          <W>0.3086047</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>113034902289201912</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.9885401984" y="55596.51524532109" z="18887.774890416087" />
-        <Forward x="-0.248435915" y="-0.225469932" z="0.9420419" />
-        <Up x="0.0246554278" y="-0.9736892" z="-0.226542309" />
-        <Orientation>
-          <X>0.98540163</X>
-          <Y>-0.0021309515</Y>
-          <Z>0.1258102</Z>
-          <W>-0.114677154</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>82505179868369883</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.764541174962" y="55592.878160360153" z="18891.7603640489" />
-        <Forward x="0.7626766" y="-0.464818358" z="-0.449742436" />
-        <Up x="0.5570032" y="0.8254614" z="0.09143836" />
-        <Orientation>
-          <X>-0.115692452</X>
-          <Y>-0.511609256</Y>
-          <Z>-0.271817178</Z>
-          <W>0.80683744</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>98063353649171171</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19772.748672034337" y="55584.826524617965" z="18814.953967564525" />
-        <Forward x="-0.689779341" y="-0.124042392" z="0.7133148" />
-        <Up x="-0.09349516" y="-0.961705148" z="-0.257646769" />
-        <Orientation>
-          <X>0.921001852</X>
-          <Y>-0.09172242</Y>
-          <Z>0.364154071</Z>
-          <W>-0.103607059</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>405.40544</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>405.40544</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>89086625142633798</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19766.469863440587" y="55605.051133992965" z="18799.157947056712" />
-        <Forward x="-0.2334826" y="-0.125866219" z="0.331834942" />
-        <Up x="0.194637433" y="0.286731631" z="0.245707333" />
-        <Orientation>
-          <X>0.319213063</X>
-          <Y>0.8880674</Y>
-          <Z>0.2462268</Z>
-          <W>0.220933527</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>31.001568</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>31.001568</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>129434570560076312</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19762.990981604649" y="55586.2487658289" z="18819.767444127025" />
-        <Forward x="0.6891723" y="-0.0958372653" z="-0.340761065" />
-        <Up x="-0.225814179" y="-0.6933902" z="-0.26168558" />
-        <Orientation>
-          <X>-0.525189161</X>
-          <Y>-0.06529892</Y>
-          <Z>0.8195489</Z>
-          <W>0.219663516</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>188.394112</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>188.394112</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>85229081026607931</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19772.539077307774" y="55595.8679064539" z="18888.825915806712" />
-        <Forward x="0.424705833" y="-0.372664779" z="-0.0904975" />
-        <Up x="0.317340583" y="0.417334616" z="-0.229282871" />
-        <Orientation>
-          <X>-0.3495792</X>
-          <Y>-0.5465524</Y>
-          <Z>-0.114613064</Z>
-          <W>0.752288938</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>75.834496</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>75.834496</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>86192646311172740</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="19771.441909339024" y="55592.787950399215" z="18892.124988072337" />
-        <Forward x="-0.197062165" y="0.363818079" z="0.8470594" />
-        <Up x="0.06615815" y="0.869543433" z="-0.3580839" />
-        <Orientation>
-          <X>0.0138150146</X>
-          <Y>0.974205434</Y>
-          <Z>-0.196511731</Z>
-          <W>0.1100728</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>339.586432</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ore">
-          <SubtypeName>Stone</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-          <MaterialNameString>Stone</MaterialNameString>
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>339.586432</AmountDecimal>
-      </Item>
     </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
       <SubtypeName>Default_Astronaut</SubtypeName>
@@ -15830,12 +14932,12 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21131.780374075963" y="54020.070043447311" z="20514.483590596141" />
-        <Forward x="-0.2775905" y="-0.244395" z="0.9290934" />
-        <Up x="0.343443781" y="0.8779456" z="0.333553374" />
+        <Forward x="-0.2775905" y="-0.244395033" z="0.9290934" />
+        <Up x="0.343443751" y="0.8779456" z="0.3335534" />
         <Orientation>
           <X>0.196173087</X>
           <Y>0.9623216</Y>
-          <Z>0.150144309</Z>
+          <Z>0.150144324</Z>
           <W>0.113622084</W>
         </Orientation>
       </PositionAndOrientation>
@@ -15924,3 +15026,4 @@
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
+<!-- Saved '2016-03-02T03:08:43.5613937+02:00' with SEToolbox version '1.123.4.1' -->
