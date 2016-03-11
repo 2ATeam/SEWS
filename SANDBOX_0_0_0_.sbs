@@ -1128,13 +1128,13 @@
                           <PersistentFlags>CastShadows InScene</PersistentFlags>
                           <PositionAndOrientation>
                             <Position x="21137.77044726754" y="54002.451899822314" z="20507.435397412602" />
-                            <Forward x="0.210111037" y="-0.7999505" z="0.5620788" />
+                            <Forward x="0.210111052" y="-0.7999505" z="0.5620787" />
                             <Up x="0.5885113" y="0.5625722" z="0.5806608" />
                             <Orientation>
                               <X>0.2338786</X>
                               <Y>0.85225594</Y>
                               <Z>0.4049873</Z>
-                              <W>-0.234405383</W>
+                              <W>-0.234405413</W>
                             </Orientation>
                           </PositionAndOrientation>
                         </GunEntity>
@@ -1154,12 +1154,12 @@
                           <PersistentFlags>CastShadows InScene</PersistentFlags>
                           <PositionAndOrientation>
                             <Position x="21094.428522734292" y="54016.257794375975" z="20580.593217279737" />
-                            <Forward x="-0.5823686" y="0.6845427" z="-0.438460946" />
-                            <Up x="0.0828386247" y="0.586527" z="0.805682242" />
+                            <Forward x="-0.5823686" y="0.6845428" z="-0.438460946" />
+                            <Up x="0.0828385949" y="0.586527" z="0.8056823" />
                             <Orientation>
-                              <X>0.442635626</X>
+                              <X>0.442635655</X>
                               <Y>0.2912786</Y>
-                              <Z>0.103972167</Z>
+                              <Z>0.103972174</Z>
                               <W>0.84167707</W>
                             </Orientation>
                           </PositionAndOrientation>
@@ -6006,6 +6006,7 @@
           <Title>Title</Title>
           <AccessFlag>READ_AND_WRITE_ALL</AccessFlag>
           <ChangeInterval>0</ChangeInterval>
+          <SelectedImages />
           <FontSize>2.7</FontSize>
           <PublicDescription>                        
 
@@ -7881,6 +7882,7 @@
           <Title>Title</Title>
           <AccessFlag>READ_AND_WRITE_ALL</AccessFlag>
           <ChangeInterval>0</ChangeInterval>
+          <SelectedImages />
           <FontSize>1.2</FontSize>
           <PublicDescription />
           <PublicTitle>Public title</PublicTitle>
@@ -9590,13 +9592,13 @@
             <PersistentFlags>CastShadows InScene</PersistentFlags>
             <PositionAndOrientation>
               <Position x="21134.498790725549" y="54020.0279421585" z="20515.589382925988" />
-              <Forward x="-0.674287438" y="-0.0167407636" z="0.7382792" />
+              <Forward x="-0.674287438" y="-0.01674077" z="0.7382791" />
               <Up x="0.343301356" y="0.8780387" z="0.3334549" />
               <Orientation>
                 <X>0.227167591</X>
                 <Y>0.9041761</Y>
-                <Z>0.09682728</Z>
-                <W>0.3485468</W>
+                <Z>0.09682729</Z>
+                <W>0.348546833</W>
               </Orientation>
             </PositionAndOrientation>
             <ComponentContainer>
@@ -9646,13 +9648,13 @@
                             <PersistentFlags>CastShadows InScene</PersistentFlags>
                             <PositionAndOrientation>
                               <Position x="21128.200557754815" y="54021.441535553546" z="20517.763340393321" />
-                              <Forward x="-0.323838323" y="-0.354934216" z="0.8770122" />
-                              <Up x="0.509053469" y="0.71598506" z="0.4777341" />
+                              <Forward x="-0.3238383" y="-0.354934216" z="0.877012253" />
+                              <Up x="0.5090535" y="0.7159851" z="0.4777341" />
                               <Orientation>
                                 <X>0.301469415</X>
                                 <Y>0.9206641</Y>
                                 <Z>0.226105347</Z>
-                                <W>0.101834431</W>
+                                <W>0.101834416</W>
                               </Orientation>
                             </PositionAndOrientation>
                           </GunEntity>
@@ -9698,13 +9700,13 @@
                             <PersistentFlags>CastShadows InScene</PersistentFlags>
                             <PositionAndOrientation>
                               <Position x="21128.388667965766" y="54019.562504339716" z="20522.769871554876" />
-                              <Forward x="0.088808164" y="0.270995021" z="0.938245356" />
-                              <Up x="0.930567" y="-0.3335829" z="0.0293050222" />
+                              <Forward x="0.09056262" y="0.2763487" z="0.956780851" />
+                              <Up x="0.9392828" y="-0.3429935" z="0.0101610571" />
                               <Orientation>
                                 <X>0.810979664</X>
                                 <Y>0.566305935</Y>
-                                <Z>-0.117510527</Z>
-                                <W>0.08832212</W>
+                                <Z>-0.11751055</Z>
+                                <W>0.0883221254</W>
                               </Orientation>
                             </PositionAndOrientation>
                           </GunEntity>
@@ -9761,13 +9763,13 @@
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <PositionAndOrientation>
                         <Position x="21128.200557754815" y="54021.441535553546" z="20517.763340393321" />
-                        <Forward x="-0.323838323" y="-0.354934216" z="0.8770122" />
-                        <Up x="0.509053469" y="0.71598506" z="0.4777341" />
+                        <Forward x="-0.3238383" y="-0.354934216" z="0.877012253" />
+                        <Up x="0.5090535" y="0.7159851" z="0.4777341" />
                         <Orientation>
                           <X>0.301469415</X>
                           <Y>0.9206641</Y>
                           <Z>0.226105347</Z>
-                          <W>0.101834431</W>
+                          <W>0.101834416</W>
                         </Orientation>
                       </PositionAndOrientation>
                     </GunEntity>
@@ -9813,13 +9815,13 @@
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <PositionAndOrientation>
                         <Position x="21128.388667965766" y="54019.562504339716" z="20522.769871554876" />
-                        <Forward x="0.088808164" y="0.270995021" z="0.938245356" />
-                        <Up x="0.930567" y="-0.3335829" z="0.0293050222" />
+                        <Forward x="0.09056262" y="0.2763487" z="0.956780851" />
+                        <Up x="0.9392828" y="-0.3429935" z="0.0101610571" />
                         <Orientation>
                           <X>0.810979664</X>
                           <Y>0.566305935</Y>
-                          <Z>-0.117510527</Z>
-                          <W>0.08832212</W>
+                          <Z>-0.11751055</Z>
+                          <W>0.0883221254</W>
                         </Orientation>
                       </PositionAndOrientation>
                     </GunEntity>
@@ -9890,13 +9892,13 @@
           </Pilot>
           <PilotRelativeWorld>
             <Position x="1.5834161043167114" y="-1.2649998664855957" z="-1.9294569492340088" />
-            <Forward x="-0.496094137" y="-0.000209144389" z="0.8682687" />
-            <Up x="-9.098051E-06" y="0.99999994" z="0.000235674073" />
+            <Forward x="-0.4960941" y="-0.0002091444" z="0.8682686" />
+            <Up x="-9.099273E-06" y="1" z="0.000235676242" />
             <Orientation>
               <X>2.58450764E-05</X>
               <Y>0.966506243</Y>
-              <Z>0.000115058916</Z>
-              <W>0.256643</W>
+              <Z>0.000115058931</Z>
+              <W>0.256643027</W>
             </Orientation>
           </PilotRelativeWorld>
           <PilotGunDefinition xsi:nil="true" />
@@ -10137,11 +10139,11 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-1.0123767424374819E-05" y="0.42082822322845459" z="2.2258038370637223E-05" />
-            <Forward x="0.707108259" y="1.643623E-07" z="-0.707105339" />
-            <Up x="-1.37945051E-07" y="1" z="9.44982759E-08" />
+            <Forward x="0.7071083" y="1.64362291E-07" z="-0.7071053" />
+            <Up x="-1.37945051E-07" y="1" z="9.44982546E-08" />
             <Orientation>
-              <X>7.004719E-08</X>
-              <Y>-0.3826844</Y>
+              <X>7.00471858E-08</X>
+              <Y>-0.382684439</Y>
               <Z>4.56407676E-08</Z>
               <W>0.923879147</W>
             </Orientation>
@@ -12667,12 +12669,12 @@
           <ConnectedEntityId>133974051775121028</ConnectedEntityId>
           <MasterToSlaveTransform>
             <Position x="0.0057078469544649124" y="0.00069765647640451789" z="-1.8529417514801025" />
-            <Forward x="-0.000137922267" y="-0.000252607861" z="1" />
+            <Forward x="-0.000137922267" y="-0.000252607861" z="0.99999994" />
             <Up x="-0.997421" y="-0.07177222" z="-0.00015569682" />
             <Orientation>
               <X>0.732042432</X>
               <Y>-0.681259036</Y>
-              <Z>-3.556322E-05</Z>
+              <Z>-3.55632219E-05</Z>
               <W>-0.000139440235</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -12866,6 +12868,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="3" z="7" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12873,6 +12876,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="3" z="4" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12880,6 +12884,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="2" z="-2" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12887,6 +12892,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="5" z="7" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12905,6 +12911,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="-3" y="5" z="4" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12926,6 +12933,7 @@
           <StartDirection>Left</StartDirection>
           <EndPosition x="-1" y="1" z="8" />
           <EndDirection>Right</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12933,6 +12941,7 @@
           <StartDirection>Up</StartDirection>
           <EndPosition x="-3" y="4" z="-2" />
           <EndDirection>Down</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12940,6 +12949,7 @@
           <StartDirection>Backward</StartDirection>
           <EndPosition x="-3" y="1" z="8" />
           <EndDirection>Forward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12947,6 +12957,7 @@
           <StartDirection>Backward</StartDirection>
           <EndPosition x="0" y="1" z="8" />
           <EndDirection>Forward</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12965,6 +12976,7 @@
           <StartDirection>Down</StartDirection>
           <EndPosition x="-3" y="4" z="4" />
           <EndDirection>Up</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12972,6 +12984,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-2" y="1" z="8" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -12979,6 +12992,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-1" y="1" z="8" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -14424,10 +14438,10 @@
       <PositionAndOrientation>
         <Position x="21140.918170644291" y="53999.369598503668" z="20511.362718190972" />
         <Forward x="0.655214846" y="0.751377" z="-0.07826952" />
-        <Up x="0.622674763" y="-0.478490382" z="0.6191309" />
+        <Up x="0.622674763" y="-0.478490353" z="0.619130969" />
         <Orientation>
           <X>0.6760123</X>
-          <Y>0.0622305721</Y>
+          <Y>0.062230546</Y>
           <Z>-0.5312745</Z>
           <W>0.506835461</W>
         </Orientation>
@@ -14450,13 +14464,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21137.2443310752" y="54000.195362206061" z="20509.537111904447" />
-        <Forward x="0.7279181" y="0.06393024" z="-0.682677269" />
-        <Up x="-0.622675955" y="0.478487551" z="-0.6191319" />
+        <Forward x="0.727918148" y="0.06393027" z="-0.6826772" />
+        <Up x="-0.622676" y="0.478487462" z="-0.619132" />
         <Orientation>
-          <X>-0.177416548</X>
-          <Y>-0.356629729</Y>
+          <X>-0.177416563</X>
+          <Y>-0.3566297</Y>
           <Z>0.47883153</Z>
-          <W>0.782342</W>
+          <W>0.782341957</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -14477,8 +14491,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21139.425498677738" y="53999.348663445075" z="20512.847749378507" />
-        <Forward x="0.5800396" y="0.8133332" z="0.0452011749" />
-        <Up x="0.6226786" y="-0.47848025" z="0.6191349" />
+        <Forward x="0.5800396" y="0.8133333" z="0.04520116" />
+        <Up x="0.6226786" y="-0.4784802" z="0.6191349" />
         <Orientation>
           <X>0.7156941</X>
           <Y>0.101894662</Y>
@@ -14504,13 +14518,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21138.443759633548" y="53998.48053371485" z="20510.084789779012" />
-        <Forward x="0.703198969" y="-0.00485567749" z="-0.710976541" />
-        <Up x="0.343215019" y="0.878069162" z="0.333463639" />
+        <Forward x="0.703199" y="-0.00485567749" z="-0.710976541" />
+        <Up x="0.343215019" y="0.878069162" z="0.333463669" />
         <Orientation>
-          <X>0.09168108</X>
-          <Y>-0.3689259</Y>
-          <Z>-0.22925967</Z>
-          <W>0.8960627</W>
+          <X>0.09168109</X>
+          <Y>-0.368925929</Y>
+          <Z>-0.229259714</Z>
+          <W>0.8960626</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -14533,11 +14547,11 @@
           <MasterToSlaveTransform>
             <Position x="-0.17291676998138428" y="0.65649980306625366" z="-0.55605125427246094" />
             <Forward x="0.512716353" y="-1.99962233E-05" z="-0.858558059" />
-            <Up x="3.820096E-07" y="1" z="-2.30623409E-05" />
+            <Up x="3.820096E-07" y="1" z="-2.30623446E-05" />
             <Orientation>
               <X>-1.11667423E-05</X>
               <Y>-0.265934139</Y>
-              <Z>2.882405E-06</Z>
+              <Z>2.88240585E-06</Z>
               <W>0.9639912</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -14682,8 +14696,8 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.53765785694122314" y="0.65649586915969849" z="0.58849519491195679" />
-            <Forward x="-0.9969229" y="8.65456059E-07" z="-0.0783875" />
-            <Up x="-4.33865353E-07" y="1" z="1.65585952E-05" />
+            <Forward x="-0.9969229" y="8.65456968E-07" z="-0.0783875" />
+            <Up x="-4.33863534E-07" y="1" z="1.65585952E-05" />
             <Orientation>
               <X>5.9322133E-06</X>
               <Y>0.6788271</Y>
@@ -14723,8 +14737,8 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.27827143669128418" y="0.65650427341461182" z="-0.52059131860733032" />
-            <Forward x="0.371776253" y="-3.56129858E-05" z="-0.9283224" />
-            <Up x="3.31961019E-08" y="1" z="-3.83494444E-05" />
+            <Forward x="0.371776253" y="-3.56129822E-05" z="-0.9283224" />
+            <Up x="3.31951924E-08" y="1" z="-3.834944E-05" />
             <Orientation>
               <X>-1.88311278E-05</X>
               <Y>-0.18931143</Y>
@@ -14769,8 +14783,8 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="0.63572126626968384" y="0.65651857852935791" z="-0.18035286664962769" />
-            <Forward x="0.945328653" y="-2.60423485E-06" z="0.326119423" />
-            <Up x="-1.31473325E-06" y="1" z="1.17965683E-05" />
+            <Forward x="0.9453286" y="-2.60423349E-06" z="0.3261193" />
+            <Up x="-1.31473325E-06" y="1" z="1.17965674E-05" />
             <Orientation>
               <X>3.95903453E-06</X>
               <Y>-0.814284742</Y>
@@ -14925,6 +14939,8 @@
           <Direction>0</Direction>
           <DockingModeEnabled>false</DockingModeEnabled>
           <CollisionAvoidance>true</CollisionAvoidance>
+          <Coords />
+          <Names />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>SmallBlockArmorBlock</SubtypeName>
@@ -15525,6 +15541,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="2" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -15532,6 +15549,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="1" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -15539,6 +15557,7 @@
           <StartDirection>Forward</StartDirection>
           <EndPosition x="0" y="6" z="0" />
           <EndDirection>Backward</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -15631,8 +15650,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21094.128362370975" y="54100.606521721442" z="20458.696415569608" />
-        <Forward x="-0.4005178" y="-0.2777192" z="-0.873188138" />
-        <Up x="-0.910827" y="0.224566549" z="0.3463583" />
+        <Forward x="-0.400517821" y="-0.277719229" z="-0.873188138" />
+        <Up x="-0.910827" y="0.224566549" z="0.346358329" />
         <Orientation>
           <X>0.0231505875</X>
           <Y>0.2507389</Y>
@@ -16127,7 +16146,7 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21087.968509866245" y="54097.888282890875" z="20464.69897904617" />
-        <Forward x="-0.2292333" y="0.422625124" z="-0.8768353" />
+        <Forward x="-0.22923328" y="0.4226251" z="-0.8768353" />
         <Up x="0.3433015" y="0.878038645" z="0.333454937" />
         <Orientation>
           <X>0.197451115</X>
@@ -16227,11 +16246,11 @@
           <MasterToSlaveTransform>
             <Position x="-0.00018379231914877892" y="0.42086741328239441" z="-7.4846211646217853E-06" />
             <Forward x="-0.6724555" y="-1.0266489E-05" z="-0.7401376" />
-            <Up x="-1.506391E-05" y="1" z="-1.846688E-07" />
+            <Up x="-1.50639089E-05" y="1" z="-1.846688E-07" />
             <Orientation>
-              <X>-2.80109339E-06</X>
+              <X>-2.80109361E-06</X>
               <Y>0.360459715</Y>
-              <Z>6.99233442E-06</Z>
+              <Z>6.992334E-06</Z>
               <W>0.9327748</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -16550,8 +16569,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21083.525067998416" y="54099.560001488288" z="20472.368710186307" />
-        <Forward x="0.404292732" y="0.3157648" z="0.858393848" />
-        <Up x="0.910817862" y="-0.22458975" z="-0.34636724" />
+        <Forward x="0.404292762" y="0.315764844" z="0.8583939" />
+        <Up x="0.9108179" y="-0.22458978" z="-0.3463673" />
         <Orientation>
           <X>0.7359347</X>
           <Y>0.622572958</Y>
@@ -17057,11 +17076,11 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21072.185901357181" y="54125.127258415778" z="20439.211685802762" />
-        <Forward x="-0.404545784" y="-0.3200033" z="-0.856703341" />
-        <Up x="-0.9108649" y="0.224635869" z="0.346213579" />
+        <Forward x="-0.404545784" y="-0.320003331" z="-0.856703341" />
+        <Up x="-0.910864949" y="0.224635884" z="0.346213579" />
         <Orientation>
-          <X>0.00891074</X>
-          <Y>0.2675237</Y>
+          <X>0.00891073</X>
+          <Y>0.267523736</Y>
           <Z>0.6225774</Z>
           <W>0.7353564</W>
         </Orientation>
@@ -17555,13 +17574,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21061.58056039954" y="54124.082092400153" z="20452.882504131619" />
-        <Forward x="0.4048767" y="0.323567331" z="0.855207" />
-        <Up x="0.91085577" y="-0.2246592" z="-0.3462225" />
+        <Forward x="0.4048767" y="0.3235674" z="0.8552071" />
+        <Up x="0.9108558" y="-0.2246592" z="-0.34622252" />
         <Orientation>
           <X>0.7348418</X>
           <Y>0.622584164</Y>
           <Z>-0.268955559</Z>
-          <W>-0.00770749524</W>
+          <W>-0.007707475</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -18068,8 +18087,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21066.025026990421" y="54122.40969097193" z="20445.21351685745" />
-        <Forward x="-0.229082927" y="0.42258805" z="-0.876892447" />
-        <Up x="0.3433014" y="0.8780387" z="0.333455" />
+        <Forward x="-0.229082912" y="0.42258805" z="-0.876892447" />
+        <Up x="0.3433014" y="0.8780387" z="0.333455026" />
         <Orientation>
           <X>0.1974389</X>
           <Y>0.1502387</Y>
@@ -18168,8 +18187,8 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.0001814848801586777" y="0.42087012529373169" z="-5.4666925279889256E-06" />
-            <Forward x="-0.705621839" y="-1.08406348E-05" z="-0.7085886" />
-            <Up x="-1.51312279E-05" y="1" z="-2.31036665E-07" />
+            <Forward x="-0.705621839" y="-1.08406357E-05" z="-0.7085886" />
+            <Up x="-1.51312288E-05" y="1" z="-2.31036211E-07" />
             <Orientation>
               <X>-2.99467342E-06</X>
               <Y>0.381714165</Y>
@@ -18490,8 +18509,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21081.932848645694" y="54023.919281120856" z="20571.643532421414" />
-        <Forward x="0.65901953" y="-0.0324998945" z="-0.7514233" />
-        <Up x="0.381305575" y="0.8755952" z="0.296545327" />
+        <Forward x="0.65901953" y="-0.03249991" z="-0.7514233" />
+        <Up x="0.3813056" y="0.8755952" z="0.296545327" />
         <Orientation>
           <X>0.07294937</X>
           <Y>-0.344915539</Y>
@@ -20146,6 +20165,7 @@
           <StartDirection>Down</StartDirection>
           <EndPosition x="0" y="5" z="4" />
           <EndDirection>Up</EndDirection>
+          <Sections />
           <ConveyorLineType>SMALL_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -20302,10 +20322,10 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21121.3677937522" y="54010.148086662848" z="20528.285008098905" />
-        <Forward x="-0.7377297" y="-0.0341067351" z="-0.6742341" />
-        <Up x="-0.6741031" y="-0.0169355515" z="0.7384431" />
+        <Forward x="-0.7377298" y="-0.03410676" z="-0.674234033" />
+        <Up x="-0.674103141" y="-0.0169356018" z="0.738443136" />
         <Orientation>
-          <X>0.2766302</X>
+          <X>0.276630223</X>
           <Y>0.2938685</Y>
           <Z>0.6572241</Z>
           <W>0.6365324</W>
@@ -20330,7 +20350,7 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="18747.56564283371" y="53970.607802391052" z="23159.178404077888" />
-        <Forward x="-0.151749209" y="-0.344652623" z="0.9263837" />
+        <Forward x="-0.151749209" y="-0.344652653" z="0.926383734" />
         <Up x="0.3039931" y="0.8755364" z="0.3755319" />
         <Orientation>
           <X>0.166084766</X>
@@ -20348,10 +20368,10 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21130.514682485111" y="54005.262947197516" z="20529.623303081815" />
-        <Forward x="0.674090862" y="0.01690349" z="-0.738455" />
+        <Forward x="0.674090862" y="0.0169034749" z="-0.738455" />
         <Up x="0.343325615" y="0.8780124" z="0.3334992" />
         <Orientation>
-          <X>0.0968795</X>
+          <X>0.09687949</X>
           <Y>-0.3484062</Y>
           <Z>-0.2271743</Z>
           <W>0.904223</W>
@@ -20811,9 +20831,9 @@
           <MasterToSlaveTransform>
             <Position x="1.4052282571792603" y="1.095023512840271" z="0.01901097409427166" />
             <Forward x="0.7821973" y="-3.477931E-05" z="0.6230308" />
-            <Up x="-3.99217242E-07" y="1" z="5.632399E-05" />
+            <Up x="-3.99219061E-07" y="1" z="5.632399E-05" />
             <Orientation>
-              <X>-1.24062935E-05</X>
+              <X>-1.24062944E-05</X>
               <Y>0.9008415</Y>
               <Z>2.52828322E-05</Z>
               <W>-0.434148133</W>
@@ -20852,9 +20872,9 @@
           <MasterToSlaveTransform>
             <Position x="-0.35321849584579468" y="1.0950033664703369" z="1.547473669052124" />
             <Forward x="-0.8613053" y="-1.30228782E-05" z="0.508087754" />
-            <Up x="4.59353942E-07" y="1" z="2.640985E-05" />
+            <Up x="4.59353032E-07" y="1" z="2.640985E-05" />
             <Orientation>
-              <X>6.74828743E-06</X>
+              <X>6.748287E-06</X>
               <Y>0.868357</Y>
               <Z>1.13526839E-05</Z>
               <W>0.495939642</W>
@@ -20927,13 +20947,13 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.51100730895996094" y="1.0950103998184204" z="1.4964960813522339" />
-            <Forward x="-0.9148361" y="-1.30633916E-05" z="0.403824925" />
-            <Up x="2.18578862E-08" y="1" z="3.239865E-05" />
+            <Forward x="-0.9148362" y="-1.30633907E-05" z="0.403824925" />
+            <Up x="2.18551577E-08" y="1" z="3.23986533E-05" />
             <Orientation>
-              <X>8.853564E-06</X>
+              <X>8.85356349E-06</X>
               <Y>0.8378022</Y>
-              <Z>1.35658647E-05</Z>
-              <W>0.5459739</W>
+              <Z>1.35658638E-05</Z>
+              <W>0.545973957</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -21276,6 +21296,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-7" y="7" z="4" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -21350,13 +21371,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21124.225093556888" y="54008.115860100348" z="20530.846758510892" />
-        <Forward x="-0.736940265" y="0.08310452" z="-0.670829833" />
-        <Up x="-0.6741059" y="-0.0169417672" z="0.7384404" />
+        <Forward x="-0.736940265" y="0.08310455" z="-0.6708299" />
+        <Up x="-0.6741058" y="-0.016941607" z="0.738440335" />
         <Orientation>
-          <X>0.314688176</X>
+          <X>0.314688146</X>
           <Y>0.2560399</Y>
           <Z>0.639876664</Z>
-          <W>0.652665854</W>
+          <W>0.6526659</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -21372,45 +21393,19 @@
       <IsRespawnGrid>false</IsRespawnGrid>
       <LocalCoordSys>0</LocalCoordSys>
     </MyObjectBuilder_EntityBase>
-    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_FloatingObject">
-      <SubtypeName />
-      <EntityId>127504390592566357</EntityId>
-      <PersistentFlags>CastShadows InScene</PersistentFlags>
-      <PositionAndOrientation>
-        <Position x="21116.227023793705" y="53995.282966728766" z="20583.035370495145" />
-        <Forward x="-0.8852686" y="0.07184418" z="0.459497422" />
-        <Up x="-0.4650424" y="-0.149315864" z="-0.8726055" />
-        <Orientation>
-          <X>0.635360539</X>
-          <Y>-0.5710216</Y>
-          <Z>0.41349116</Z>
-          <W>-0.315081477</W>
-        </Orientation>
-      </PositionAndOrientation>
-      <Item>
-        <Amount>0.620529</Amount>
-        <Scale>1</Scale>
-        <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
-          <SubtypeName>Uranium</SubtypeName>
-          <DurabilityHP xsi:nil="true" />
-        </PhysicalContent>
-        <ItemId>0</ItemId>
-        <AmountDecimal>0.620529</AmountDecimal>
-      </Item>
-    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
       <SubtypeName />
       <EntityId>125686507022727410</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21132.073985768802" y="53997.393287773688" z="20518.750630047147" />
-        <Forward x="0.6736504" y="0.0172078609" z="-0.7388498" />
+        <Forward x="0.673650444" y="0.017207846" z="-0.7388498" />
         <Up x="0.343333632" y="0.878014565" z="0.333485365" />
         <Orientation>
-          <X>0.09694727</X>
-          <Y>-0.3481039</Y>
-          <Z>-0.227143019</Z>
-          <W>0.9043401</W>
+          <X>0.09694728</X>
+          <Y>-0.34810394</Y>
+          <Z>-0.227143034</Z>
+          <W>0.90434</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -21867,9 +21862,9 @@
           <MasterToSlaveTransform>
             <Position x="1.40514075756073" y="1.0950436592102051" z="0.018173731863498688" />
             <Forward x="0.782537162" y="-8.22246E-06" z="0.622604" />
-            <Up x="-9.117339E-07" y="1" z="1.43525049E-05" />
+            <Up x="-9.117348E-07" y="1" z="1.43525049E-05" />
             <Orientation>
-              <X>-3.5279304E-06</X>
+              <X>-3.52793063E-06</X>
               <Y>0.90072304</Y>
               <Z>6.26578958E-06</Z>
               <W>-0.434393883</W>
@@ -21907,10 +21902,10 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.35977432131767273" y="1.094976544380188" z="1.5457757711410522" />
-            <Forward x="-0.8637299" y="-2.06345521E-05" z="0.5039549" />
-            <Up x="-5.750426E-07" y="1" z="3.995966E-05" />
+            <Forward x="-0.863729954" y="-2.06345539E-05" z="0.5039549" />
+            <Up x="-5.750462E-07" y="1" z="3.99596647E-05" />
             <Orientation>
-              <X>9.700999E-06</X>
+              <X>9.700998E-06</X>
               <Y>0.86716634</Y>
               <Z>1.746903E-05</Z>
               <W>0.498018622</W>
@@ -21983,13 +21978,13 @@
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
             <Position x="-0.51758867502212524" y="1.0950117111206055" z="1.4939950704574585" />
-            <Forward x="-0.916842163" y="-1.22712236E-05" z="0.399249673" />
-            <Up x="-5.86822352E-07" y="1" z="2.93881239E-05" />
+            <Forward x="-0.9168422" y="-1.22712217E-05" z="0.399249434" />
+            <Up x="-5.86826E-07" y="1" z="2.938812E-05" />
             <Orientation>
-              <X>7.807879E-06</X>
+              <X>7.807877E-06</X>
               <Y>0.836435735</Y>
               <Z>1.24514481E-05</Z>
-              <W>0.548064947</W>
+              <W>0.548065</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -22330,6 +22325,7 @@
           <StartDirection>Right</StartDirection>
           <EndPosition x="-7" y="7" z="4" />
           <EndDirection>Left</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
         <MyObjectBuilder_ConveyorLine>
@@ -22405,7 +22401,7 @@
       <PositionAndOrientation>
         <Position x="21138.089545918949" y="54000.866562004645" z="20509.205765392606" />
         <Forward x="-0.7766721" y="-0.281712979" z="0.563398838" />
-        <Up x="-0.6226752" y="0.4784895" z="-0.619131148" />
+        <Up x="-0.62267524" y="0.478489518" z="-0.6191312" />
         <Orientation>
           <X>-0.497429937</X>
           <Y>0.7309329</Y>
@@ -22432,7 +22428,7 @@
       <PositionAndOrientation>
         <Position x="21125.781097127445" y="54000.249843712409" z="20519.975454952542" />
         <Forward x="-0.7371037" y="0.08799705" z="-0.6700258" />
-        <Up x="-0.6736611" y="-0.0172343273" z="0.738839447" />
+        <Up x="-0.673661053" y="-0.0172343254" z="0.7388394" />
         <Orientation>
           <X>0.31649515</X>
           <Y>0.254593581</Y>
@@ -22459,8 +22455,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21130.27673692847" y="54002.540447350104" z="20515.749703552548" />
-        <Forward x="-0.7005056" y="0.333532" z="-0.6309107" />
-        <Up x="0.6736319" y="0.0171598047" z="-0.73886776" />
+        <Forward x="-0.7005056" y="0.333532035" z="-0.6309107" />
+        <Up x="0.6736319" y="0.0171597674" z="-0.7388678" />
         <Orientation>
           <X>-0.170528412</X>
           <Y>0.394290149</Y>
@@ -22486,8 +22482,8 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21125.37723894263" y="54012.098098869879" z="20523.607250835721" />
-        <Forward x="-0.7255177" y="-0.172737584" z="-0.666172564" />
-        <Up x="0.674065351" y="0.016838342" z="-0.7384798" />
+        <Forward x="-0.7255177" y="-0.1727376" z="-0.6661725" />
+        <Up x="0.674065351" y="0.0168383271" z="-0.7384798" />
         <Orientation>
           <X>-0.337553561</X>
           <Y>0.230155036</Y>
@@ -22515,7 +22511,7 @@
       <PositionAndOrientation>
         <Position x="21126.931770040042" y="54004.229095573981" z="20512.739292766873" />
         <Forward x="-0.7258959" y="-0.172405422" z="-0.665846467" />
-        <Up x="0.673647165" y="0.01719773" z="-0.738853037" />
+        <Up x="0.673647165" y="0.0171977282" z="-0.738853037" />
         <Orientation>
           <X>-0.337560773</X>
           <Y>0.230498344</Y>
@@ -22542,11 +22538,11 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21128.719108296878" y="54010.409046288092" z="20526.619078304593" />
-        <Forward x="-0.7003647" y="0.3323394" z="-0.6316959" />
-        <Up x="0.674063861" y="0.0168352071" z="-0.738481164" />
+        <Forward x="-0.7003647" y="0.3323394" z="-0.631696" />
+        <Up x="0.6740639" y="0.0168351531" z="-0.738481164" />
         <Orientation>
           <X>-0.1707902</X>
-          <Y>0.393678457</Y>
+          <Y>0.393678427</Y>
           <Z>-0.680009663</Z>
           <W>0.5945039</W>
         </Orientation>
@@ -22569,13 +22565,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21122.92156191016" y="54002.28135692652" z="20517.415521290128" />
-        <Forward x="-0.7382876" y="-0.0293408949" z="-0.673847556" />
-        <Up x="-0.6736637" y="-0.0172409639" z="0.7388369" />
+        <Forward x="-0.7382877" y="-0.0293409824" z="-0.673847556" />
+        <Up x="-0.673663735" y="-0.0172410756" z="0.738836944" />
         <Orientation>
-          <X>0.278431982</X>
+          <X>0.278432</X>
           <Y>0.2924925</Y>
-          <Z>0.656579137</Z>
-          <W>0.637046039</W>
+          <Z>0.6565792</Z>
+          <W>0.637046</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -22597,13 +22593,13 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
         <Position x="21090.783195210941" y="54018.331337090094" z="20575.868614818875" />
-        <Forward x="0.7195281" y="-0.017494157" z="-0.694242954" />
+        <Forward x="0.71952796" y="-0.0174941272" z="-0.6942431" />
         <Up x="0.343043178" y="0.8781572" z="0.3334086" />
         <Orientation>
           <X>0.0886306763</X>
-          <Y>-0.380818963</Y>
+          <Y>-0.380818933</Y>
           <Z>-0.230360582</Z>
-          <W>0.8910979</W>
+          <W>0.891097963</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -22814,12 +22810,12 @@
           </BuildToolbar>
           <PilotRelativeWorld>
             <Position x="4.484006404876709" y="-0.06962142139673233" z="-1.9094278812408447" />
-            <Forward x="-0.8913133" y="-0.19807817" z="0.407830328" />
-            <Up x="-0.127259925" y="0.9726562" z="0.1942805" />
+            <Forward x="-0.891313255" y="-0.198078185" z="0.4078303" />
+            <Up x="-0.127259925" y="0.972656131" z="0.194280535" />
             <Orientation>
-              <X>-0.00178653689</X>
+              <X>-0.00178652979</X>
               <Y>0.8389946</Y>
-              <Z>0.116913356</Z>
+              <Z>0.116913371</Z>
               <W>0.531428337</W>
             </Orientation>
           </PilotRelativeWorld>
@@ -23078,12 +23074,12 @@
           <ConnectedEntityId>88964269200914897</ConnectedEntityId>
           <MasterToSlaveTransform>
             <Position x="0.0057078469544649124" y="0.00069765647640451789" z="-1.8529417514801025" />
-            <Forward x="-0.000137922267" y="-0.000252607861" z="1" />
+            <Forward x="-0.000137922267" y="-0.000252607861" z="0.99999994" />
             <Up x="-0.997421" y="-0.07177222" z="-0.00015569682" />
             <Orientation>
               <X>0.732042432</X>
               <Y>-0.681259036</Y>
-              <Z>-3.556322E-05</Z>
+              <Z>-3.55632219E-05</Z>
               <W>-0.000139440235</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -25269,6 +25265,7 @@
           <StartDirection>Down</StartDirection>
           <EndPosition x="0" y="2" z="2" />
           <EndDirection>Up</EndDirection>
+          <Sections />
           <ConveyorLineType>LARGE_LINE</ConveyorLineType>
         </MyObjectBuilder_ConveyorLine>
       </ConveyorLines>
@@ -25534,3 +25531,4 @@
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
+<!-- Saved '2016-03-11T03:03:40.5456920+02:00' with SEToolbox version '1.125.1.1' -->
