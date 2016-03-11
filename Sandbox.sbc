@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>776042400000</ElapsedGameTime>
+  <ElapsedGameTime>1045664480000</ElapsedGameTime>
   <SessionName>AAA World</SessionName>
   <SpectatorPosition>
-    <Position x="21111.462533233807" y="54112.108569168748" z="20456.24630406" />
-    <Forward x="-0.5971808" y="-0.5381399" z="-0.5947946" />
-    <Up x="-0.38050884" y="0.842855036" z="-0.380537033" />
+    <Position x="21129.551894856941" y="54019.661796684828" z="20517.852852966615" />
+    <Forward x="-0.7398706" y="0.30785954" z="-0.5981755" />
+    <Up x="0.357155979" y="0.9332489" z="0.0385511555" />
     <Orientation>
-      <X>-0.2590647</X>
-      <Y>0.368087173</Y>
-      <Z>0.107041791</Z>
-      <W>0.8865322</W>
+      <X>0.09834961</X>
+      <Y>0.437309474</Y>
+      <Z>-0.153957546</Z>
+      <W>0.8805594</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
   <CameraController>Entity</CameraController>
-  <CameraEntity>91473529052768852</CameraEntity>
-  <ControlledObject>91473529052768852</ControlledObject>
+  <CameraEntity>107561731414831901</CameraEntity>
+  <ControlledObject>107561731414831901</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-03-04T01:17:50.1067056+02:00</LastSaveTime>
-  <SpectatorDistance>6.19733572</SpectatorDistance>
+  <LastSaveTime>2016-03-11T02:52:56.53156+02:00</LastSaveTime>
+  <SpectatorDistance>15.55301</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
     <SelectedSlot xsi:nil="true" />
@@ -61,8 +61,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+            <TypeId>MyObjectBuilder_BatteryBlock</TypeId>
+            <SubtypeId>LargeBlockBatteryBlock</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -181,7 +181,7 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">91473529052768852</Key>
+        <Key xsi:type="xsd:long">107561731414831901</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198029540714</ClientId>
           <SerialId>0</SerialId>
@@ -195,7 +195,7 @@
     <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>FRIENDS</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>4</MaxPlayers>
     <MaxFloatingObjects>512</MaxFloatingObjects>
     <EnvironmentHostility>SAFE</EnvironmentHostility>
@@ -247,8 +247,10 @@
     <EnableCyberhounds>false</EnableCyberhounds>
     <EnableSpiders>true</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
   </Settings>
-  <AppVersion>1124006</AppVersion>
+  <AppVersion>1125011</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -1019,6 +1021,10 @@
   </Factions>
   <Mods>
     <ModItem>
+      <Name>479617902.sbm</Name>
+      <PublishedFileId>479617902</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>412134393.sbm</Name>
       <PublishedFileId>412134393</PublishedFileId>
     </ModItem>
@@ -1049,10 +1055,6 @@
     <ModItem>
       <Name>566015666.sbm</Name>
       <PublishedFileId>566015666</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>628221442.sbm</Name>
-      <PublishedFileId>628221442</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>577318708.sbm</Name>
@@ -1113,8 +1115,8 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855873</IdentityId>
       <DisplayName>AdYa</DisplayName>
-      <CharacterEntityId>91473529052768852</CharacterEntityId>
-      <Model>Engineer_suit_no_helmet</Model>
+      <CharacterEntityId>99917573769711916</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
       <ColorMask x="0.208333328" y="0.02" z="0.46" />
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
@@ -1193,8 +1195,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+                    <TypeId>MyObjectBuilder_BatteryBlock</TypeId>
+                    <SubtypeId>LargeBlockBatteryBlock</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1312,19 +1314,14 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>16.728398938567693</Distance>
-            <HeadAngle x="-22.2007542" y="0" />
+            <Distance>2.9227041939813403</Distance>
+            <HeadAngle x="27.3375015" y="161.325" />
           </CharacterCameraData>
           <EntityCameraData>
             <CameraControllerSettings EntityId="91082460517410484">
-              <IsFirstPerson>false</IsFirstPerson>
+              <IsFirstPerson>true</IsFirstPerson>
               <Distance>9.014638190051377</Distance>
               <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="113957102685439967">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>6.1973359542823179</Distance>
-              <HeadAngle x="7.98744345" y="160.620117" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="107561731414831901">
               <IsFirstPerson>true</IsFirstPerson>
@@ -1335,6 +1332,16 @@
               <IsFirstPerson>true</IsFirstPerson>
               <Distance>25.94197843013507</Distance>
               <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="105453124371779974">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>22.342801293064046</Distance>
+              <HeadAngle x="5.954282" y="-53.4432755" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="79622099126999870">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>15.553009993137012</Distance>
+              <HeadAngle x="26.7216244" y="53.0075226" />
             </CameraControllerSettings>
           </EntityCameraData>
           <BuildColorSlots>
@@ -1459,8 +1466,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_CargoContainer</TypeId>
-                    <SubtypeId>LargeBlockSmallContainer</SubtypeId>
+                    <TypeId>MyObjectBuilder_MergeBlock</TypeId>
+                    <SubtypeId>LargeShipMergeBlock</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1479,8 +1486,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_MotorStator</TypeId>
-                    <SubtypeId>LargeStator</SubtypeId>
+                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+                    <SubtypeId>LargeBlockArmorCorner</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1489,8 +1496,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Reactor</TypeId>
-                    <SubtypeId>LargeBlockSmallGenerator</SubtypeId>
+                    <TypeId>MyObjectBuilder_ExtendedPistonBase</TypeId>
+                    <SubtypeId>LargePistonBase</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1499,8 +1506,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Projector</TypeId>
-                    <SubtypeId>LargeProjector</SubtypeId>
+                    <TypeId>MyObjectBuilder_LandingGear</TypeId>
+                    <SubtypeId>LargeBlockLandingGear</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -1518,18 +1525,13 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>16.728398938567693</Distance>
-            <HeadAngle x="-22.2007542" y="0" />
+            <Distance>2.9227041939813403</Distance>
+            <HeadAngle x="27.3375015" y="161.325" />
           </CharacterCameraData>
           <EntityCameraData>
             <CameraControllerSettings EntityId="91082460517410484">
               <IsFirstPerson>true</IsFirstPerson>
               <Distance>1.7594410181045534</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="113957102685439967">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>16.728398938567693</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
             <CameraControllerSettings EntityId="107561731414831901">
@@ -1542,9 +1544,9 @@
               <Distance>34.625143405627682</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
-            <CameraControllerSettings EntityId="128663243610769644">
+            <CameraControllerSettings EntityId="105453124371779974">
               <IsFirstPerson>false</IsFirstPerson>
-              <Distance>9.014638190051377</Distance>
+              <Distance>16.728399046655408</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -1611,8 +1613,8 @@
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.799999952</Y>
-              <Z>0.6</Z>
+              <Y>-1</Y>
+              <Z>1</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1729,11 +1731,10 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>16.728398938567693</Distance>
-            <HeadAngle x="-22.2007542" y="0" />
+            <Distance>2.9227041939813403</Distance>
+            <HeadAngle x="27.3375015" y="161.325" />
           </CharacterCameraData>
           <EntityCameraData />
-          <BuildColorSlots />
         </Value>
       </item>
     </dictionary>
@@ -1747,6 +1748,14 @@
             <PCI t="GPS:AdYa #1:19314.38:35454.22:48008.35:">
               <I>1</I>
               <T>641936</T>
+            </PCI>
+            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
+              <I>1</I>
+              <T>88043520</T>
+            </PCI>
+            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
+              <I>1</I>
+              <T>89433424</T>
             </PCI>
           </Chat>
           <ID>144115188075855876</ID>
@@ -1765,6 +1774,14 @@
               <I>1</I>
               <T>641936</T>
             </PCI>
+            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
+              <I>1</I>
+              <T>88043520</T>
+            </PCI>
+            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
+              <I>1</I>
+              <T>89433424</T>
+            </PCI>
           </Chat>
           <ID>144115188075855873</ID>
         </MyObjectBuilder_PlayerChatHistory>
@@ -1780,7 +1797,37 @@
     <long>144115188075855879</long>
   </NonPlayerIdentities>
   <Gps>
-    <dictionary />
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855873</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>Fe, Au</name>
+              <description>Current position</description>
+              <coords>
+                <X>18748.92</X>
+                <Y>53984.36</Y>
+                <Z>23167.34</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+            <Entry>
+              <name>Ur Mine</name>
+              <description>Current position</description>
+              <coords>
+                <X>19621.01</X>
+                <Y>54015.8</Y>
+                <Z>22420.02</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+    </dictionary>
   </Gps>
   <SessionComponents>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
@@ -1838,9 +1885,7 @@
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
-      <SpawnInfos>
-        <Info X="21129.905321357885" Y="54021.080847763704" Z="20513.752413297669" S="18295" A="43812" />
-      </SpawnInfos>
+      <SpawnInfos />
       <TimeoutInfos />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
@@ -1854,13 +1899,25 @@
       </variables>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
-      <LastCoordSysId>5</LastCoordSysId>
+      <LastCoordSysId>29</LastCoordSysId>
       <CoordSystems>
         <CoordSysInfo>
           <Id>1</Id>
-          <EntityCount>21</EntityCount>
+          <EntityCount>38</EntityCount>
           <Rotation x="0.229098976" y="0.3928893" z="-0.09216451" w="0.8858089" />
           <Position x="21126.545289039612" y="54018.424279689789" z="20516.754534602165" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>27</Id>
+          <EntityCount>3</EntityCount>
+          <Rotation x="0.09682729" y="-0.348546833" z="-0.227167591" w="0.9041761" />
+          <Position x="21130.419164959203" y="54005.982631656043" z="20529.894913175514" />
+        </CoordSysInfo>
+        <CoordSysInfo>
+          <Id>28</Id>
+          <EntityCount>3</EntityCount>
+          <Rotation x="0.09682728" y="-0.3485468" z="-0.227167591" w="0.9041761" />
+          <Position x="21132.008038268486" y="53998.0842502484" z="20518.928064591975" />
         </CoordSysInfo>
       </CoordSystems>
     </MyObjectBuilder_SessionComponent>
@@ -2798,4 +2855,3 @@
   </MissionTriggers>
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
-<!-- Saved '2016-03-04T01:17:50.1318390+02:00' with SEToolbox version '1.123.4.1' -->
