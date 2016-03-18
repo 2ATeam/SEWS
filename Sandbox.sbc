@@ -5,12 +5,12 @@
   <SessionName>AAA World</SessionName>
   <SpectatorPosition>
     <Position x="26672.245051788472" y="52122.895947868441" z="19860.640404830687" />
-    <Forward x="-0.186388284" y="-0.221125916" z="-0.957268357" />
-    <Up x="-0.0422614478" y="0.975245237" z="-0.217049867" />
+    <Forward x="-0.186388284" y="-0.221125931" z="-0.957268357" />
+    <Up x="-0.04226145" y="0.975245237" z="-0.217049867" />
     <Orientation>
       <X>-0.110739745</X>
       <Y>0.09540715</Y>
-      <Z>0.0106806941</Z>
+      <Z>0.0106806951</Z>
       <W>0.9892017</W>
     </Orientation>
   </SpectatorPosition>
@@ -20,7 +20,7 @@
   <ControlledObject>143816526139247911</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-03-19T01:35:58.396511+02:00</LastSaveTime>
+  <LastSaveTime>2016-03-19T01:43:11.8351765+02:00</LastSaveTime>
   <SpectatorDistance>23.3486538</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
@@ -1771,6 +1771,7 @@
             <HeadAngle x="0" y="0" />
           </CharacterCameraData>
           <EntityCameraData />
+          <BuildColorSlots />
         </Value>
       </item>
     </dictionary>
@@ -3055,3 +3056,4 @@
   </MissionTriggers>
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
+<!-- Saved '2016-03-19T01:43:12.1408427+02:00' with SEToolbox version '1.126.3.1' -->
