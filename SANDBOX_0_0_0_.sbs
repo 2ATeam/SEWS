@@ -8,13 +8,18 @@
   <SectorEvents>
     <Events>
       <MyObjectBuilder_GlobalEventBase>
+        <SubtypeName>SpawnCargoShip</SubtypeName>
+        <Enabled>true</Enabled>
+        <ActivationTimeMs>5983</ActivationTimeMs>
+      </MyObjectBuilder_GlobalEventBase>
+      <MyObjectBuilder_GlobalEventBase>
         <SubtypeName>MeteorWave</SubtypeName>
         <Enabled>false</Enabled>
-        <ActivationTimeMs>370363</ActivationTimeMs>
+        <ActivationTimeMs>707854</ActivationTimeMs>
       </MyObjectBuilder_GlobalEventBase>
     </Events>
   </SectorEvents>
-  <AppVersion>1132011</AppVersion>
+  <AppVersion>1133008</AppVersion>
   <Encounters>
     <SavedEcounters />
     <MovedOnlyEncounters>
@@ -1453,14 +1458,14 @@
                       <ItemId>8</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
-                      <Amount>135</Amount>
+                      <Amount>125</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Construction</SubtypeName>
                       </PhysicalContent>
                       <ItemId>9</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
-                      <Amount>15</Amount>
+                      <Amount>5</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Computer</SubtypeName>
                       </PhysicalContent>
@@ -1474,7 +1479,7 @@
                       <ItemId>11</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
-                      <Amount>18</Amount>
+                      <Amount>8</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>BulletproofGlass</SubtypeName>
                       </PhysicalContent>
@@ -1898,13 +1903,6 @@
                           </PhysicalContent>
                           <ItemId>1</ItemId>
                         </MyObjectBuilder_InventoryItem>
-                        <MyObjectBuilder_InventoryItem>
-                          <Amount>10</Amount>
-                          <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                            <SubtypeName>Display</SubtypeName>
-                          </PhysicalContent>
-                          <ItemId>2</ItemId>
-                        </MyObjectBuilder_InventoryItem>
                       </Items>
                       <nextItemId>3</nextItemId>
                       <Volume>1</Volume>
@@ -1985,13 +1983,6 @@
                   <SubtypeName>PowerCell</SubtypeName>
                 </PhysicalContent>
                 <ItemId>1</ItemId>
-              </MyObjectBuilder_InventoryItem>
-              <MyObjectBuilder_InventoryItem>
-                <Amount>10</Amount>
-                <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                  <SubtypeName>Display</SubtypeName>
-                </PhysicalContent>
-                <ItemId>2</ItemId>
               </MyObjectBuilder_InventoryItem>
             </Items>
             <nextItemId>3</nextItemId>
@@ -2980,136 +2971,136 @@
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Nickel</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>2</ItemId>
+                      <ItemId>1</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>916.319033</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Cobalt</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>3</ItemId>
+                      <ItemId>2</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>26.154691</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Magnesium</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>4</ItemId>
+                      <ItemId>3</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>38861.744019</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Silicon</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>5</ItemId>
+                      <ItemId>4</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>192.239003</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Silver</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>6</ItemId>
+                      <ItemId>5</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>372.587647</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Gold</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>7</ItemId>
+                      <ItemId>6</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>1652</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>SteelPlate</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>9</ItemId>
+                      <ItemId>7</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>42</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Display</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>10</ItemId>
+                      <ItemId>8</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>108</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Computer</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>11</ItemId>
+                      <ItemId>9</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>328</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Construction</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>12</ItemId>
+                      <ItemId>10</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>109</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Motor</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>13</ItemId>
+                      <ItemId>11</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>75</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>InteriorPlate</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>14</ItemId>
+                      <ItemId>12</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>74</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>LargeTube</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>15</ItemId>
+                      <ItemId>13</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>24</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>Girder</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>16</ItemId>
+                      <ItemId>14</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>112</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>SmallTube</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>17</ItemId>
+                      <ItemId>15</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>73</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Component">
                         <SubtypeName>BulletproofGlass</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>18</ItemId>
+                      <ItemId>16</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>4026.533109</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Nickel</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>23</ItemId>
+                      <ItemId>17</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>80.284349</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Uranium</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>8</ItemId>
+                      <ItemId>18</ItemId>
                     </MyObjectBuilder_InventoryItem>
                     <MyObjectBuilder_InventoryItem>
                       <Amount>20474.625874</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                         <SubtypeName>Iron</SubtypeName>
                       </PhysicalContent>
-                      <ItemId>1</ItemId>
+                      <ItemId>19</ItemId>
                     </MyObjectBuilder_InventoryItem>
                   </Items>
-                  <nextItemId>27</nextItemId>
+                  <nextItemId>20</nextItemId>
                   <Volume>15.625</Volume>
                   <Mass>9223372036854.775807</Mass>
                   <MaxItemCount>2147483647</MaxItemCount>
@@ -4006,8 +3997,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -4854,8 +4845,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>false</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -4875,8 +4866,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
           <SubtypeName />
@@ -4891,8 +4882,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -5059,8 +5050,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -5383,7 +5374,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -5405,7 +5396,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -5427,7 +5418,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -5496,7 +5487,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -5687,7 +5678,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>4.703126</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.1254902</ColorRed>
@@ -5709,7 +5700,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>4.703126</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.1254902</ColorRed>
@@ -6105,20 +6096,20 @@
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-1.2212651199661195E-05" y="0.42083773016929626" z="7.7947406680323184E-06" />
-            <Forward x="-0.8660974" y="-1.57447772E-07" z="-0.4998753" />
-            <Up x="-1.46331473E-07" y="1" z="-6.143626E-08" />
+            <Position x="-8.7532880570506677E-06" y="0.42083677649497986" z="6.1817027017241344E-06" />
+            <Forward x="-0.8660976" y="3.7362252E-08" z="-0.499874949" />
+            <Up x="5.79043125E-09" y="1" z="6.471053E-08" />
             <Orientation>
-              <X>-6.3189006E-08</X>
-              <Y>0.500062346</Y>
-              <Z>4.7999773E-08</Z>
-              <W>0.8659894</W>
+              <X>2.94671E-08</X>
+              <Y>0.5000625</Y>
+              <Z>1.36724285E-08</Z>
+              <W>0.8659893</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>-0.03333336</TargetVelocity>
           <MinAngle>-1.04719758</MinAngle>
           <MaxAngle>1.57079685</MaxAngle>
-          <CurrentAngle>-1.04734159</CurrentAngle>
+          <CurrentAngle>-1.0473417</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -10863,7 +10854,8 @@
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
-          <IsMaster>false</IsMaster>
+          <MasterToSlaveGrid xsi:nil="true" />
+          <IsMaster>true</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
           <SubtypeName>KC_Mounted-Conveyor</SubtypeName>
@@ -10989,8 +10981,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
           <SubtypeName />
@@ -11005,8 +10997,8 @@
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Open>false</Open>
-          <CurrOpening>0</CurrOpening>
+          <Open>true</Open>
+          <CurrOpening>1</CurrOpening>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -11186,7 +11178,8 @@
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <Opening>-1</Opening>
+          <State>true</State>
+          <Opening>1.2</Opening>
           <OpenSound>ArcBlockDoorSmallOpen</OpenSound>
           <CloseSound>ArcBlockDoorSmallClose</CloseSound>
         </MyObjectBuilder_CubeBlock>
@@ -11234,7 +11227,7 @@
                 <Component xsi:type="MyObjectBuilder_Inventory">
                   <Items>
                     <MyObjectBuilder_InventoryItem>
-                      <Amount>98481.183553</Amount>
+                      <Amount>98451.882687</Amount>
                       <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                         <SubtypeName>Ice</SubtypeName>
                         <MaterialNameString>Snow</MaterialNameString>
@@ -11270,7 +11263,7 @@
           <Inventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>98481.183553</Amount>
+                <Amount>98451.882687</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                   <SubtypeName>Ice</SubtypeName>
                   <MaterialNameString>Snow</MaterialNameString>
@@ -11457,7 +11450,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -11479,7 +11472,7 @@
           <ShowOnHUD>false</ShowOnHUD>
           <ShowInTerminal>false</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Radius>6.13772345</Radius>
           <ReflectorRadius>120</ReflectorRadius>
           <ColorRed>0.196078435</ColorRed>
@@ -12138,7 +12131,8 @@
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
-          <IsMaster>false</IsMaster>
+          <MasterToSlaveGrid xsi:nil="true" />
+          <IsMaster>true</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -13388,25 +13382,25 @@
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>124398637382865719</EntityId>
-          <Min x="-3" y="3" z="-2" />
-          <BlockOrientation Forward="Down" Up="Backward" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>105008215895145670</EntityId>
+          <Min x="-6" y="-2" z="5" />
+          <BlockOrientation Forward="Backward" Up="Up" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>125728296771532869</EntityId>
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>108637570503139712</EntityId>
+          <Min x="-3" y="1" z="-2" />
+          <BlockOrientation Forward="Up" Up="Forward" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>114019831095917484</EntityId>
           <Min x="-6" y="-2" z="7" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>105898011590640735</EntityId>
-          <Min x="-3" y="1" z="-2" />
-          <BlockOrientation Forward="Down" Up="Backward" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
           <SubtypeName>ConveyorTube</SubtypeName>
@@ -13580,25 +13574,25 @@
           <ColorMaskHSV x="0" y="-1" z="1" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>124090165936683938</EntityId>
-          <Min x="-6" y="-2" z="3" />
-          <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
-        </MyObjectBuilder_CubeBlock>
-        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>75020741581440905</EntityId>
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>97137095632261409</EntityId>
           <Min x="-6" y="-2" z="1" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>127399815016597662</EntityId>
-          <Min x="-6" y="-2" z="5" />
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>78363441427198562</EntityId>
+          <Min x="-6" y="-2" z="3" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>134570554079959790</EntityId>
+          <Min x="-3" y="3" z="-2" />
+          <BlockOrientation Forward="Up" Up="Forward" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -14300,11 +14294,11 @@
           <ColorMaskHSV x="0" y="-1" z="1" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>96589280598717145</EntityId>
-          <Min x="-3" y="0" z="-2" />
-          <BlockOrientation Forward="Forward" Up="Down" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>123285372765686754</EntityId>
+          <Min x="-15" y="-3" z="0" />
+          <BlockOrientation Forward="Backward" Up="Up" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -14571,13 +14565,13 @@
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-2.0819183191633783E-05" y="0.42083099484443665" z="3.6473109503276646E-05" />
-            <Forward x="-0.8660377" y="1.05229709E-08" z="-0.499978662" />
-            <Up x="-3.052547E-08" y="1" z="7.392151E-08" />
+            <Position x="-2.0176132238702849E-05" y="0.42083132266998291" z="3.709664088091813E-05" />
+            <Forward x="-0.8660377" y="-1.35870621E-07" z="-0.499978662" />
+            <Up x="-4.28938733E-08" y="1" z="-1.97454241E-07" />
             <Orientation>
-              <X>2.43771954E-08</X>
+              <X>-9.622328E-08</X>
               <Y>0.500010669</Y>
-              <Z>3.1698594E-08</Z>
+              <Z>-3.07911527E-08</Z>
               <W>0.866019249</W>
             </Orientation>
           </MasterToSlaveTransform>
@@ -14586,7 +14580,7 @@
           <TargetVelocity>-0.03333336</TargetVelocity>
           <MinAngle>-1.04719758</MinAngle>
           <MaxAngle>1.57079685</MaxAngle>
-          <CurrentAngle>-1.047222</CurrentAngle>
+          <CurrentAngle>-1.04722214</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -15827,7 +15821,8 @@
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
-          <IsMaster>false</IsMaster>
+          <MasterToSlaveGrid xsi:nil="true" />
+          <IsMaster>true</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
           <SubtypeName>KC_Mounted-Conveyor</SubtypeName>
@@ -16967,14 +16962,14 @@
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="3.3552169043105096E-06" y="0.42083564400672913" z="2.2051903215469792E-05" />
-            <Forward x="-0.86609745" y="4.324221E-08" z="-0.4998752" />
-            <Up x="3.70084834E-08" y="1" z="2.23841E-08" />
+            <Position x="3.460270818322897E-06" y="0.42081037163734436" z="2.3537853849120438E-05" />
+            <Forward x="-0.8660976" y="6.94512551E-07" z="-0.499874949" />
+            <Up x="7.259006E-07" y="1" z="1.31656549E-07" />
             <Orientation>
-              <X>1.8945471E-08</X>
-              <Y>0.5000624</Y>
-              <Z>-1.04277529E-08</Z>
-              <W>0.8659894</W>
+              <X>2.385044E-07</X>
+              <Y>0.5000625</Y>
+              <Z>-2.813928E-07</Z>
+              <W>0.8659893</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>-0.03333336</TargetVelocity>
@@ -17283,7 +17278,8 @@
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
-          <IsMaster>false</IsMaster>
+          <MasterToSlaveGrid xsi:nil="true" />
+          <IsMaster>true</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -18381,8 +18377,8 @@
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>1.19460809</CurrentStoredPower>
-          <ProducerEnabled>false</ProducerEnabled>
+          <CurrentStoredPower>1.20057821</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
           <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
@@ -18399,8 +18395,8 @@
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.5275714</CurrentStoredPower>
-          <ProducerEnabled>false</ProducerEnabled>
+          <CurrentStoredPower>0.5335422</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
           <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
@@ -18427,8 +18423,8 @@
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.976085</CurrentStoredPower>
-          <ProducerEnabled>false</ProducerEnabled>
+          <CurrentStoredPower>0.98205936</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
           <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
@@ -18445,8 +18441,8 @@
           <ShowInTerminal>true</ShowInTerminal>
           <ShowInToolbarConfig>true</ShowInToolbarConfig>
           <Enabled>true</Enabled>
-          <CurrentStoredPower>0.971299231</CurrentStoredPower>
-          <ProducerEnabled>false</ProducerEnabled>
+          <CurrentStoredPower>0.977383554</CurrentStoredPower>
+          <ProducerEnabled>true</ProducerEnabled>
           <MaxStoredPower>0</MaxStoredPower>
           <SemiautoEnabled>false</SemiautoEnabled>
           <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
@@ -18756,17 +18752,7 @@
           <SubtypeName>LargeLCDPanel</SubtypeName>
           <EntityId>140259388783967623</EntityId>
           <Min x="-14" y="-2" z="-2" />
-          <IntegrityPercent>0.337248325</IntegrityPercent>
-          <BuildPercent>0.337248325</BuildPercent>
           <ColorMaskHSV x="0" y="-1" z="1" />
-          <ConstructionStockpile>
-            <Items xsi:type="MyObjectBuilder_StockpileItem">
-              <Amount>5</Amount>
-              <PhysicalContent xsi:type="MyObjectBuilder_Component">
-                <SubtypeName>BulletproofGlass</SubtypeName>
-              </PhysicalContent>
-            </Items>
-          </ConstructionStockpile>
           <Owner>144115188075855873</Owner>
           <ShareMode>Faction</ShareMode>
           <CustomName>LCD Panel 3</CustomName>
@@ -18858,7 +18844,7 @@ Battery Room</PublicDescription>
           <ColorMaskHSV x="0" y="-1" z="1" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x1_Flat</SubtypeName>
+          <SubtypeName>Window1x1Flat</SubtypeName>
           <EntityId>117947777680161789</EntityId>
           <Min x="-9" y="-3" z="-5" />
           <BlockOrientation Forward="Backward" Up="Up" />
@@ -19457,7 +19443,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>10900.895565</Amount>
+                          <Amount>8258.132711</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                             <SubtypeName>Uranium</SubtypeName>
                           </PhysicalContent>
@@ -19482,7 +19468,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>3.752713</Amount>
+                          <Amount>18.543162</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                             <SubtypeName>Uranium</SubtypeName>
                           </PhysicalContent>
@@ -19510,7 +19496,7 @@ Battery Room</PublicDescription>
           <InputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>10900.895565</Amount>
+                <Amount>8258.132711</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                   <SubtypeName>Uranium</SubtypeName>
                 </PhysicalContent>
@@ -19535,7 +19521,7 @@ Battery Room</PublicDescription>
           <OutputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>3.752713</Amount>
+                <Amount>18.543162</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                   <SubtypeName>Uranium</SubtypeName>
                 </PhysicalContent>
@@ -19556,8 +19542,8 @@ Battery Room</PublicDescription>
                 <TypeId>MyObjectBuilder_BlueprintDefinition</TypeId>
                 <SubtypeId>UraniumOreToIngot</SubtypeId>
               </Id>
-              <Amount>10900.895565</Amount>
-              <ItemId>14</ItemId>
+              <Amount>8258.132711</Amount>
+              <ItemId>18</ItemId>
             </Item>
             <Item>
               <Id>
@@ -19565,10 +19551,10 @@ Battery Room</PublicDescription>
                 <SubtypeId>SiliconOreToIngot</SubtypeId>
               </Id>
               <Amount>43293.924811</Amount>
-              <ItemId>15</ItemId>
+              <ItemId>19</ItemId>
             </Item>
           </Queue>
-          <NextItemId>16</NextItemId>
+          <NextItemId>20</NextItemId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Refinery">
           <SubtypeName>LargeRefinery</SubtypeName>
@@ -19793,7 +19779,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>18568.367132</Amount>
+                          <Amount>15018.822324</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                             <SubtypeName>Cobalt</SubtypeName>
                             <MaterialNameString>Cobalt_01</MaterialNameString>
@@ -19812,7 +19798,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>1148.913069</Amount>
+                          <Amount>2107.290167</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                             <SubtypeName>Cobalt</SubtypeName>
                           </PhysicalContent>
@@ -19840,7 +19826,7 @@ Battery Room</PublicDescription>
           <InputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>18568.367132</Amount>
+                <Amount>15018.822324</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                   <SubtypeName>Cobalt</SubtypeName>
                   <MaterialNameString>Cobalt_01</MaterialNameString>
@@ -19859,7 +19845,7 @@ Battery Room</PublicDescription>
           <OutputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>1148.913069</Amount>
+                <Amount>2107.290167</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                   <SubtypeName>Cobalt</SubtypeName>
                 </PhysicalContent>
@@ -19880,11 +19866,11 @@ Battery Room</PublicDescription>
                 <TypeId>MyObjectBuilder_BlueprintDefinition</TypeId>
                 <SubtypeId>CobaltOreToIngot</SubtypeId>
               </Id>
-              <Amount>18568.367132</Amount>
-              <ItemId>14</ItemId>
+              <Amount>15018.822324</Amount>
+              <ItemId>16</ItemId>
             </Item>
           </Queue>
-          <NextItemId>15</NextItemId>
+          <NextItemId>17</NextItemId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Refinery">
           <SubtypeName>Blast Furnace</SubtypeName>
@@ -19904,7 +19890,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>21259.095275</Amount>
+                          <Amount>17710.460075</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                             <SubtypeName>Cobalt</SubtypeName>
                             <MaterialNameString>Cobalt_01</MaterialNameString>
@@ -19937,7 +19923,7 @@ Battery Room</PublicDescription>
                     <MyObjectBuilder_InventoryBase xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>1176.028308</Amount>
+                          <Amount>2134.159812</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                             <SubtypeName>Cobalt</SubtypeName>
                           </PhysicalContent>
@@ -19965,7 +19951,7 @@ Battery Room</PublicDescription>
           <InputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>21259.095275</Amount>
+                <Amount>17710.460075</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ore">
                   <SubtypeName>Cobalt</SubtypeName>
                   <MaterialNameString>Cobalt_01</MaterialNameString>
@@ -19998,7 +19984,7 @@ Battery Room</PublicDescription>
           <OutputInventory>
             <Items>
               <MyObjectBuilder_InventoryItem>
-                <Amount>1176.028308</Amount>
+                <Amount>2134.159812</Amount>
                 <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
                   <SubtypeName>Cobalt</SubtypeName>
                 </PhysicalContent>
@@ -20019,8 +20005,8 @@ Battery Room</PublicDescription>
                 <TypeId>MyObjectBuilder_BlueprintDefinition</TypeId>
                 <SubtypeId>CobaltOreToIngot</SubtypeId>
               </Id>
-              <Amount>21259.095275</Amount>
-              <ItemId>64</ItemId>
+              <Amount>17710.460075</Amount>
+              <ItemId>70</ItemId>
             </Item>
             <Item>
               <Id>
@@ -20028,7 +20014,7 @@ Battery Room</PublicDescription>
                 <SubtypeId>IronOreToIngot</SubtypeId>
               </Id>
               <Amount>4.444125</Amount>
-              <ItemId>65</ItemId>
+              <ItemId>71</ItemId>
             </Item>
             <Item>
               <Id>
@@ -20036,10 +20022,10 @@ Battery Room</PublicDescription>
                 <SubtypeId>NickelOreToIngot</SubtypeId>
               </Id>
               <Amount>4.099471</Amount>
-              <ItemId>66</ItemId>
+              <ItemId>72</ItemId>
             </Item>
           </Queue>
-          <NextItemId>67</NextItemId>
+          <NextItemId>73</NextItemId>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
           <SubtypeName>ConveyorTubeCurved</SubtypeName>
@@ -20370,11 +20356,11 @@ Battery Room</PublicDescription>
           <ColorMaskHSV x="0" y="-1" z="1" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
-          <SubtypeName>TVSI_ClearGlass_1x2_Flat</SubtypeName>
-          <EntityId>131743317025177238</EntityId>
-          <Min x="-15" y="-3" z="0" />
+          <SubtypeName>Window1x2Flat</SubtypeName>
+          <EntityId>73355427675049964</EntityId>
+          <Min x="-3" y="0" z="-2" />
           <BlockOrientation Forward="Backward" Up="Up" />
-          <ColorMaskHSV x="0" y="-1" z="1" />
+          <ColorMaskHSV x="0.338888884" y="-1" z="0" />
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
           <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -20657,31 +20643,31 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="9" y="-1" z="6" />
-          <BoneOffset x="144" y="127" z="126" />
+          <BoneOffset x="146" y="127" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="11" y="-4" z="7" />
-          <BoneOffset x="170" y="173" z="189" />
+          <BoneOffset x="172" y="175" z="191" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="8" y="-3" z="15" />
-          <BoneOffset x="165" y="127" z="164" />
+          <BoneOffset x="167" y="127" z="166" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="9" y="-3" z="15" />
-          <BoneOffset x="164" y="127" z="164" />
+          <BoneOffset x="166" y="127" z="166" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-3" y="-13" z="17" />
-          <BoneOffset x="165" y="165" z="127" />
+          <BoneOffset x="167" y="167" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-2" y="-13" z="17" />
-          <BoneOffset x="158" y="158" z="158" />
+          <BoneOffset x="160" y="160" z="160" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-4" y="-13" z="17" />
-          <BoneOffset x="152" y="152" z="127" />
+          <BoneOffset x="154" y="154" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="19" y="-11" z="3" />
@@ -20689,23 +20675,23 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="18" y="-9" z="15" />
-          <BoneOffset x="143" y="140" z="143" />
+          <BoneOffset x="145" y="142" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-5" y="-13" z="16" />
-          <BoneOffset x="152" y="152" z="127" />
+          <BoneOffset x="154" y="154" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="8" y="-3" z="-4" />
-          <BoneOffset x="145" y="123" z="126" />
+          <BoneOffset x="147" y="123" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="9" y="-3" z="-4" />
-          <BoneOffset x="143" y="127" z="127" />
+          <BoneOffset x="145" y="127" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="9" y="-1" z="5" />
-          <BoneOffset x="144" y="127" z="126" />
+          <BoneOffset x="146" y="127" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="10" y="35" z="-101" />
@@ -20729,87 +20715,87 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="11" y="25" z="-105" />
-          <BoneOffset x="127" y="127" z="142" />
+          <BoneOffset x="127" y="127" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="10" y="26" z="-105" />
-          <BoneOffset x="127" y="127" z="143" />
+          <BoneOffset x="127" y="127" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="10" y="27" z="-105" />
-          <BoneOffset x="127" y="126" z="146" />
+          <BoneOffset x="127" y="126" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="11" y="26" z="-105" />
-          <BoneOffset x="126" y="124" z="150" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="11" y="27" z="-105" />
-          <BoneOffset x="126" y="124" z="151" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="10" y="28" z="-105" />
-          <BoneOffset x="127" y="126" z="144" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="11" y="28" z="-105" />
-          <BoneOffset x="127" y="126" z="146" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="13" y="25" z="-104" />
-          <BoneOffset x="127" y="127" z="143" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="13" y="29" z="-104" />
-          <BoneOffset x="126" y="123" z="154" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="13" y="29" z="-103" />
           <BoneOffset x="126" y="124" z="152" />
         </BoneInfo>
         <BoneInfo>
+          <BonePosition x="11" y="27" z="-105" />
+          <BoneOffset x="126" y="124" z="153" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="10" y="28" z="-105" />
+          <BoneOffset x="127" y="126" z="146" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="11" y="28" z="-105" />
+          <BoneOffset x="127" y="126" z="148" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="13" y="25" z="-104" />
+          <BoneOffset x="127" y="127" z="145" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="13" y="29" z="-104" />
+          <BoneOffset x="126" y="123" z="156" />
+        </BoneInfo>
+        <BoneInfo>
+          <BonePosition x="13" y="29" z="-103" />
+          <BoneOffset x="126" y="124" z="154" />
+        </BoneInfo>
+        <BoneInfo>
           <BonePosition x="13" y="30" z="-104" />
-          <BoneOffset x="127" y="126" z="144" />
+          <BoneOffset x="127" y="126" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="13" y="30" z="-103" />
-          <BoneOffset x="127" y="125" z="147" />
+          <BoneOffset x="127" y="125" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-5" y="-13" z="15" />
-          <BoneOffset x="166" y="163" z="124" />
+          <BoneOffset x="168" y="165" z="124" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-50" y="2" z="-3" />
-          <BoneOffset x="139" y="126" z="124" />
+          <BoneOffset x="141" y="126" z="124" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-51" y="3" z="-3" />
-          <BoneOffset x="139" y="127" z="125" />
+          <BoneOffset x="141" y="127" z="125" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-50" y="3" z="-3" />
-          <BoneOffset x="139" y="127" z="125" />
+          <BoneOffset x="141" y="127" z="125" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-51" y="2" z="-3" />
-          <BoneOffset x="139" y="126" z="124" />
+          <BoneOffset x="141" y="126" z="124" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-17" y="-3" z="-4" />
-          <BoneOffset x="135" y="134" z="127" />
+          <BoneOffset x="137" y="136" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-17" y="-3" z="-3" />
-          <BoneOffset x="138" y="134" z="134" />
+          <BoneOffset x="140" y="136" z="136" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-25" y="-4" z="-11" />
-          <BoneOffset x="127" y="127" z="135" />
+          <BoneOffset x="127" y="127" z="137" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-25" y="-3" z="-11" />
-          <BoneOffset x="127" y="126" z="137" />
+          <BoneOffset x="127" y="126" z="139" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-1" y="-3" z="3" />
@@ -20821,11 +20807,11 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-18" y="-4" z="-1" />
-          <BoneOffset x="130" y="129" z="126" />
+          <BoneOffset x="132" y="131" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-18" y="-5" z="-1" />
-          <BoneOffset x="129" y="129" z="127" />
+          <BoneOffset x="131" y="131" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-1" y="-2" z="3" />
@@ -20849,7 +20835,7 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-17" y="-4" z="0" />
-          <BoneOffset x="129" y="129" z="127" />
+          <BoneOffset x="131" y="131" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="-2" z="3" />
@@ -20897,7 +20883,7 @@ Production Room</PublicDescription>
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-38" y="-11" z="-4" />
-          <BoneOffset x="129" y="126" z="126" />
+          <BoneOffset x="131" y="126" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-1" y="1" z="13" />
@@ -23654,13 +23640,12 @@ Production Room</PublicDescription>
       </BlockGroups>
       <DisplayName>Base</DisplayName>
       <OxygenAmount>
-        <float>1251874.63</float>
+        <float>1252327.25</float>
         <float>25.14663</float>
         <float>176.0264</float>
         <float>25.14663</float>
-        <float>18.9731331</float>
+        <float>50.29326</float>
         <float>0</float>
-        <float>226.319672</float>
         <float>0</float>
         <float>0</float>
         <float>0</float>
@@ -23674,14 +23659,14 @@ Production Room</PublicDescription>
       <EntityId>103706482275815140</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21145.394988673339" y="53998.048113868252" z="20499.272339494964" />
-        <Forward x="0.6378608" y="-0.425324321" z="0.642053664" />
-        <Up x="0.7068589" y="-0.00765416957" z="-0.7073132" />
+        <Position x="21145.395011561523" y="53998.048174903408" z="20499.272382410309" />
+        <Forward x="0.6378468" y="-0.4253186" z="0.6420711" />
+        <Up x="0.7068733" y="-0.00766284" z="-0.707298636" />
         <Orientation>
-          <X>0.699188769</X>
-          <Y>0.5763349</Y>
-          <Z>-0.1223199</Z>
-          <W>-0.404982746</W>
+          <X>0.699192643</X>
+          <Y>0.576337755</Y>
+          <Z>-0.122315437</Z>
+          <W>-0.404973239</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -23701,14 +23686,14 @@ Production Room</PublicDescription>
       <EntityId>137015506547378144</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21143.309375422607" y="53998.05364136459" z="20502.578838976166" />
-        <Forward x="-0.2683596" y="0.9222831" z="-0.278167218" />
-        <Up x="-0.7068598" y="0.00765323639" z="0.7073123" />
+        <Position x="21143.309299128661" y="53998.0536299205" z="20502.578809412262" />
+        <Forward x="-0.2684251" y="0.9222376" z="-0.2782549" />
+        <Up x="-0.7068719" y="0.007663429" z="0.7073" />
         <Orientation>
-          <X>0.5849467</X>
-          <Y>-0.136944339</Y>
-          <Z>0.392442018</Z>
-          <W>0.696471751</W>
+          <X>0.584917247</X>
+          <Y>-0.136910081</Y>
+          <Z>0.39247942</Z>
+          <W>0.6964821</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -23728,14 +23713,14 @@ Production Room</PublicDescription>
       <EntityId>103714266728788753</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21146.457435267577" y="53998.463118598476" z="20500.329597147247" />
-        <Forward x="-0.5086112" y="0.6894337" z="-0.515747845" />
-        <Up x="0.706858039" y="-0.007658146" z="-0.707314" />
+        <Position x="21146.457442896972" y="53998.463130042568" z="20500.329661043426" />
+        <Forward x="-0.508578956" y="0.68946296" z="-0.515740454" />
+        <Up x="0.7068746" y="-0.007658294" z="-0.707297266" />
         <Orientation>
-          <X>-0.008867331</X>
-          <Y>0.491983175</Y>
-          <Z>-0.7097538</Z>
-          <W>0.504106641</W>
+          <X>-0.008844584</X>
+          <Y>0.491987348</Y>
+          <Z>-0.709754169</Z>
+          <W>0.5041024</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -23755,14 +23740,14 @@ Production Room</PublicDescription>
       <EntityId>117880980655107020</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21144.029342311034" y="53997.046130225674" z="20500.613884599945" />
-        <Forward x="-0.618470967" y="0.47859028" z="-0.6232536" />
-        <Up x="0.343299955" y="0.8780048" z="0.333545655" />
+        <Position x="21144.029319422851" y="53997.046179816738" z="20500.613896997711" />
+        <Forward x="-0.6184566" y="0.478590459" z="-0.6232677" />
+        <Up x="0.3433005" y="0.8780046" z="0.3335456" />
         <Orientation>
-          <X>0.2267118</X>
-          <Y>0.3701013</Y>
-          <Z>-0.0979763046</Z>
-          <W>0.895559847</W>
+          <X>0.226710916</X>
+          <Y>0.3700923</Y>
+          <Z>-0.09797885</Z>
+          <W>0.8955635</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -23783,14 +23768,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.52894920110702515" y="0.65652680397033691" z="0.59886318445205688" />
-            <Forward x="-0.9982173" y="-1.48190475E-06" z="-0.05968547" />
-            <Up x="-6.561395E-07" y="1" z="-1.3854873E-05" />
+            <Position x="-0.52894699573516846" y="0.65652269124984741" z="0.59884339570999146" />
+            <Forward x="-0.998217046" y="-1.08530912E-07" z="-0.05968809" />
+            <Up x="8.227098E-07" y="1" z="-1.55772068E-05" />
             <Orientation>
-              <X>-5.267453E-06</X>
-              <Y>0.6856802</Y>
-              <Z>-4.511203E-06</Z>
-              <W>0.727902949</W>
+              <X>-5.38729728E-06</X>
+              <Y>0.6856792</Y>
+              <Z>-5.63991E-06</Z>
+              <W>0.727903843</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -23934,14 +23919,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.70280194282531738" y="0.6564900279045105" z="0.20712456107139587" />
-            <Forward x="-0.780694842" y="1.83623924E-05" z="-0.624912441" />
-            <Up x="-2.32394086E-08" y="1" z="2.94129786E-05" />
+            <Position x="-0.70279109477996826" y="0.65649396181106567" z="0.20728936791419983" />
+            <Forward x="-0.7807712" y="2.3105762E-05" z="-0.624817" />
+            <Up x="-6.113496E-07" y="1" z="3.77439865E-05" />
             <Orientation>
-              <X>1.32508612E-05</X>
-              <Y>0.433063269</Y>
-              <Z>6.37931362E-06</Z>
-              <W>0.901363552</W>
+              <X>1.68776351E-05</X>
+              <Y>0.4331183</Y>
+              <Z>8.449322E-06</Z>
+              <W>0.9013371</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -23975,14 +23960,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="0.35363900661468506" y="0.65651321411132813" z="-0.4828639030456543" />
-            <Forward x="0.9659627" y="-5.722801E-06" z="-0.2586813" />
-            <Up x="-1.98336238E-07" y="1" z="-2.28636072E-05" />
+            <Position x="0.35361000895500183" y="0.65651422739028931" z="-0.48287266492843628" />
+            <Forward x="0.9659517" y="-5.251912E-06" z="-0.258722663" />
+            <Up x="4.220028E-07" y="1" z="-1.87238238E-05" />
             <Orientation>
-              <X>-9.008588E-06</X>
-              <Y>-0.608818</Y>
-              <Z>7.03855949E-06</Z>
-              <W>0.7933099</W>
+              <X>-7.55547762E-06</X>
+              <Y>-0.608801</Y>
+              <Z>5.532149E-06</Z>
+              <W>0.793323</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -24021,14 +24006,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.26279094815254211" y="0.65651047229766846" z="-0.52721285820007324" />
-            <Forward x="0.393668234" y="7.62231E-06" z="-0.9192526" />
-            <Up x="-2.03770128E-07" y="1" z="8.204592E-06" />
+            <Position x="-0.26286220550537109" y="0.65651816129684448" z="-0.527175784111023" />
+            <Forward x="0.3935637" y="1.90207629E-05" z="-0.919297338" />
+            <Up x="8.06785465E-07" y="1" z="2.10359412E-05" />
             <Orientation>
-              <X>4.039102E-06</X>
-              <Y>-0.200932086</Y>
-              <Z>-7.2447574E-07</Z>
-              <W>0.9796052</W>
+              <X>1.02225458E-05</X>
+              <Y>-0.200876385</Y>
+              <Z>-2.50798212E-06</Z>
+              <W>0.9796166</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -24894,14 +24879,14 @@ Production Room</PublicDescription>
       <EntityId>137939479626212614</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21087.968510287414" y="54097.888289496914" z="20464.6989771445" />
-        <Forward x="-0.9108271" y="0.224589631" z="0.346343338" />
-        <Up x="0.343301445" y="0.8780387" z="0.333454818" />
+        <Position x="21087.968511717925" y="54097.888289496914" z="20464.698973329803" />
+        <Forward x="-0.91082716" y="0.224589527" z="0.3463428" />
+        <Up x="0.343301147" y="0.878038764" z="0.333454967" />
         <Orientation>
-          <X>0.244485289</X>
-          <Y>0.7831977</Y>
-          <Z>0.0347502381</Z>
-          <W>0.5706319</W>
+          <X>0.244485229</X>
+          <Y>0.7831975</Y>
+          <Z>0.0347503163</Z>
+          <W>0.5706321</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -25184,20 +25169,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.00011858200014103204" y="0.4208749532699585" z="-6.19199090579059E-06" />
-            <Forward x="-0.7079415" y="-1.07449387E-05" z="-0.706271052" />
-            <Up x="-1.49389034E-05" y="1" z="-2.39381734E-07" />
+            <Position x="-0.00010263083095196635" y="0.42087045311927795" z="-1.7946013031178154E-06" />
+            <Forward x="0.00116751541" y="1.02960705E-07" z="-0.999999344" />
+            <Up x="-1.479855E-05" y="1" z="8.568323E-08" />
             <Orientation>
-              <X>-2.9730636E-06</X>
-              <Y>0.383229</Y>
-              <Z>6.853315E-06</Z>
-              <W>0.923653364</W>
+              <X>4.716099E-08</X>
+              <Y>-0.0005837578</Y>
+              <Z>7.39924963E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>0.03333336</TargetVelocity>
           <MinAngle>-0.7853982</MinAngle>
           <MaxAngle>0</MaxAngle>
-          <CurrentAngle>0.00116747012</CurrentAngle>
+          <CurrentAngle>0.00116739247</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -25223,20 +25208,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-7.84115691203624E-05" y="0.4208640456199646" z="4.2374435906822328E-06" />
-            <Forward x="0.707953334" y="4.936169E-06" z="-0.7062592" />
-            <Up x="-7.435369E-06" y="1" z="-4.640301E-07" />
+            <Position x="-9.44956045714207E-05" y="0.42087391018867493" z="-1.1226056813029572E-06" />
+            <Forward x="-0.00115437829" y="7.126837E-08" z="-0.999999344" />
+            <Up x="-7.325975E-06" y="1" z="7.972536E-08" />
             <Orientation>
-              <X>1.21045252E-06</X>
-              <Y>-0.383236736</Y>
-              <Z>3.52275651E-06</Z>
-              <W>0.923650146</W>
+              <X>3.77484461E-08</X>
+              <Y>0.000577189261</Y>
+              <Z>3.66301015E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>-0.0333333</TargetVelocity>
           <MinAngle>0</MinAngle>
           <MaxAngle>0.7853982</MaxAngle>
-          <CurrentAngle>-0.00115421845</CurrentAngle>
+          <CurrentAngle>-0.00115406769</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
@@ -25328,8 +25313,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.001243114" y="0.00468435138" z="0.00165972067" />
-      <AngularVelocity x="1.97636064E-06" y="3.301115E-05" z="-2.46920754E-05" />
+      <LinearVelocity x="0.00106677762" y="0.00333512365" z="0.0006626558" />
+      <AngularVelocity x="4.62491E-05" y="-2.80539334E-05" z="6.971775E-05" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 1 Lights</Name>
@@ -25472,14 +25457,14 @@ Production Room</PublicDescription>
       <EntityId>106218366418183493</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21073.630368846068" y="54126.993056342617" z="20447.806379946014" />
-        <Forward x="0.9104576" y="-0.2256535" z="-0.346622854" />
-        <Up x="-0.229105771" y="0.422586322" z="-0.8768873" />
+        <Position x="21073.630364554534" y="54126.993056342617" z="20447.806379946014" />
+        <Forward x="0.9104576" y="-0.225653589" z="-0.346622854" />
+        <Up x="-0.229105651" y="0.4225865" z="-0.876887262" />
         <Orientation>
-          <X>-0.379190475</X>
-          <Y>-0.4276718</Y>
-          <Z>0.3806855</Z>
-          <W>0.7269044</W>
+          <X>-0.379190445</X>
+          <Y>-0.42767182</Y>
+          <Z>0.3806854</Z>
+          <W>0.726904452</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -26064,8 +26049,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0115292324" y="0.0266430471" z="0.0111415312" />
-      <AngularVelocity x="0.00057496177" y="5.91838034E-06" z="-0.000607911032" />
+      <LinearVelocity x="0.0104868561" y="0.0276254956" z="0.009543464" />
+      <AngularVelocity x="0.0005084151" y="-8.16785E-05" z="-0.000400893652" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 2 Lights</Name>
@@ -26298,14 +26283,14 @@ Production Room</PublicDescription>
       <EntityId>125671091706993161</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21067.741537707458" y="54126.799872443691" z="20446.880808504364" />
-        <Forward x="-0.9108545" y="0.224640012" z="0.3462384" />
-        <Up x="0.343301266" y="0.878038764" z="0.3334549" />
+        <Position x="21067.741536753783" y="54126.799872443691" z="20446.880808504364" />
+        <Forward x="-0.910854459" y="0.224640161" z="0.346238166" />
+        <Up x="0.343301326" y="0.878038764" z="0.333454818" />
         <Orientation>
           <X>0.24448733</X>
-          <Y>0.783163548</Y>
-          <Z>0.0347356871</Z>
-          <W>0.5706788</W>
+          <Y>0.7831635</Y>
+          <Z>0.0347356163</Z>
+          <W>0.57067883</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -26417,20 +26402,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.00011350100976414979" y="0.42087090015411377" z="-9.9450007837731391E-06" />
-            <Forward x="-0.707940936" y="-1.05139879E-05" z="-0.706271648" />
-            <Up x="-1.48956869E-05" y="1" z="4.428648E-08" />
+            <Position x="-9.8666401754599065E-05" y="0.42086273431777954" z="4.3786449168692343E-06" />
+            <Forward x="0.001167359" y="-1.46936017E-07" z="-0.999999344" />
+            <Up x="-1.51071235E-05" y="1" z="-1.64571574E-07" />
             <Orientation>
-              <X>-2.83377381E-06</X>
-              <Y>0.3832286</Y>
-              <Z>6.887712E-06</Z>
-              <W>0.923653543</W>
+              <X>-7.787691E-08</X>
+              <Y>-0.0005836796</Y>
+              <Z>7.553609E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>0.03333336</TargetVelocity>
           <MinAngle>-0.7853982</MinAngle>
           <MaxAngle>0</MaxAngle>
-          <CurrentAngle>0.00116759632</CurrentAngle>
+          <CurrentAngle>0.001167386</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MotorStator">
@@ -26451,20 +26436,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-7.9992525570560247E-05" y="0.42086869478225708" z="5.4022798394726124E-06" />
-            <Forward x="0.7079529" y="4.93029256E-06" z="-0.7062596" />
-            <Up x="-7.37438768E-06" y="1" z="-4.11218252E-07" />
+            <Position x="-0.0001052407969837077" y="0.42086255550384521" z="3.7394484024844132E-06" />
+            <Forward x="-0.00115451217" y="-4.730114E-07" z="-0.999999344" />
+            <Up x="-7.166371E-06" y="1" z="-4.64738065E-07" />
             <Orientation>
-              <X>1.22315635E-06</X>
-              <Y>-0.383236468</Y>
-              <Z>3.48447452E-06</Z>
-              <W>0.923650265</W>
+              <X>-2.34437408E-07</X>
+              <Y>0.0005772562</Y>
+              <Z>3.583051E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>-0.0333333</TargetVelocity>
           <MinAngle>0</MinAngle>
           <MaxAngle>0.7853982</MaxAngle>
-          <CurrentAngle>-0.00115424045</CurrentAngle>
+          <CurrentAngle>-0.00115399447</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
@@ -26731,8 +26716,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.00154148787" y="0.00340550812" z="0.00153295952" />
-      <AngularVelocity x="5.14917265E-05" y="5.97979779E-05" z="1.86075449E-05" />
+      <LinearVelocity x="0.00127035927" y="0.00284606521" z="0.0014538489" />
+      <AngularVelocity x="-2.03114123E-05" y="-2.4766352E-05" z="2.19155754E-05" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 2 Lights</Name>
@@ -29071,6 +29056,7 @@ Production Room</PublicDescription>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
           <Strength>2.79495234E-05</Strength>
+          <MasterToSlaveGrid xsi:nil="true" />
           <IsMaster>false</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -29294,47 +29280,47 @@ Production Room</PublicDescription>
       <Skeleton>
         <BoneInfo>
           <BonePosition x="7" y="11" z="-1" />
-          <BoneOffset x="127" y="165" z="127" />
+          <BoneOffset x="127" y="167" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="7" y="12" z="-1" />
-          <BoneOffset x="127" y="166" z="127" />
+          <BoneOffset x="127" y="168" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="9" y="8" z="7" />
-          <BoneOffset x="158" y="173" z="125" />
+          <BoneOffset x="160" y="175" z="125" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="10" y="8" z="7" />
-          <BoneOffset x="164" y="197" z="206" />
+          <BoneOffset x="166" y="199" z="208" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="11" y="8" z="5" />
-          <BoneOffset x="157" y="172" z="184" />
+          <BoneOffset x="159" y="174" z="186" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="11" y="8" z="6" />
-          <BoneOffset x="156" y="198" z="113" />
+          <BoneOffset x="158" y="200" z="113" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="12" y="8" z="5" />
-          <BoneOffset x="124" y="166" z="102" />
+          <BoneOffset x="124" y="168" z="102" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="13" y="8" z="5" />
-          <BoneOffset x="156" y="173" z="177" />
+          <BoneOffset x="158" y="175" z="179" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-8" y="8" z="7" />
-          <BoneOffset x="123" y="180" z="168" />
+          <BoneOffset x="123" y="182" z="170" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="-7" y="8" z="7" />
-          <BoneOffset x="126" y="166" z="126" />
+          <BoneOffset x="126" y="168" z="126" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="17" y="7" z="0" />
-          <BoneOffset x="127" y="127" z="166" />
+          <BoneOffset x="127" y="127" z="168" />
         </BoneInfo>
       </Skeleton>
       <ConveyorLines>
@@ -29545,14 +29531,14 @@ Production Room</PublicDescription>
       <EntityId>94557957768888554</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21139.707828181396" y="53995.698515937343" z="20516.315790804169" />
-        <Forward x="0.6779363" y="0.014066577" z="-0.734986" />
-        <Up x="0.343408734" y="0.877958238" z="0.3335562" />
+        <Position x="21139.707721369872" y="53995.698470160976" z="20516.315375955841" />
+        <Forward x="0.6779385" y="0.0140656084" z="-0.73498404" />
+        <Up x="0.3434245" y="0.8779464" z="0.333571255" />
         <Orientation>
-          <X>0.0962220952</X>
-          <Y>-0.351067364</Y>
-          <Z>-0.22751303</Z>
-          <W>0.903178155</W>
+          <X>0.09622636</X>
+          <Y>-0.351067632</Y>
+          <Z>-0.227524281</Z>
+          <W>0.9031748</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -29903,14 +29889,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="1.1136434078216553" y="1.0950647592544556" z="-0.37183162569999695" />
-            <Forward x="0.992654264" y="-1.70045969E-05" z="0.120985515" />
-            <Up x="-4.20601282E-07" y="1" z="0.000144001679" />
+            <Position x="1.1129555702209473" y="1.0950485467910767" z="-0.3727782666683197" />
+            <Forward x="0.9927495" y="-2.84621274E-06" z="0.120201468" />
+            <Up x="-1.34366019E-06" y="1" z="3.477602E-05" />
             <Orientation>
-              <X>4.78906477E-05</X>
-              <Y>-0.7486606</Y>
-              <Z>-5.3764772E-05</Z>
-              <W>0.662953436</W>
+              <X>1.2035377E-05</X>
+              <Y>-0.7483988</Y>
+              <Z>-1.25675761E-05</Z>
+              <W>0.663249</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -29975,14 +29961,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-1.4113574028015137" y="1.0950872898101807" z="0.58875143527984619" />
-            <Forward x="-0.7505529" y="5.8661426E-05" z="-0.6608104" />
-            <Up x="-5.78817E-07" y="1" z="8.942937E-05" />
+            <Position x="-1.4113237857818604" y="1.0950918197631836" z="0.5893547534942627" />
+            <Forward x="-0.7508309" y="4.74592343E-05" z="-0.6604945" />
+            <Up x="-2.93703124E-06" y="1" z="7.51928237E-05" />
             <Orientation>
-              <X>4.06277759E-05</X>
-              <Y>0.411818922</Y>
-              <Z>1.867808E-05</Z>
-              <W>0.911265731</W>
+              <X>3.3652017E-05</X>
+              <Y>0.4120106</Y>
+              <Z>1.68282E-05</Z>
+              <W>0.911179066</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -30021,14 +30007,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="0.83570301532745361" y="1.0952061414718628" z="-0.64181238412857056" />
-            <Forward x="0.988289535" y="2.2414868E-05" z="-0.1525901" />
-            <Up x="-1.60551281E-07" y="1" z="0.000145856116" />
+            <Position x="0.83466947078704834" y="1.0951905250549316" z="-0.64259588718414307" />
+            <Forward x="0.9881526" y="1.40707052E-05" z="-0.15347445" />
+            <Up x="3.37884558E-07" y="1" z="9.385658E-05" />
             <Orientation>
-              <X>5.54149337E-05</X>
-              <Y>-0.650926232</Y>
-              <Z>-4.74098451E-05</Z>
-              <W>0.759140968</W>
+              <X>3.552894E-05</X>
+              <Y>-0.6505865</Y>
+              <Z>-3.06592119E-05</Z>
+              <W>0.7594322</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -30236,14 +30222,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-1.4060952663421631" y="1.0949627161026" z="0.65096497535705566" />
-            <Forward x="-0.7786943" y="8.373801E-05" z="-0.627403557" />
-            <Up x="2.02089723E-07" y="1" z="0.000133216716" />
+            <Position x="-1.4059779644012451" y="1.0950363874435425" z="0.65205955505371094" />
+            <Forward x="-0.7791819" y="9.245082E-06" z="-0.626797855" />
+            <Up x="-2.4209553E-06" y="1" z="1.77592265E-05" />
             <Orientation>
-              <X>6.012796E-05</X>
-              <Y>0.431622773</Y>
-              <Z>2.86585346E-05</Z>
-              <W>0.9020542</W>
+              <X>7.485508E-06</X>
+              <Y>0.431973457</Y>
+              <Z>4.9274704E-06</Z>
+              <W>0.901886344</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -30882,6 +30868,7 @@ Production Room</PublicDescription>
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
+          <MasterToSlaveGrid xsi:nil="true" />
           <IsMaster>false</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
@@ -31144,8 +31131,6 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0101860613" y="0.0259659812" z="0.009876854" />
-      <AngularVelocity x="-0.000114729766" y="9.608089E-06" z="0.000113941627" />
       <ConveyorLines>
         <MyObjectBuilder_ConveyorLine>
           <StartPosition x="-9" y="7" z="3" />
@@ -31242,14 +31227,14 @@ Production Room</PublicDescription>
       <EntityId>82920780335314837</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21133.144454615722" y="53999.794631049648" z="20517.272488268158" />
-        <Forward x="-0.260866" y="0.93936795" z="-0.222568542" />
-        <Up x="-0.677966535" y="-0.0141373277" z="0.7349568" />
+        <Position x="21133.144153254638" y="53999.7938604808" z="20517.271836431762" />
+        <Forward x="-0.261299729" y="0.9391546" z="-0.222959548" />
+        <Up x="-0.677972436" y="-0.0141506493" z="0.734951138" />
         <Orientation>
-          <X>0.6080331</X>
-          <Y>-0.137882</Y>
-          <Z>0.370627016</Z>
-          <W>0.6884184</W>
+          <X>0.6079204</X>
+          <Y>-0.137669936</Y>
+          <Z>0.37082085</Z>
+          <W>0.688456</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -31263,763 +31248,763 @@ Production Room</PublicDescription>
       <Skeleton>
         <BoneInfo>
           <BonePosition x="0" y="0" z="2" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="3" />
-          <BoneOffset x="108" y="142" z="145" />
+          <BoneOffset x="108" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="2" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="3" />
-          <BoneOffset x="101" y="142" z="146" />
+          <BoneOffset x="101" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="2" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="3" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="2" />
-          <BoneOffset x="115" y="142" z="144" />
+          <BoneOffset x="115" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="3" />
-          <BoneOffset x="103" y="142" z="145" />
+          <BoneOffset x="103" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="4" />
-          <BoneOffset x="98" y="142" z="146" />
+          <BoneOffset x="98" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="5" />
-          <BoneOffset x="92" y="143" z="147" />
+          <BoneOffset x="92" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="4" />
-          <BoneOffset x="90" y="143" z="147" />
+          <BoneOffset x="90" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="5" />
-          <BoneOffset x="81" y="143" z="149" />
+          <BoneOffset x="81" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="4" />
-          <BoneOffset x="100" y="142" z="146" />
+          <BoneOffset x="100" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="5" />
-          <BoneOffset x="93" y="142" z="147" />
+          <BoneOffset x="93" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="4" />
-          <BoneOffset x="91" y="143" z="147" />
+          <BoneOffset x="91" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="5" />
-          <BoneOffset x="81" y="143" z="149" />
+          <BoneOffset x="81" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="6" />
-          <BoneOffset x="92" y="143" z="147" />
+          <BoneOffset x="92" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="7" />
-          <BoneOffset x="97" y="142" z="146" />
+          <BoneOffset x="97" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="6" />
-          <BoneOffset x="80" y="143" z="149" />
+          <BoneOffset x="80" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="7" />
-          <BoneOffset x="88" y="143" z="148" />
+          <BoneOffset x="88" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="6" />
-          <BoneOffset x="91" y="143" z="147" />
+          <BoneOffset x="91" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="7" />
-          <BoneOffset x="95" y="142" z="147" />
+          <BoneOffset x="95" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="6" />
-          <BoneOffset x="78" y="143" z="149" />
+          <BoneOffset x="78" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="7" />
-          <BoneOffset x="86" y="143" z="148" />
+          <BoneOffset x="86" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="8" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="0" z="9" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="8" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="1" z="9" />
-          <BoneOffset x="111" y="142" z="144" />
+          <BoneOffset x="111" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="8" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="0" z="9" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="8" />
-          <BoneOffset x="96" y="142" z="146" />
+          <BoneOffset x="96" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="1" z="9" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="2" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="3" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="2" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="3" />
-          <BoneOffset x="101" y="142" z="146" />
+          <BoneOffset x="101" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="2" />
-          <BoneOffset x="113" y="142" z="144" />
+          <BoneOffset x="113" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="3" />
-          <BoneOffset x="101" y="142" z="146" />
+          <BoneOffset x="101" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="2" />
-          <BoneOffset x="115" y="142" z="144" />
+          <BoneOffset x="115" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="3" />
-          <BoneOffset x="103" y="142" z="145" />
+          <BoneOffset x="103" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="4" />
-          <BoneOffset x="86" y="143" z="148" />
+          <BoneOffset x="86" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="5" />
-          <BoneOffset x="75" y="143" z="150" />
+          <BoneOffset x="75" y="145" z="152" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="4" />
-          <BoneOffset x="90" y="143" z="147" />
+          <BoneOffset x="90" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="5" />
-          <BoneOffset x="81" y="143" z="149" />
+          <BoneOffset x="81" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="4" />
-          <BoneOffset x="88" y="143" z="148" />
+          <BoneOffset x="88" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="5" />
-          <BoneOffset x="74" y="143" z="150" />
+          <BoneOffset x="74" y="145" z="152" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="4" />
-          <BoneOffset x="91" y="143" z="147" />
+          <BoneOffset x="91" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="5" />
-          <BoneOffset x="81" y="143" z="149" />
+          <BoneOffset x="81" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="6" />
-          <BoneOffset x="70" y="143" z="151" />
+          <BoneOffset x="70" y="145" z="153" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="7" />
-          <BoneOffset x="84" y="143" z="148" />
+          <BoneOffset x="84" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="6" />
-          <BoneOffset x="80" y="143" z="149" />
+          <BoneOffset x="80" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="7" />
-          <BoneOffset x="88" y="143" z="148" />
+          <BoneOffset x="88" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="6" />
-          <BoneOffset x="69" y="143" z="151" />
+          <BoneOffset x="69" y="145" z="153" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="7" />
-          <BoneOffset x="81" y="143" z="149" />
+          <BoneOffset x="81" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="6" />
-          <BoneOffset x="78" y="143" z="149" />
+          <BoneOffset x="78" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="7" />
-          <BoneOffset x="85" y="143" z="148" />
+          <BoneOffset x="85" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="8" />
-          <BoneOffset x="97" y="142" z="146" />
+          <BoneOffset x="97" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="2" z="9" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="8" />
-          <BoneOffset x="100" y="142" z="146" />
+          <BoneOffset x="100" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="3" z="9" />
-          <BoneOffset x="111" y="142" z="144" />
+          <BoneOffset x="111" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="8" />
-          <BoneOffset x="93" y="142" z="147" />
+          <BoneOffset x="93" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="2" z="9" />
-          <BoneOffset x="107" y="142" z="145" />
+          <BoneOffset x="107" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="8" />
-          <BoneOffset x="96" y="142" z="146" />
+          <BoneOffset x="96" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="3" z="9" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="2" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="3" />
-          <BoneOffset x="108" y="142" z="145" />
+          <BoneOffset x="108" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="3" />
-          <BoneOffset x="117" y="142" z="143" />
+          <BoneOffset x="117" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="2" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="3" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="2" />
-          <BoneOffset x="126" y="142" z="142" />
+          <BoneOffset x="126" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="3" />
-          <BoneOffset x="117" y="142" z="143" />
+          <BoneOffset x="117" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="4" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="5" />
-          <BoneOffset x="93" y="142" z="147" />
+          <BoneOffset x="93" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="4" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="5" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="4" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="5" />
-          <BoneOffset x="93" y="143" z="147" />
+          <BoneOffset x="93" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="4" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="5" />
-          <BoneOffset x="105" y="142" z="145" />
+          <BoneOffset x="105" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="6" />
-          <BoneOffset x="93" y="143" z="147" />
+          <BoneOffset x="93" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="7" />
-          <BoneOffset x="98" y="142" z="146" />
+          <BoneOffset x="98" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="6" />
-          <BoneOffset x="105" y="142" z="145" />
+          <BoneOffset x="105" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="7" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="6" />
-          <BoneOffset x="91" y="143" z="147" />
+          <BoneOffset x="91" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="7" />
-          <BoneOffset x="95" y="142" z="147" />
+          <BoneOffset x="95" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="6" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="7" />
-          <BoneOffset x="107" y="142" z="145" />
+          <BoneOffset x="107" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="8" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="4" z="9" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="8" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="0" y="5" z="9" />
-          <BoneOffset x="123" y="142" z="142" />
+          <BoneOffset x="123" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="8" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="4" z="9" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="8" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="1" y="5" z="9" />
-          <BoneOffset x="124" y="142" z="142" />
+          <BoneOffset x="124" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="2" />
-          <BoneOffset x="120" y="142" z="143" />
+          <BoneOffset x="120" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="3" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="2" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="3" />
-          <BoneOffset x="107" y="142" z="145" />
+          <BoneOffset x="107" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="2" />
-          <BoneOffset x="121" y="142" z="143" />
+          <BoneOffset x="121" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="3" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="2" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="3" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="4" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="5" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="4" />
-          <BoneOffset x="97" y="142" z="146" />
+          <BoneOffset x="97" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="5" />
-          <BoneOffset x="89" y="143" z="147" />
+          <BoneOffset x="89" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="4" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="5" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="4" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="5" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="6" />
-          <BoneOffset x="98" y="142" z="146" />
+          <BoneOffset x="98" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="7" />
-          <BoneOffset x="102" y="142" z="145" />
+          <BoneOffset x="102" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="6" />
-          <BoneOffset x="89" y="143" z="148" />
+          <BoneOffset x="89" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="7" />
-          <BoneOffset x="95" y="142" z="147" />
+          <BoneOffset x="95" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="6" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="7" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="6" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="7" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="8" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="0" z="9" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="8" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="1" z="9" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="8" />
-          <BoneOffset x="115" y="142" z="144" />
+          <BoneOffset x="115" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="0" z="9" />
-          <BoneOffset x="122" y="142" z="142" />
+          <BoneOffset x="122" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="8" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="1" z="9" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="2" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="3" />
-          <BoneOffset x="105" y="142" z="145" />
+          <BoneOffset x="105" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="2" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="3" />
-          <BoneOffset x="107" y="142" z="145" />
+          <BoneOffset x="107" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="2" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="3" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="2" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="3" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="4" />
-          <BoneOffset x="94" y="142" z="147" />
+          <BoneOffset x="94" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="5" />
-          <BoneOffset x="83" y="143" z="148" />
+          <BoneOffset x="83" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="4" />
-          <BoneOffset x="98" y="142" z="146" />
+          <BoneOffset x="98" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="5" />
-          <BoneOffset x="90" y="143" z="147" />
+          <BoneOffset x="90" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="4" />
-          <BoneOffset x="102" y="142" z="145" />
+          <BoneOffset x="102" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="5" />
-          <BoneOffset x="93" y="142" z="147" />
+          <BoneOffset x="93" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="4" />
-          <BoneOffset x="105" y="142" z="145" />
+          <BoneOffset x="105" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="5" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="6" />
-          <BoneOffset x="82" y="143" z="149" />
+          <BoneOffset x="82" y="145" z="151" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="7" />
-          <BoneOffset x="92" y="143" z="147" />
+          <BoneOffset x="92" y="145" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="6" />
-          <BoneOffset x="89" y="143" z="148" />
+          <BoneOffset x="89" y="145" z="150" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="7" />
-          <BoneOffset x="95" y="142" z="147" />
+          <BoneOffset x="95" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="6" />
-          <BoneOffset x="95" y="142" z="147" />
+          <BoneOffset x="95" y="144" z="149" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="7" />
-          <BoneOffset x="101" y="142" z="146" />
+          <BoneOffset x="101" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="6" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="7" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="8" />
-          <BoneOffset x="102" y="142" z="146" />
+          <BoneOffset x="102" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="2" z="9" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="8" />
-          <BoneOffset x="104" y="142" z="145" />
+          <BoneOffset x="104" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="3" z="9" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="8" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="2" z="9" />
-          <BoneOffset x="117" y="142" z="143" />
+          <BoneOffset x="117" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="8" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="3" z="9" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="2" />
-          <BoneOffset x="120" y="142" z="143" />
+          <BoneOffset x="120" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="3" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="2" />
-          <BoneOffset x="125" y="142" z="142" />
+          <BoneOffset x="125" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="3" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="2" />
-          <BoneOffset x="121" y="142" z="142" />
+          <BoneOffset x="121" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="3" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="2" />
-          <BoneOffset x="125" y="142" z="142" />
+          <BoneOffset x="125" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="3" />
-          <BoneOffset x="121" y="142" z="143" />
+          <BoneOffset x="121" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="4" />
-          <BoneOffset x="105" y="142" z="145" />
+          <BoneOffset x="105" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="5" />
-          <BoneOffset x="100" y="142" z="146" />
+          <BoneOffset x="100" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="4" />
-          <BoneOffset x="113" y="142" z="144" />
+          <BoneOffset x="113" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="5" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="4" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="5" />
-          <BoneOffset x="107" y="142" z="145" />
+          <BoneOffset x="107" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="4" />
-          <BoneOffset x="117" y="142" z="143" />
+          <BoneOffset x="117" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="5" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="6" />
-          <BoneOffset x="99" y="142" z="146" />
+          <BoneOffset x="99" y="144" z="148" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="7" />
-          <BoneOffset x="102" y="142" z="145" />
+          <BoneOffset x="102" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="6" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="7" />
-          <BoneOffset x="112" y="142" z="144" />
+          <BoneOffset x="112" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="6" />
-          <BoneOffset x="106" y="142" z="145" />
+          <BoneOffset x="106" y="144" z="147" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="7" />
-          <BoneOffset x="109" y="142" z="144" />
+          <BoneOffset x="109" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="6" />
-          <BoneOffset x="114" y="142" z="144" />
+          <BoneOffset x="114" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="7" />
-          <BoneOffset x="116" y="142" z="143" />
+          <BoneOffset x="116" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="8" />
-          <BoneOffset x="110" y="142" z="144" />
+          <BoneOffset x="110" y="144" z="146" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="4" z="9" />
-          <BoneOffset x="119" y="142" z="143" />
+          <BoneOffset x="119" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="8" />
-          <BoneOffset x="118" y="142" z="143" />
+          <BoneOffset x="118" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="2" y="5" z="9" />
-          <BoneOffset x="126" y="142" z="142" />
+          <BoneOffset x="126" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="8" />
-          <BoneOffset x="115" y="142" z="143" />
+          <BoneOffset x="115" y="144" z="145" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="4" z="9" />
-          <BoneOffset x="122" y="142" z="142" />
+          <BoneOffset x="122" y="144" z="144" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="3" y="5" z="8" />
-          <BoneOffset x="121" y="142" z="143" />
+          <BoneOffset x="121" y="144" z="145" />
         </BoneInfo>
       </Skeleton>
       <DisplayName>Small Grid 3684</DisplayName>
@@ -32032,14 +32017,14 @@ Production Room</PublicDescription>
       <EntityId>125686507022727410</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21134.71044506372" y="53993.75878815414" z="20526.044340761444" />
-        <Forward x="0.703491867" y="-0.00514708459" z="-0.710684657" />
-        <Up x="0.3442925" y="0.8772702" z="0.334454358" />
+        <Position x="21134.706920283446" y="53993.755026862636" z="20526.040582330963" />
+        <Forward x="0.703483343" y="-0.005140096" z="-0.7106931" />
+        <Up x="0.344535649" y="0.877082169" z="0.334696978" />
         <Orientation>
-          <X>0.09190504</X>
-          <Y>-0.3690679</Y>
-          <Z>-0.230039924</Z>
-          <W>0.8957812</W>
+          <X>0.09197907</X>
+          <Y>-0.369043738</Y>
+          <Z>-0.230214611</Z>
+          <W>0.895738661</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -32421,14 +32406,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="0.9062460064888" y="1.0950602293014526" z="-0.74258804321289063" />
-            <Forward x="0.995966852" y="3.205414E-07" z="-0.08972192" />
-            <Up x="8.3990335E-07" y="1" z="1.28960419E-05" />
+            <Position x="0.90231233835220337" y="1.0950866937637329" z="-0.75212472677230835" />
+            <Forward x="0.9956357" y="3.23536187E-06" z="-0.09332502" />
+            <Up x="-1.15618604E-07" y="1" z="3.34342039E-05" />
             <Orientation>
-              <X>4.476271E-06</X>
-              <Y>-0.67463994</Y>
-              <Z>-4.6600785E-06</Z>
-              <W>0.738146961</W>
+              <X>1.23989857E-05</X>
+              <Y>-0.6733034</Y>
+              <Z>-1.121294E-05</Z>
+              <W>0.7393663</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -32462,14 +32447,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.4006788432598114" y="1.0950204133987427" z="1.6928774118423462" />
-            <Forward x="-0.878477" y="-1.21272578E-05" z="0.477784753" />
-            <Up x="-1.7077582E-08" y="1" z="2.53508624E-05" />
+            <Position x="-0.40578979253768921" y="1.0950411558151245" z="1.6915247440338135" />
+            <Forward x="-0.880268753" y="-6.964433E-06" z="0.474475384" />
+            <Up x="9.963651E-07" y="1" z="1.652668E-05" />
             <Orientation>
-              <X>6.46963963E-06</X>
-              <Y>0.859588444</Y>
-              <Z>1.09000184E-05</Z>
-              <W>0.5109869</W>
+              <X>4.663569E-06</X>
+              <Y>0.8586255</Y>
+              <Z>6.83974349E-06</Z>
+              <W>0.512603462</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -32534,14 +32519,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="0.75577235221862793" y="1.0950381755828857" z="1.5062687397003174" />
-            <Forward x="-0.219781443" y="-5.403298E-05" z="0.9755491" />
-            <Up x="-1.73239232E-06" y="1" z="5.49969554E-05" />
+            <Position x="0.75134342908859253" y="1.0950363874435425" z="1.5285012722015381" />
+            <Forward x="-0.223392218" y="-2.802915E-05" z="0.9747286" />
+            <Up x="-5.864397E-07" y="1" z="2.86214454E-05" />
             <Orientation>
-              <X>2.17958541E-06</X>
-              <Y>0.99386847</Y>
-              <Z>2.74256436E-05</Z>
-              <W>0.110568672</W>
+              <X>1.31728609E-06</X>
+              <Y>0.993662059</Y>
+              <Z>1.42529852E-05</Z>
+              <W>0.112408563</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -32580,14 +32565,14 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-1.3836692571640015" y="1.0950607061386108" z="0.60978907346725464" />
-            <Forward x="-0.838016152" y="3.3319775E-05" z="-0.545645356" />
-            <Up x="3.41149644E-07" y="1" z="6.05409441E-05" />
+            <Position x="-1.3825157880783081" y="1.0950347185134888" z="0.628209114074707" />
+            <Forward x="-0.8401415" y="2.69459888E-05" z="-0.5423673" />
+            <Up x="-1.53306246E-07" y="1" z="4.991965E-05" />
             <Orientation>
-              <X>2.66921743E-05</X>
-              <Y>0.4766312</Y>
-              <Z>1.42778981E-05</Z>
-              <W>0.879103363</W>
+              <X>2.18823188E-05</X>
+              <Y>0.4783475</Y>
+              <Z>1.20067853E-05</Z>
+              <W>0.8781706</W>
             </Orientation>
           </MasterToSlaveTransform>
           <SteerAngle>0</SteerAngle>
@@ -33483,6 +33468,7 @@ Production Room</PublicDescription>
             <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
+          <MasterToSlaveGrid xsi:nil="true" />
           <IsMaster>false</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -33510,8 +33496,6 @@ Production Room</PublicDescription>
           <ColorMaskHSV x="0.6111111" y="1" z="0.27" />
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0103071183" y="0.02648018" z="0.0100751054" />
-      <AngularVelocity x="7.926968E-06" y="1.21003295E-05" z="-4.94468168E-06" />
       <ConveyorLines>
         <MyObjectBuilder_ConveyorLine>
           <StartPosition x="-14" y="6" z="5" />
@@ -33618,14 +33602,14 @@ Production Room</PublicDescription>
       <EntityId>85993436628802944</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21142.596614497314" y="53999.445017859951" z="20501.851497324249" />
-        <Forward x="0.559010863" y="0.618756" z="0.5519493" />
-        <Up x="-0.7068572" y="0.00765878474" z="0.7073149" />
+        <Position x="21142.596545832763" y="53999.445101783291" z="20501.851410539886" />
+        <Forward x="0.5589646" y="0.61883986" z="0.5519019" />
+        <Up x="-0.7068674" y="0.00767772272" z="0.707304358" />
         <Orientation>
-          <X>0.7031569</X>
-          <Y>-0.5306082</Y>
-          <Z>-0.0417251848</Z>
-          <W>0.471470475</W>
+          <X>0.7031527</X>
+          <Y>-0.5305913</Y>
+          <Z>-0.04168203</Z>
+          <W>0.471499354</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -33645,14 +33629,14 @@ Production Room</PublicDescription>
       <EntityId>112678912860136747</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21129.197909968505" y="53996.097102210537" z="20527.739872606537" />
-        <Forward x="-0.475183517" y="-0.7469794" z="-0.464997143" />
-        <Up x="-0.7035005" y="0.005126559" z="0.710676253" />
+        <Position x="21129.198142665038" y="53996.097498939052" z="20527.739872606537" />
+        <Forward x="-0.4743672" y="-0.7480024" z="-0.464185417" />
+        <Up x="-0.7034939" y="0.005114507" z="0.710683" />
         <Orientation>
-          <X>-0.0187055543</X>
-          <Y>0.516867042</Y>
-          <Z>0.705043852</Z>
-          <W>0.485192478</W>
+          <X>-0.0192452129</X>
+          <Y>0.517239749</Y>
+          <Z>0.705033541</Z>
+          <W>0.484789044</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -33673,14 +33657,14 @@ Production Room</PublicDescription>
       <EntityId>120780937753295071</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21134.255496638427" y="53996.550845191494" z="20524.032950075409" />
-        <Forward x="0.709160566" y="0.07129079" z="0.7014334" />
-        <Up x="0.7034767" y="-0.005185649" z="-0.7106994" />
+        <Position x="21134.255118983398" y="53996.552737281338" z="20524.032319696686" />
+        <Forward x="0.709101558" y="0.0727631152" z="0.701342165" />
+        <Up x="0.7034656" y="-0.005186081" z="-0.7107105" />
         <Orientation>
-          <X>0.6441254</X>
-          <Y>0.660166</Y>
-          <Z>-0.2961339</Z>
-          <W>-0.248169273</W>
+          <X>0.6439045</X>
+          <Y>0.6603469</Y>
+          <Z>-0.296614349</Z>
+          <W>-0.2476871</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -33700,14 +33684,14 @@ Production Room</PublicDescription>
       <EntityId>103260889140535063</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21134.93997921289" y="54002.736208961025" z="20510.562811883232" />
-        <Forward x="-0.6866031" y="0.369338274" z="-0.626231134" />
-        <Up x="0.677915633" y="0.0140121691" z="-0.7350062" />
+        <Position x="21134.940127986083" y="54002.736403510586" z="20510.562590809604" />
+        <Forward x="-0.6865671" y="0.3694606" z="-0.626198351" />
+        <Up x="0.677915" y="0.0140048973" z="-0.7350068" />
         <Orientation>
-          <X>-0.1557768</X>
-          <Y>0.403259248</Y>
-          <Z>-0.6846368</Z>
-          <W>0.5868459</W>
+          <X>-0.155732587</X>
+          <Y>0.403296649</Y>
+          <Z>-0.6846495</Z>
+          <W>0.586817</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -33728,14 +33712,14 @@ Production Room</PublicDescription>
       <EntityId>140547228378971816</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21138.138576167235" y="54000.686644599453" z="20513.473723085663" />
-        <Forward x="-0.5896182" y="0.607502341" z="-0.5322512" />
-        <Up x="0.6779031" y="0.0139744766" z="-0.7350185" />
+        <Position x="21138.138614314208" y="54000.686682746426" z="20513.473419340393" />
+        <Forward x="-0.5895885" y="0.6075531" z="-0.5322261" />
+        <Up x="0.677897632" y="0.013960598" z="-0.735023737" />
         <Orientation>
-          <X>-0.0605946481</X>
-          <Y>0.479794443</Y>
-          <Z>-0.6995291</Z>
-          <W>0.5261032</W>
+          <X>-0.0605754219</X>
+          <Y>0.47980994</Y>
+          <Z>-0.6995358</Z>
+          <W>0.526082456</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -33756,14 +33740,14 @@ Production Room</PublicDescription>
       <EntityId>89846419637681462</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21125.93582119287" y="53998.430800483242" z="20524.493871362945" />
-        <Forward x="-0.710639238" y="0.007589549" z="-0.703515649" />
-        <Up x="-0.703499" y="0.00512766838" z="0.710677743" />
+        <Position x="21125.935573237548" y="53998.429671332851" z="20524.493518503448" />
+        <Forward x="-0.7106607" y="0.00606766343" z="-0.703508735" />
+        <Up x="-0.7034903" y="0.005121365" z="0.7106863" />
         <Orientation>
-          <X>0.274024546</X>
-          <Y>0.2704676</Y>
-          <Z>0.6498821</Z>
-          <W>0.655294657</W>
+          <X>0.273534745</X>
+          <Y>0.2709693</Y>
+          <Z>0.650090754</Z>
+          <W>0.655084968</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -34192,6 +34176,7 @@ Production Room</PublicDescription>
           </Inventory>
           <MasterToSlaveTransform xsi:nil="true" />
           <Strength>0.000100000012</Strength>
+          <MasterToSlaveGrid xsi:nil="true" />
           <IsMaster>false</IsMaster>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -36353,19 +36338,19 @@ Production Room</PublicDescription>
       <Skeleton>
         <BoneInfo>
           <BonePosition x="-3" y="12" z="13" />
-          <BoneOffset x="127" y="176" z="127" />
-        </BoneInfo>
-        <BoneInfo>
-          <BonePosition x="5" y="12" z="13" />
           <BoneOffset x="127" y="178" z="127" />
         </BoneInfo>
         <BoneInfo>
+          <BonePosition x="5" y="12" z="13" />
+          <BoneOffset x="127" y="180" z="127" />
+        </BoneInfo>
+        <BoneInfo>
           <BonePosition x="-5" y="12" z="5" />
-          <BoneOffset x="127" y="176" z="127" />
+          <BoneOffset x="127" y="178" z="127" />
         </BoneInfo>
         <BoneInfo>
           <BonePosition x="7" y="12" z="5" />
-          <BoneOffset x="127" y="175" z="127" />
+          <BoneOffset x="127" y="177" z="127" />
         </BoneInfo>
       </Skeleton>
       <ConveyorLines>
@@ -36663,14 +36648,14 @@ Production Room</PublicDescription>
       <EntityId>125330192854885746</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="16644.46594204248" y="54981.329558417812" z="22566.129328401825" />
-        <Forward x="0.844274342" y="-0.5021227" z="0.1872795" />
-        <Up x="-0.469674945" y="-0.8615659" z="-0.192638576" />
+        <Position x="16644.46838344873" y="54981.308867499843" z="22566.13152566745" />
+        <Forward x="0.839162767" y="-0.5122319" z="0.182823226" />
+        <Up x="-0.478818417" y="-0.8552151" z="-0.198343456" />
         <Orientation>
-          <X>0.7594286</X>
-          <Y>-0.130030543</Y>
-          <Z>-0.595021963</Z>
-          <W>-0.228711843</W>
+          <X>0.7576261</X>
+          <Y>-0.131963223</Y>
+          <Z>-0.594651341</Z>
+          <W>-0.234474286</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -36691,14 +36676,14 @@ Production Room</PublicDescription>
       <EntityId>96485820539137398</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21093.857427256713" y="54098.0816717601" z="20465.623945863983" />
-        <Forward x="0.910430133" y="-0.225603163" z="-0.346727818" />
-        <Up x="-0.229214638" y="0.422613472" z="-0.8768458" />
+        <Position x="21093.857427256713" y="54098.0816717601" z="20465.623934419891" />
+        <Forward x="0.910429835" y="-0.225603461" z="-0.346728325" />
+        <Up x="-0.229214936" y="0.422613651" z="-0.8768456" />
         <Orientation>
-          <X>-0.379146963</X>
-          <Y>-0.427649</Y>
-          <Z>0.380710959</Z>
-          <W>0.726927161</W>
+          <X>-0.3791469</X>
+          <Y>-0.427648753</Y>
+          <Z>0.3807109</Z>
+          <W>0.72692734</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -37283,8 +37268,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0104549313" y="0.0271738227" z="0.0111496989" />
-      <AngularVelocity x="0.000679616" y="-2.28278222E-05" z="-0.00051089935" />
+      <LinearVelocity x="0.0102292271" y="0.027163621" z="0.009916354" />
+      <AngularVelocity x="0.0005985705" y="-5.407496E-05" z="-0.000460035168" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 1 Lights</Name>
@@ -37517,14 +37502,14 @@ Production Room</PublicDescription>
       <EntityId>87236313499584988</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21063.569141047607" y="54130.9967031932" z="20447.622450502655" />
-        <Forward x="-0.910453" y="0.225665033" z="0.346627533" />
-        <Up x="0.229098409" y="-0.4226058" z="0.8768799" />
+        <Position x="21063.569148677" y="54130.9967108226" z="20447.622439058563" />
+        <Forward x="-0.9104532" y="0.225664765" z="0.346627146" />
+        <Up x="0.229098171" y="-0.422605634" z="0.87688005" />
         <Orientation>
-          <X>0.7269115</X>
-          <Y>0.380675018</Y>
-          <Z>0.427671134</Z>
-          <W>0.37918812</W>
+          <X>0.7269113</X>
+          <Y>0.380675077</Y>
+          <Z>0.4276713</Z>
+          <W>0.3791882</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -38109,8 +38094,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0102919191" y="0.0264559425" z="0.0117940456" />
-      <AngularVelocity x="-0.0004875668" y="5.42872949E-05" z="0.00020118439" />
+      <LinearVelocity x="0.0109502338" y="0.0264523234" z="0.0107760113" />
+      <AngularVelocity x="-0.000515636755" y="9.62360646E-05" z="0.00018584817" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 2 Lights</Name>
@@ -38343,13 +38328,13 @@ Production Room</PublicDescription>
       <EntityId>78454341826907901</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21083.79603184999" y="54102.084929511562" z="20465.441218050262" />
-        <Forward x="-0.910425544" y="0.225614429" z="0.346732348" />
-        <Up x="0.229207277" y="-0.422632784" z="0.8768383" />
+        <Position x="21083.796032088409" y="54102.084921882168" z="20465.441225679657" />
+        <Forward x="-0.910425544" y="0.225614458" z="0.346732229" />
+        <Up x="0.229207069" y="-0.422632873" z="0.8768383" />
         <Orientation>
           <X>0.726934135</X>
-          <Y>0.380700558</Y>
-          <Z>0.427648365</Z>
+          <Y>0.380700469</Y>
+          <Z>0.427648425</Z>
           <W>0.379144669</W>
         </Orientation>
       </PositionAndOrientation>
@@ -38937,8 +38922,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0106627038" y="0.0266601481" z="0.01005334" />
-      <AngularVelocity x="-0.000578615756" y="8.319308E-05" z="0.000219663023" />
+      <LinearVelocity x="0.009906584" y="0.02637929" z="0.01036243" />
+      <AngularVelocity x="-0.000405034662" y="8.4502426E-05" z="0.000175251917" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 1 Lights</Name>
@@ -39223,13 +39208,13 @@ Production Room</PublicDescription>
       <EntityId>87500849821169742</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21031.432033198485" y="54122.488310859218" z="20488.118261965057" />
-        <Forward x="-0.910827041" y="0.224589467" z="0.3463434" />
-        <Up x="0.343301415" y="0.878038645" z="0.3334551" />
+        <Position x="21031.432033198485" y="54122.488310859218" z="20488.118263872406" />
+        <Forward x="-0.910827" y="0.224589661" z="0.3463434" />
+        <Up x="0.343301535" y="0.878038645" z="0.333454877" />
         <Orientation>
           <X>0.244485363</X>
-          <Y>0.783197641</Y>
-          <Z>0.03475037</Z>
+          <Y>0.7831977</Y>
+          <Z>0.0347502381</Z>
           <W>0.570631862</W>
         </Orientation>
       </PositionAndOrientation>
@@ -39332,20 +39317,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-9.8354408692102879E-05" y="0.42086675763130188" z="7.4099798439419828E-06" />
-            <Forward x="0.7079412" y="1.01428323E-05" z="-0.7062714" />
-            <Up x="-1.48941381E-05" y="1" z="-5.68253654E-07" />
+            <Position x="-9.8898039141204208E-05" y="0.42087754607200623" z="-1.0157006727240514E-05" />
+            <Forward x="-0.00116783823" y="7.90837E-07" z="-0.999999344" />
+            <Up x="-1.4737012E-05" y="1" z="8.08048071E-07" />
             <Orientation>
-              <X>2.59149624E-06</X>
-              <Y>-0.383228779</Y>
-              <Z>6.98739632E-06</Z>
-              <W>0.9236535</W>
+              <X>3.99721358E-07</X>
+              <Y>0.000583919231</Y>
+              <Z>7.36874154E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>-0.0333333</TargetVelocity>
           <MinAngle>0</MinAngle>
           <MaxAngle>0.7853982</MaxAngle>
-          <CurrentAngle>-0.00116749713</CurrentAngle>
+          <CurrentAngle>-0.00116764207</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -39386,20 +39371,20 @@ Production Room</PublicDescription>
           <weldSpeed>95</weldSpeed>
           <forceWeld>false</forceWeld>
           <MasterToSlaveTransform>
-            <Position x="-0.00011699326569214463" y="0.42086192965507507" z="-4.4404455366020557E-06" />
-            <Forward x="-0.707934856" y="-5.156483E-06" z="-0.706277668" />
-            <Up x="-7.462218E-06" y="1" z="1.78799155E-07" />
+            <Position x="-7.8748249507043511E-05" y="0.4208749532699585" z="-3.3829464882728644E-06" />
+            <Forward x="0.00118080166" y="9.754273E-07" z="-0.9999993" />
+            <Up x="-7.632716E-06" y="1" z="9.664153E-07" />
             <Orientation>
-              <X>-1.347279E-06</X>
-              <Y>0.3832247</Y>
-              <Z>3.48051844E-06</Z>
-              <W>0.923655152</W>
+              <X>4.8546076E-07</X>
+              <Y>-0.000590400945</Y>
+              <Z>3.81607242E-06</Z>
+              <W>0.9999998</W>
             </Orientation>
           </MasterToSlaveTransform>
           <TargetVelocity>0.03333336</TargetVelocity>
           <MinAngle>-0.7853982</MinAngle>
           <MaxAngle>0</MaxAngle>
-          <CurrentAngle>0.00118051842</CurrentAngle>
+          <CurrentAngle>0.00118080818</CurrentAngle>
           <LimitsActive>true</LimitsActive>
         </MyObjectBuilder_CubeBlock>
         <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
@@ -39666,8 +39651,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.00138004753" y="0.00227111927" z="0.000910221" />
-      <AngularVelocity x="2.691197E-05" y="8.600529E-06" z="0.000130942179" />
+      <LinearVelocity x="0.0008011162" y="0.00193562848" z="0.00182989915" />
+      <AngularVelocity x="-1.68020051E-05" y="6.48728746E-05" z="-8.89634757E-05" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 3 Lights</Name>
@@ -39810,14 +39795,14 @@ Production Room</PublicDescription>
       <EntityId>99295986981487708</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21027.259563105712" y="54126.684966132656" z="20488.860518129608" />
-        <Forward x="-0.9104209" y="0.225626439" z="0.346736819" />
-        <Up x="0.229209751" y="-0.422626376" z="0.8768407" />
+        <Position x="21027.259559291015" y="54126.684950873867" z="20488.860510500213" />
+        <Forward x="-0.910421252" y="0.225625873" z="0.346736759" />
+        <Up x="0.22920984" y="-0.422626257" z="0.876840949" />
         <Orientation>
-          <X>0.7269357</X>
-          <Y>0.3807006</Y>
-          <Z>0.427642047</Z>
-          <W>0.379148841</W>
+          <X>0.7269355</X>
+          <Y>0.380700856</Y>
+          <Z>0.427642256</Z>
+          <W>0.379148751</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -40402,8 +40387,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.0104429163" y="0.0290115178" z="0.009657446" />
-      <AngularVelocity x="-0.000627208443" y="0.000139638578" z="0.0005067325" />
+      <LinearVelocity x="0.01020112" y="0.0253896415" z="0.0100112455" />
+      <AngularVelocity x="-0.000520147267" y="7.851751E-05" z="0.00039898447" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 3 Lights</Name>
@@ -40636,14 +40621,14 @@ Production Room</PublicDescription>
       <EntityId>115483772992763687</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21037.320945399413" y="54122.6817007518" z="20489.043221147796" />
-        <Forward x="0.910425663" y="-0.225614637" z="-0.34673208" />
-        <Up x="-0.229217172" y="0.422606617" z="-0.87684834" />
+        <Position x="21037.32094921411" y="54122.681685493008" z="20489.043219240448" />
+        <Forward x="0.910425663" y="-0.225614429" z="-0.34673214" />
+        <Up x="-0.22921735" y="0.422606647" z="-0.87684834" />
         <Orientation>
-          <X>-0.3791511</X>
-          <Y>-0.427642763</Y>
-          <Z>0.380711228</Z>
-          <W>0.7269285</W>
+          <X>-0.379151076</X>
+          <Y>-0.4276428</Y>
+          <Z>0.380711347</Z>
+          <W>0.7269284</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Large</GridSizeEnum>
@@ -41228,8 +41213,8 @@ Production Room</PublicDescription>
           <BlinkOffset>0</BlinkOffset>
         </MyObjectBuilder_CubeBlock>
       </CubeBlocks>
-      <LinearVelocity x="0.010337064" y="0.0283259153" z="0.009493698" />
-      <AngularVelocity x="0.0004956687" y="-0.000115545459" z="-0.000117782387" />
+      <LinearVelocity x="0.0105288662" y="0.0278687179" z="0.009895301" />
+      <AngularVelocity x="0.000453136658" y="-0.00014599548" z="-0.00015380884" />
       <BlockGroups>
         <MyObjectBuilder_BlockGroup>
           <Name>SM 3 Lights</Name>
@@ -41462,14 +41447,14 @@ Production Room</PublicDescription>
       <EntityId>110981248172304422</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21130.82551159204" y="54000.780043647304" z="20520.606983812591" />
-        <Forward x="-0.586308956" y="0.56095314" z="-0.5844428" />
-        <Up x="0.70347923" y="-0.005179803" z="-0.710697055" />
+        <Position x="21130.8224979812" y="54000.780047462" z="20520.603882463714" />
+        <Forward x="-0.586987138" y="0.5595729" z="-0.5850849" />
+        <Up x="0.7034704" y="-0.00517403241" z="-0.7107058" />
         <Orientation>
-          <X>-0.06899634</X>
-          <Y>0.450575352</Y>
-          <Z>-0.70557034</Z>
-          <W>0.542579</W>
+          <X>-0.0695884</X>
+          <Y>0.450127751</Y>
+          <Z>-0.7055101</Z>
+          <W>0.5429531</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -41489,14 +41474,14 @@ Production Room</PublicDescription>
       <EntityId>76439867314121685</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21130.526565211425" y="54001.651373908535" z="20514.893235834381" />
-        <Forward x="-0.290743828" y="0.9234372" z="-0.250463247" />
-        <Up x="-0.6779537" y="-0.0141082108" z="0.7349692" />
+        <Position x="21130.526260035644" y="54001.650454566494" z="20514.892576368591" />
+        <Forward x="-0.291278481" y="0.923133731" z="-0.2509601" />
+        <Up x="-0.677956462" y="-0.0141114891" z="0.734966636" />
         <Orientation>
-          <X>0.5997519</X>
-          <Y>-0.122743867</Y>
-          <Z>0.383864284</Z>
-          <W>0.691288531</W>
+          <X>0.5996004</X>
+          <Y>-0.122471757</Y>
+          <Z>0.38410306</Z>
+          <W>0.6913356</W>
         </Orientation>
       </PositionAndOrientation>
       <GridSizeEnum>Small</GridSizeEnum>
@@ -41517,14 +41502,14 @@ Production Room</PublicDescription>
       <EntityId>137820364054242439</EntityId>
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <PositionAndOrientation>
-        <Position x="21110.538947718749" y="54015.457354590908" z="20520.759857805511" />
-        <Forward x="0.6892274" y="0.005568266" z="-0.724523664" />
-        <Up x="0.343554825" y="0.877897739" z="0.3335651" />
+        <Position x="21138.817030962233" y="54013.319892687279" z="20525.013262848341" />
+        <Forward x="0.483472377" y="0.1391225" z="-0.8642334" />
+        <Up x="0.343444049" y="0.877978742" z="0.333465874" />
         <Orientation>
-          <X>0.0941988155</X>
-          <Y>-0.358977377</Y>
-          <Z>-0.228424445</Z>
-          <W>0.9000467</W>
+          <X>0.125458166</X>
+          <Y>-0.228349611</Y>
+          <Z>-0.212769523</Z>
+          <W>0.9417249</W>
         </Orientation>
       </PositionAndOrientation>
       <ComponentContainer>
@@ -41535,7 +41520,7 @@ Production Room</PublicDescription>
               <Stats>
                 <MyObjectBuilder_EntityStat>
                   <SubtypeName>SpaceCharacterHealth</SubtypeName>
-                  <Value>0.7</Value>
+                  <Value>1</Value>
                   <MaxValue>1</MaxValue>
                   <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
                   <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
@@ -41556,7 +41541,7 @@ Production Room</PublicDescription>
                     <SubtypeName>Welder4Item</SubtypeName>
                     <GunEntity xsi:type="MyObjectBuilder_Welder">
                       <SubtypeName>Welder4</SubtypeName>
-                      <EntityId>143277814854117627</EntityId>
+                      <EntityId>123612091376318551</EntityId>
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <PositionAndOrientation>
                         <Position x="21136.477106935756" y="54019.406358321037" z="20522.97100609558" />
@@ -41579,17 +41564,17 @@ Production Room</PublicDescription>
                     <SubtypeName>AngleGrinder4Item</SubtypeName>
                     <GunEntity xsi:type="MyObjectBuilder_AngleGrinder">
                       <SubtypeName>AngleGrinder4</SubtypeName>
-                      <EntityId>72462916306123977</EntityId>
+                      <EntityId>111738764527108665</EntityId>
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <PositionAndOrientation>
                         <Position x="21129.990100892595" y="54023.247177345722" z="20512.815034275663" />
-                        <Forward x="0.811681449" y="0.563462" z="0.15389505" />
-                        <Up x="0.208741933" y="-0.03374967" z="-0.977388144" />
+                        <Forward x="0.8116815" y="0.5634619" z="0.15389502" />
+                        <Up x="0.208741784" y="-0.03374964" z="-0.977388263" />
                         <Orientation>
                           <X>0.40066117</X>
                           <Y>0.6453047</Y>
                           <Z>-0.5969468</Z>
-                          <W>-0.258276969</W>
+                          <W>-0.258277029</W>
                         </Orientation>
                       </PositionAndOrientation>
                     </GunEntity>
@@ -41606,12 +41591,12 @@ Production Room</PublicDescription>
                       <PersistentFlags>CastShadows InScene</PersistentFlags>
                       <PositionAndOrientation>
                         <Position x="21083.341197304584" y="54008.058452720979" z="20554.851896123731" />
-                        <Forward x="0.819804668" y="-0.3228986" z="0.472923934" />
-                        <Up x="0.40887785" y="0.908274233" z="-0.08863894" />
+                        <Forward x="0.819804668" y="-0.322898626" z="0.472923934" />
+                        <Up x="0.40887785" y="0.908274233" z="-0.0886388943" />
                         <Orientation>
-                          <X>-0.202315658</X>
+                          <X>-0.202315643</X>
                           <Y>-0.833984554</Y>
-                          <Z>-0.070223</Z>
+                          <Z>-0.07022302</Z>
                           <W>0.508533955</W>
                         </Orientation>
                       </PositionAndOrientation>
@@ -41623,12 +41608,40 @@ Production Room</PublicDescription>
                   <Amount>1</Amount>
                   <PhysicalContent xsi:type="MyObjectBuilder_GasContainerObject">
                     <SubtypeName>HydrogenBottle</SubtypeName>
-                    <GasLevel>0.420506865</GasLevel>
+                    <GasLevel>0.129198641</GasLevel>
                   </PhysicalContent>
-                  <ItemId>9</ItemId>
+                  <ItemId>3</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>5</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Display</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>4</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>9</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>BulletproofGlass</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>5</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>10</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Construction</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>6</ItemId>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>4</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>Computer</SubtypeName>
+                  </PhysicalContent>
+                  <ItemId>7</ItemId>
                 </MyObjectBuilder_InventoryItem>
               </Items>
-              <nextItemId>43</nextItemId>
+              <nextItemId>8</nextItemId>
               <Volume>0.4</Volume>
               <Mass>9223372036854.775807</Mass>
               <MaxItemCount>2147483647</MaxItemCount>
@@ -41648,7 +41661,7 @@ Production Room</PublicDescription>
               <SubtypeName>Welder4Item</SubtypeName>
               <GunEntity xsi:type="MyObjectBuilder_Welder">
                 <SubtypeName>Welder4</SubtypeName>
-                <EntityId>143277814854117627</EntityId>
+                <EntityId>123612091376318551</EntityId>
                 <PersistentFlags>CastShadows InScene</PersistentFlags>
                 <PositionAndOrientation>
                   <Position x="21136.477106935756" y="54019.406358321037" z="20522.97100609558" />
@@ -41671,17 +41684,17 @@ Production Room</PublicDescription>
               <SubtypeName>AngleGrinder4Item</SubtypeName>
               <GunEntity xsi:type="MyObjectBuilder_AngleGrinder">
                 <SubtypeName>AngleGrinder4</SubtypeName>
-                <EntityId>72462916306123977</EntityId>
+                <EntityId>111738764527108665</EntityId>
                 <PersistentFlags>CastShadows InScene</PersistentFlags>
                 <PositionAndOrientation>
                   <Position x="21129.990100892595" y="54023.247177345722" z="20512.815034275663" />
-                  <Forward x="0.811681449" y="0.563462" z="0.15389505" />
-                  <Up x="0.208741933" y="-0.03374967" z="-0.977388144" />
+                  <Forward x="0.8116815" y="0.5634619" z="0.15389502" />
+                  <Up x="0.208741784" y="-0.03374964" z="-0.977388263" />
                   <Orientation>
                     <X>0.40066117</X>
                     <Y>0.6453047</Y>
                     <Z>-0.5969468</Z>
-                    <W>-0.258276969</W>
+                    <W>-0.258277029</W>
                   </Orientation>
                 </PositionAndOrientation>
               </GunEntity>
@@ -41698,12 +41711,12 @@ Production Room</PublicDescription>
                 <PersistentFlags>CastShadows InScene</PersistentFlags>
                 <PositionAndOrientation>
                   <Position x="21083.341197304584" y="54008.058452720979" z="20554.851896123731" />
-                  <Forward x="0.819804668" y="-0.3228986" z="0.472923934" />
-                  <Up x="0.40887785" y="0.908274233" z="-0.08863894" />
+                  <Forward x="0.819804668" y="-0.322898626" z="0.472923934" />
+                  <Up x="0.40887785" y="0.908274233" z="-0.0886388943" />
                   <Orientation>
-                    <X>-0.202315658</X>
+                    <X>-0.202315643</X>
                     <Y>-0.833984554</Y>
-                    <Z>-0.070223</Z>
+                    <Z>-0.07022302</Z>
                     <W>0.508533955</W>
                   </Orientation>
                 </PositionAndOrientation>
@@ -41715,12 +41728,40 @@ Production Room</PublicDescription>
             <Amount>1</Amount>
             <PhysicalContent xsi:type="MyObjectBuilder_GasContainerObject">
               <SubtypeName>HydrogenBottle</SubtypeName>
-              <GasLevel>0.420506865</GasLevel>
+              <GasLevel>0.129198641</GasLevel>
             </PhysicalContent>
-            <ItemId>9</ItemId>
+            <ItemId>3</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>5</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>Display</SubtypeName>
+            </PhysicalContent>
+            <ItemId>4</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>9</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>BulletproofGlass</SubtypeName>
+            </PhysicalContent>
+            <ItemId>5</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>10</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>Construction</SubtypeName>
+            </PhysicalContent>
+            <ItemId>6</ItemId>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>4</Amount>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>Computer</SubtypeName>
+            </PhysicalContent>
+            <ItemId>7</ItemId>
           </MyObjectBuilder_InventoryItem>
         </Items>
-        <nextItemId>43</nextItemId>
+        <nextItemId>8</nextItemId>
         <Volume>0.4</Volume>
         <Mass>9223372036854.775807</Mass>
         <MaxItemCount>2147483647</MaxItemCount>
@@ -41729,12 +41770,12 @@ Production Room</PublicDescription>
         <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
       </Inventory>
       <Battery>
-        <CurrentCapacity>3.180875E-06</CurrentCapacity>
+        <CurrentCapacity>9.008077E-06</CurrentCapacity>
       </Battery>
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
-      <HeadAngle x="-4.12422037" y="0" />
-      <LinearVelocity x="0" y="0" z="0" />
+      <HeadAngle x="-19.1295071" y="0" />
+      <LinearVelocity x="1.24166581E-05" y="1.5917678E-05" z="-2.86291943E-05" />
       <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
       <JetpackEnabled>false</JetpackEnabled>
       <ColorMaskHSV x="0.208333328" y="0.02" z="0.46" />
@@ -41742,7 +41783,7 @@ Production Room</PublicDescription>
       <DisplayName>AdYa</DisplayName>
       <IsInFirstPersonView>true</IsInFirstPersonView>
       <EnableBroadcasting>true</EnableBroadcasting>
-      <OxygenLevel>1</OxygenLevel>
+      <OxygenLevel>0.8163447</OxygenLevel>
       <EnvironmentOxygenLevel>0.804692149</EnvironmentOxygenLevel>
       <StoredGases>
         <StoredGas>
@@ -41750,14 +41791,14 @@ Production Room</PublicDescription>
             <TypeId>MyObjectBuilder_GasProperties</TypeId>
             <SubtypeId>Hydrogen</SubtypeId>
           </Id>
-          <FillLevel>0.408244967</FillLevel>
+          <FillLevel>1</FillLevel>
         </StoredGas>
         <StoredGas>
           <Id>
             <TypeId>MyObjectBuilder_GasProperties</TypeId>
             <SubtypeId>Oxygen</SubtypeId>
           </Id>
-          <FillLevel>1</FillLevel>
+          <FillLevel>0.8163447</FillLevel>
         </StoredGas>
       </StoredGases>
       <EnabledComponents>
@@ -41767,8 +41808,8 @@ Production Room</PublicDescription>
       <PlayerSteamId>76561198029540714</PlayerSteamId>
       <PlayerSerialId>0</PlayerSerialId>
       <IsPromoted>false</IsPromoted>
-      <NeedsOxygenFromSuit>true</NeedsOxygenFromSuit>
+      <NeedsOxygenFromSuit>false</NeedsOxygenFromSuit>
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
-<!-- Saved '2016-05-04T00:07:37.8306144+03:00' with SEToolbox version '1.129.7.1' -->
+<!-- Saved '2016-05-10T23:07:32.8941607+03:00' with SEToolbox version '1.129.7.1' -->
