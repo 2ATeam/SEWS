@@ -1,25 +1,27 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>2415041600000</ElapsedGameTime>
-  <SessionName>AAAWorld</SessionName>
+  <ElapsedGameTime>46340480000</ElapsedGameTime>
+  <SessionName>AA World</SessionName>
   <SpectatorPosition>
-    <Position x="21157.75047852828" y="53991.218747942956" z="20547.248260947261" />
-    <Forward x="0.0763413" y="-0.8753584" z="0.4774094" />
-    <Up x="0.5248128" y="0.442391068" z="0.727228761" />
+    <Position x="253814.74688562853" y="-57642.859236415796" z="-1001230.6735356529" />
+    <Forward x="0.872287869" y="-0.352123916" z="0.339297175" />
+    <Up x="0.397263527" y="0.9148886" z="-0.07183671" />
     <Orientation>
-      <X>0.216350928</X>
-      <Y>0.831803441</Y>
-      <Z>0.481660426</Z>
-      <W>-0.171168238</W>
+      <X>-0.18660444</X>
+      <Y>-0.796760559</Y>
+      <Z>-0.08794587</Z>
+      <W>0.56799376</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>119135751862096573</CameraEntity>
+  <ControlledObject>119135751862096573</ControlledObject>
   <Password />
-  <Description>Amazing base</Description>
-  <LastSaveTime>2016-08-06T01:16:06.0496068+03:00</LastSaveTime>
-  <SpectatorDistance>2.6</SpectatorDistance>
+  <Description>The New World</Description>
+  <LastSaveTime>2017-07-20T01:01:26.5783231+03:00</LastSaveTime>
+  <SpectatorDistance>2.5</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
     <SelectedSlot xsi:nil="true" />
@@ -28,21 +30,21 @@
         <Index>0</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
         </Data>
       </Slot>
       <Slot>
         <Index>1</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
         </Data>
       </Slot>
       <Slot>
         <Index>2</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
         </Data>
       </Slot>
       <Slot>
@@ -56,112 +58,35 @@
         <Index>4</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
         </Data>
       </Slot>
       <Slot>
         <Index>5</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+          <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
         </Data>
       </Slot>
       <Slot>
         <Index>6</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
+          <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
         </Data>
       </Slot>
       <Slot>
         <Index>8</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Base" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>9</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>10</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>11</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>12</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="DeadTech_Catwalk_Rail_Corner" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>18</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-          <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Wave" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>19</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-          <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Victory" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>20</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-          <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Thumb-Up" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>21</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-          <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="FacePalm" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>27</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PhysicalConcreteTool" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>28</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>29</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>30</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
+          <DefinitionId Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
         </Data>
       </Slot>
     </Slots>
@@ -169,9 +94,23 @@
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">72135099201930858</Key>
+        <Key xsi:type="xsd:long">119135751862096573</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198029540714</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">112090010474720494</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198044986481</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">92522203227262049</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198044986481</ClientId>
           <SerialId>0</SerialId>
         </Value>
       </item>
@@ -183,10 +122,14 @@
     <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>PUBLIC</OnlineMode>
+    <OnlineMode>FRIENDS</OnlineMode>
     <MaxPlayers>4</MaxPlayers>
-    <MaxFloatingObjects>512</MaxFloatingObjects>
+    <MaxFloatingObjects>56</MaxFloatingObjects>
     <MaxBackupSaves>5</MaxBackupSaves>
+    <MaxGridSize>50000</MaxGridSize>
+    <MaxBlocksPerPlayer>100000</MaxBlocksPerPlayer>
+    <EnableBlockLimits>true</EnableBlockLimits>
+    <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
     <EnvironmentHostility>SAFE</EnvironmentHostility>
     <AutoHealing>true</AutoHealing>
     <EnableCopyPaste>false</EnableCopyPaste>
@@ -195,63 +138,120 @@
     <ThrusterDamage>true</ThrusterDamage>
     <CargoShipsEnabled>true</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
-    <RemoveTrash>true</RemoveTrash>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>true</RespawnShipDelete>
     <ResetOwnership>false</ResetOwnership>
     <WelderSpeedMultiplier>2</WelderSpeedMultiplier>
     <GrinderSpeedMultiplier>2</GrinderSpeedMultiplier>
-    <RealisticSound>false</RealisticSound>
+    <RealisticSound>true</RealisticSound>
     <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
     <PermanentDeath>false</PermanentDeath>
     <AutoSaveInMinutes>5</AutoSaveInMinutes>
-    <SpawnShipTimeMultiplier>0.5</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.35</ProceduralDensity>
-    <ProceduralSeed>1774056457</ProceduralSeed>
+    <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
+    <ProceduralDensity>0.25</ProceduralDensity>
+    <ProceduralSeed>841244236</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
-    <ViewDistance>15000</ViewDistance>
+    <ViewDistance>20000</ViewDistance>
     <FloraDensity>20</FloraDensity>
     <EnableToolShake>true</EnableToolShake>
     <VoxelGeneratorVersion>2</VoxelGeneratorVersion>
     <EnableOxygen>true</EnableOxygen>
-    <EnableOxygenPressurization>false</EnableOxygenPressurization>
+    <EnableOxygenPressurization>true</EnableOxygenPressurization>
     <Enable3rdPersonView>true</Enable3rdPersonView>
     <EnableEncounters>true</EnableEncounters>
     <EnableFlora>true</EnableFlora>
     <EnableConvertToStation>true</EnableConvertToStation>
+    <StationVoxelSupport>false</StationVoxelSupport>
     <EnableSunRotation>true</EnableSunRotation>
-    <DisableRespawnShips>true</DisableRespawnShips>
+    <EnableRespawnShips>true</EnableRespawnShips>
     <ScenarioEditMode>false</ScenarioEditMode>
-    <Battle>false</Battle>
     <Scenario>false</Scenario>
     <CanJoinRunning>false</CanJoinRunning>
     <PhysicsIterations>4</PhysicsIterations>
-    <SunRotationIntervalMinutes>213.757477</SunRotationIntervalMinutes>
+    <SunRotationIntervalMinutes>344.35</SunRotationIntervalMinutes>
     <EnableJetpack>true</EnableJetpack>
     <SpawnWithTools>false</SpawnWithTools>
-    <StartInRespawnScreen>false</StartInRespawnScreen>
+    <StartInRespawnScreen>true</StartInRespawnScreen>
     <EnableVoxelDestruction>true</EnableVoxelDestruction>
-    <MaxDrones>5</MaxDrones>
+    <MaxDrones>20</MaxDrones>
     <EnableDrones>true</EnableDrones>
-    <EnableCyberhounds>false</EnableCyberhounds>
-    <EnableSpiders>true</EnableSpiders>
+    <EnableWolfs>false</EnableWolfs>
+    <EnableSpiders>false</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
     <EnableStructuralSimulation>false</EnableStructuralSimulation>
     <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <BlockTypeLimits>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:string">Assembler</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Refinery</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Blast Furnace</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Antenna</Key>
+          <Value xsi:type="xsd:short">30</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Drill</Key>
+          <Value xsi:type="xsd:short">30</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">InteriorTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">GatlingTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MissileTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ExtendedPistonBase</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MotorStator</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MotorAdvancedStator</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ShipWelder</Key>
+          <Value xsi:type="xsd:short">100</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ShipGrinder</Key>
+          <Value xsi:type="xsd:short">150</Value>
+        </item>
+      </dictionary>
+    </BlockTypeLimits>
+    <EnableScripterRole>false</EnableScripterRole>
   </Settings>
   <ScriptManagerData>
     <variables>
       <dictionary />
     </variables>
   </ScriptManagerData>
-  <AppVersion>1147004</AppVersion>
+  <AppVersion>1181601</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
-        <FactionId>271452396405108138</FactionId>
+        <FactionId>286206777291767696</FactionId>
         <Tag>SPRT</Tag>
         <Name>Space Pirates</Name>
+        <Description>Hostile. All bandits, outlaws and other criminal scum recognized as "space pirates". Highly agressive.</Description>
         <PrivateInfo />
         <Members>
           <MyObjectBuilder_FactionMember>
@@ -267,9 +267,219 @@
         <EnableFriendlyFire>false</EnableFriendlyFire>
       </MyObjectBuilder_Faction>
       <MyObjectBuilder_Faction>
-        <FactionId>246342178102244648</FactionId>
-        <Tag>AAA</Tag>
-        <Name>AAA Team</Name>
+        <FactionId>270301116718199005</FactionId>
+        <Tag>CIVL</Tag>
+        <Name>Civilian</Name>
+        <Description>Peaceful. Every loner or space traveller protected by Space Police is recognized as "civilian".</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855875</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>270745735668751897</FactionId>
+        <Tag>UCMF</Tag>
+        <Name>Military Forces</Name>
+        <Description>United Colonies Military Forces. Peaceful, but hostile if called as reinforcements, military objects are restricted and tresspassing will make them hostile.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855876</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>264987733354387876</FactionId>
+        <Tag>SEPD</Tag>
+        <Name>Space Police</Name>
+        <Description>Peaceful. Space law enforcement officers. Hostile when called by distress signals.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855877</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>221623937498687055</FactionId>
+        <Tag>ISTG</Tag>
+        <Name>Independent Space Traders Guild</Name>
+        <Description>Peaceful. Lone independent traders united into one faction for better coordination, their ships and rare stations are ready to trade with everyone.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855878</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>243136374998392023</FactionId>
+        <Tag>MMEC</Tag>
+        <Name>Medveds Military Elite Corporation</Name>
+        <Description>Neutral, but hostile if encountered during their operations. Locations of MMEC stations are currently unknown.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855879</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>259588791793557940</FactionId>
+        <Tag>AMPH</Tag>
+        <Name>Amphion Corp.</Name>
+        <Description>Peaceful. The Amphion Mining and Militia Corporation provides low-cost, maneuverable and utilitarian vessels. They prefer quick expansion with many small outposts and waystations.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855880</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>286337060434067459</FactionId>
+        <Tag>KUSS</Tag>
+        <Name>KUS Shipyards</Name>
+        <Description>Peaceful. Small industrialized corporation, going for quality, not quantity, thus they own just a few, but large industrial stations and ships.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855881</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>228482881141127555</FactionId>
+        <Tag>HS</Tag>
+        <Name>Hyperion Systems</Name>
+        <Description>Peaceful. Multinational defence, security and aerospace company. It's merchants are willing to trade with anyone, but are quick to anger if provoked.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855882</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>275020978529975242</FactionId>
+        <Tag>MA-I</Tag>
+        <Name>Mahriane Industries</Name>
+        <Description>Peaceful. Primarily specialzing on trading, they established wide network of trading stations across the system. Funded enough to hire huge battleships, to protect their interests.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855883</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>217636119612802361</FactionId>
+        <Tag>EXMC</Tag>
+        <Name>Extraterrestrial Mining Corporation</Name>
+        <Description>Peaceful. Specialized on resource gathering, the EXMC stations are found throughout the system, trading mostly resources and components.
+</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855884</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>267680684401783692</FactionId>
+        <Tag>IMDC</Tag>
+        <Name>Interstellar Mining and Defence Corp.</Name>
+        <Description>Peaceful. The Interstellar Mining and Defense Corporation is a multinational militarized enterprise, constructing ships and vehicles. They also have few tradiong outposts, yet other stations are not public.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855885</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>222170707521062817</FactionId>
+        <Tag>AAT</Tag>
+        <Name>2A Team</Name>
         <Description />
         <PrivateInfo />
         <Members>
@@ -279,12 +489,7 @@
             <IsFounder>true</IsFounder>
           </MyObjectBuilder_FactionMember>
           <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855876</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855875</PlayerId>
+            <PlayerId>144115188075855886</PlayerId>
             <IsLeader>false</IsLeader>
             <IsFounder>false</IsFounder>
           </MyObjectBuilder_FactionMember>
@@ -295,892 +500,639 @@
         <AcceptHumans>true</AcceptHumans>
         <EnableFriendlyFire>true</EnableFriendlyFire>
       </MyObjectBuilder_Faction>
-      <MyObjectBuilder_Faction>
-        <FactionId>272482398085416809</FactionId>
-        <Tag>SPID</Tag>
-        <Name>Space spiders</Name>
-        <PrivateInfo />
-        <Members>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855879</PlayerId>
-            <IsLeader>true</IsLeader>
-            <IsFounder>true</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855877</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855878</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855880</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855881</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855882</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855883</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855884</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855885</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855886</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855887</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855888</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855889</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855890</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855891</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855892</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855893</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855894</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855895</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855896</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855897</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855898</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855899</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855900</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855901</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855902</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855903</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855904</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855905</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855906</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855907</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855908</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855909</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855910</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855911</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855912</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855913</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855914</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855915</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855916</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855917</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855918</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855919</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855920</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855921</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855922</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855923</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855924</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855925</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855926</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855927</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855928</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855929</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855930</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855931</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855932</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855933</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855934</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855935</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855936</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855937</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855938</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855939</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855940</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855941</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855942</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855943</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855944</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855945</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855946</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855947</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855948</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855949</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-          <MyObjectBuilder_FactionMember>
-            <PlayerId>144115188075855950</PlayerId>
-            <IsLeader>false</IsLeader>
-            <IsFounder>false</IsFounder>
-          </MyObjectBuilder_FactionMember>
-        </Members>
-        <JoinRequests />
-        <AutoAcceptMember>true</AutoAcceptMember>
-        <AutoAcceptPeace>false</AutoAcceptPeace>
-        <AcceptHumans>true</AcceptHumans>
-        <EnableFriendlyFire>false</EnableFriendlyFire>
-      </MyObjectBuilder_Faction>
     </Factions>
     <Players>
       <dictionary>
         <item>
           <Key xsi:type="xsd:long">144115188075855874</Key>
-          <Value xsi:type="xsd:long">271452396405108138</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855873</Key>
-          <Value xsi:type="xsd:long">246342178102244648</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855879</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855877</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855878</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855876</Key>
-          <Value xsi:type="xsd:long">246342178102244648</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855880</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855881</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855882</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
+          <Value xsi:type="xsd:long">286206777291767696</Value>
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855875</Key>
-          <Value xsi:type="xsd:long">246342178102244648</Value>
+          <Value xsi:type="xsd:long">270301116718199005</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855876</Key>
+          <Value xsi:type="xsd:long">270745735668751897</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855877</Key>
+          <Value xsi:type="xsd:long">264987733354387876</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855878</Key>
+          <Value xsi:type="xsd:long">221623937498687055</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855879</Key>
+          <Value xsi:type="xsd:long">243136374998392023</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855880</Key>
+          <Value xsi:type="xsd:long">259588791793557940</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855881</Key>
+          <Value xsi:type="xsd:long">286337060434067459</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855882</Key>
+          <Value xsi:type="xsd:long">228482881141127555</Value>
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855883</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
+          <Value xsi:type="xsd:long">275020978529975242</Value>
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855884</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
+          <Value xsi:type="xsd:long">217636119612802361</Value>
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855885</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
+          <Value xsi:type="xsd:long">267680684401783692</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855873</Key>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855886</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855887</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855888</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855889</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855890</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855891</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855892</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855893</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855894</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855895</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855896</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855897</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855898</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855899</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855900</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855901</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855902</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855903</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855904</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855905</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855906</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855907</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855908</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855909</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855910</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855911</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855912</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855913</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855914</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855915</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855916</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855917</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855918</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855919</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855920</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855921</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855922</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855923</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855924</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855925</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855926</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855927</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855928</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855929</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855930</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855931</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855932</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855933</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855934</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855935</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855936</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855937</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855938</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855939</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855940</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855941</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855942</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855943</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855944</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855945</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855946</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855947</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855948</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855949</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
-        </item>
-        <item>
-          <Key xsi:type="xsd:long">144115188075855950</Key>
-          <Value xsi:type="xsd:long">272482398085416809</Value>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
         </item>
       </dictionary>
     </Players>
     <Relations>
       <MyObjectBuilder_FactionRelation>
-        <FactionId1>271452396405108138</FactionId1>
-        <FactionId2>246342178102244648</FactionId2>
+        <FactionId1>270745735668751897</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>264987733354387876</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>264987733354387876</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>275020978529975242</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>275020978529975242</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>217636119612802361</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286206777291767696</FactionId1>
+        <FactionId2>222170707521062817</FactionId2>
         <Relation>Enemies</Relation>
       </MyObjectBuilder_FactionRelation>
       <MyObjectBuilder_FactionRelation>
-        <FactionId1>272482398085416809</FactionId1>
-        <FactionId2>271452396405108138</FactionId2>
-        <Relation>Enemies</Relation>
-      </MyObjectBuilder_FactionRelation>
-      <MyObjectBuilder_FactionRelation>
-        <FactionId1>272482398085416809</FactionId1>
-        <FactionId2>246342178102244648</FactionId2>
+        <FactionId1>243136374998392023</FactionId1>
+        <FactionId2>222170707521062817</FactionId2>
         <Relation>Enemies</Relation>
       </MyObjectBuilder_FactionRelation>
     </Relations>
-    <Requests />
+    <Requests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>270301116718199005</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>270745735668751897</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>264987733354387876</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>221623937498687055</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>259588791793557940</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>286337060434067459</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>228482881141127555</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>275020978529975242</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>217636119612802361</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>267680684401783692</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+    </Requests>
   </Factions>
   <Mods>
     <ModItem>
-      <Name>697323663.sbm</Name>
-      <PublishedFileId>697323663</PublishedFileId>
+      <Name>971228947.sbm</Name>
+      <PublishedFileId>971228947</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>644104483.sbm</Name>
-      <PublishedFileId>644104483</PublishedFileId>
+      <Name>392743762.sbm</Name>
+      <PublishedFileId>392743762</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>715005728.sbm</Name>
-      <PublishedFileId>715005728</PublishedFileId>
+      <Name>960597257.sbm</Name>
+      <PublishedFileId>960597257</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>678678053.sbm</Name>
-      <PublishedFileId>678678053</PublishedFileId>
+      <Name>315223329.sbm</Name>
+      <PublishedFileId>315223329</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>416810412.sbm</Name>
+      <PublishedFileId>416810412</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>531659576.sbm</Name>
+      <PublishedFileId>531659576</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>785804182.sbm</Name>
+      <PublishedFileId>785804182</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>677790017.sbm</Name>
       <PublishedFileId>677790017</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>412134393.sbm</Name>
-      <PublishedFileId>412134393</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>300253120.sbm</Name>
-      <PublishedFileId>300253120</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>541493993.sbm</Name>
-      <PublishedFileId>541493993</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>306137508.sbm</Name>
-      <PublishedFileId>306137508</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>566015666.sbm</Name>
-      <PublishedFileId>566015666</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>577318708.sbm</Name>
-      <PublishedFileId>577318708</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>509687242.sbm</Name>
-      <PublishedFileId>509687242</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>396679430.sbm</Name>
-      <PublishedFileId>396679430</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>356797025.sbm</Name>
-      <PublishedFileId>356797025</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>298913292.sbm</Name>
-      <PublishedFileId>298913292</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>530693136.sbm</Name>
-      <PublishedFileId>530693136</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>563872040.sbm</Name>
-      <PublishedFileId>563872040</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>309057836.sbm</Name>
-      <PublishedFileId>309057836</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>570033657.sbm</Name>
-      <PublishedFileId>570033657</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>363371127.sbm</Name>
-      <PublishedFileId>363371127</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>628727250.sbm</Name>
-      <PublishedFileId>628727250</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>572717560.sbm</Name>
-      <PublishedFileId>572717560</PublishedFileId>
+      <Name>644104483.sbm</Name>
+      <PublishedFileId>644104483</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>454075333.sbm</Name>
       <PublishedFileId>454075333</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>438226588.sbm</Name>
-      <PublishedFileId>438226588</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>506964853.sbm</Name>
-      <PublishedFileId>506964853</PublishedFileId>
+      <Name>396679430.sbm</Name>
+      <PublishedFileId>396679430</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>532433982.sbm</Name>
       <PublishedFileId>532433982</PublishedFileId>
     </ModItem>
     <ModItem>
+      <Name>649590538.sbm</Name>
+      <PublishedFileId>649590538</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>412986157.sbm</Name>
       <PublishedFileId>412986157</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>732045991.sbm</Name>
-      <PublishedFileId>732045991</PublishedFileId>
+      <Name>298550266.sbm</Name>
+      <PublishedFileId>298550266</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>672311962.sbm</Name>
-      <PublishedFileId>672311962</PublishedFileId>
+      <Name>678678053.sbm</Name>
+      <PublishedFileId>678678053</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>388525350.sbm</Name>
-      <PublishedFileId>388525350</PublishedFileId>
+      <Name>643820962.sbm</Name>
+      <PublishedFileId>643820962</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>415051704.sbm</Name>
+      <PublishedFileId>415051704</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>306137508.sbm</Name>
+      <PublishedFileId>306137508</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>541493993.sbm</Name>
+      <PublishedFileId>541493993</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>412134393.sbm</Name>
+      <PublishedFileId>412134393</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>577318708.sbm</Name>
+      <PublishedFileId>577318708</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>572717560.sbm</Name>
+      <PublishedFileId>572717560</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>509687242.sbm</Name>
+      <PublishedFileId>509687242</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>309057836.sbm</Name>
+      <PublishedFileId>309057836</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>566015666.sbm</Name>
+      <PublishedFileId>566015666</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>563872040.sbm</Name>
+      <PublishedFileId>563872040</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>889703361.sbm</Name>
+      <PublishedFileId>889703361</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940950366.sbm</Name>
+      <PublishedFileId>940950366</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940852605.sbm</Name>
+      <PublishedFileId>940852605</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>917662028.sbm</Name>
+      <PublishedFileId>917662028</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>878631000.sbm</Name>
+      <PublishedFileId>878631000</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>884550487.sbm</Name>
+      <PublishedFileId>884550487</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>913854484.sbm</Name>
+      <PublishedFileId>913854484</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>943687621.sbm</Name>
+      <PublishedFileId>943687621</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>941451759.sbm</Name>
+      <PublishedFileId>941451759</PublishedFileId>
     </ModItem>
   </Mods>
-  <PromotedUsers />
-  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="StarSystem" />
+  <PromotedUsers>
+    <dictionary />
+  </PromotedUsers>
+  <CreativeTools />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EarthEasyStart" />
   <RespawnCooldowns />
   <Identities>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855873</IdentityId>
       <DisplayName>AdYa</DisplayName>
-      <CharacterEntityId>72135099201930858</CharacterEntityId>
+      <CharacterEntityId>119135751862096573</CharacterEntityId>
       <Model>Default_Astronaut</Model>
-      <ColorMask x="0.208333328" y="0.02" z="0.46" />
+      <ColorMask x="0.272222221" y="0.4" z="1" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8749256+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855874</IdentityId>
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:49.2416757+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
-      <DisplayName>Co_okie</DisplayName>
+      <DisplayName>Civilian</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
-      <Model>Tungsten</Model>
-      <ColorMask x="0.5388889" y="0.53" z="0.66" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8764271+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855876</IdentityId>
-      <DisplayName>ALVO</DisplayName>
+      <DisplayName>Military Forces</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
-      <Model>Default_Astronaut</Model>
-      <ColorMask x="0.5083333" y="0.52" z="1" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855877</IdentityId>
+      <DisplayName>Police</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855878</IdentityId>
+      <DisplayName>Traders</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855879</IdentityId>
-      <DisplayName>The Great Tarantula</DisplayName>
+      <DisplayName>MMEC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855880</IdentityId>
+      <DisplayName>Amphion Corp.</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855881</IdentityId>
+      <DisplayName>KUS Shipyards</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855882</IdentityId>
+      <DisplayName>Hyperion Systems</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855883</IdentityId>
+      <DisplayName>Mahriane Industries</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855884</IdentityId>
+      <DisplayName>EXMC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855885</IdentityId>
+      <DisplayName>IMDC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:37:47.8769274+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855886</IdentityId>
+      <DisplayName>ALVO</DisplayName>
+      <CharacterEntityId>78728660102591577</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="0" z="0.05" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:40:12.2161976+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855887</IdentityId>
+      <DisplayName>AAT NPC9750</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-07-20T00:40:43.0893464+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
   </Identities>
   <Clients>
     <MyObjectBuilder_Client>
-      <SteamId>90102981692184579</SteamId>
-      <Name>Server</Name>
+      <SteamId>76561198029540714</SteamId>
+      <Name>AdYa</Name>
       <IsAdmin>true</IsAdmin>
     </MyObjectBuilder_Client>
     <MyObjectBuilder_Client>
-      <SteamId>76561198029540714</SteamId>
-      <Name>AdYa</Name>
+      <SteamId>76561198044986481</SteamId>
+      <Name>ALVO</Name>
       <IsAdmin>false</IsAdmin>
     </MyObjectBuilder_Client>
   </Clients>
@@ -1196,6 +1148,7 @@
           <DisplayName>AdYa</DisplayName>
           <IdentityId>144115188075855873</IdentityId>
           <Connected>true</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -1204,210 +1157,21 @@
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder3Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_OreDetector" Subtype="LargeOreDetector" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>7</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_ShipConnector" Subtype="Connector" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>9</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>10</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
                   <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
                 </Data>
               </Slot>
               <Slot>
-                <Index>11</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>12</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="DeadTech_Catwalk_Rail_Corner" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>18</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-                  <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Wave" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>19</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-                  <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Victory" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>20</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-                  <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="Thumb-Up" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>21</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemAnimation">
-                  <DefinitionId Type="MyObjectBuilder_AnimationDefinition" Subtype="FacePalm" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>27</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="PhysicalConcreteTool" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>28</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>29</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>30</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
-                </Data>
-              </Slot>
-            </Slots>
-          </Toolbar>
-          <CharacterCameraData EntityId="0">
-            <IsFirstPerson>true</IsFirstPerson>
-            <Distance>30.978359567490564</Distance>
-            <HeadAngle x="45" y="0" />
-          </CharacterCameraData>
-          <EntityCameraData>
-            <CameraControllerSettings EntityId="91082460517410484">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>9.014638190051377</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="112784719508263993">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>2.5999999046325684</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="79622099126999870">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>23.740612236631051</Distance>
-              <HeadAngle x="17.7176018" y="56.34779" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="85415541537379948">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>5.4601657839945652</Distance>
-              <HeadAngle x="-25.58137" y="-115.600044" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="90526986140090934">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>70.964021189618762</Distance>
-              <HeadAngle x="9.149251" y="-31.2236137" />
-            </CameraControllerSettings>
-          </EntityCameraData>
-        </Value>
-      </item>
-      <item>
-        <Key xsi:type="PlayerId">
-          <ClientId>76561198044986481</ClientId>
-          <SerialId>0</SerialId>
-        </Key>
-        <Value xsi:type="MyObjectBuilder_Player">
-          <DisplayName>ALVO</DisplayName>
-          <IdentityId>144115188075855876</IdentityId>
-          <Connected>false</Connected>
-          <Toolbar>
-            <ToolbarType>Character</ToolbarType>
-            <SelectedSlot xsi:nil="true" />
-            <Slots>
-              <Slot>
-                <Index>0</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder3Item" />
-                </Data>
-              </Slot>
-              <Slot>
                 <Index>2</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
                 </Data>
               </Slot>
               <Slot>
@@ -1421,14 +1185,14 @@
                 <Index>4</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_ReflectorLight" Subtype="LargeBlockFrontLight" />
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>5</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_RadioAntenna" Subtype="LargeBlockRadioAntenna" />
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
                 </Data>
               </Slot>
               <Slot>
@@ -1442,7 +1206,7 @@
                 <Index>7</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+                  <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
                 </Data>
               </Slot>
               <Slot>
@@ -1456,44 +1220,14 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>30.978359567490564</Distance>
-            <HeadAngle x="45" y="0" />
+            <Distance>2.5</Distance>
+            <HeadAngle x="-13.3379993" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="91082460517410484">
+            <CameraControllerSettings EntityId="112090010474720494">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>1.7594410181045534</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="79622099126999870">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>2.5999999046325684</Distance>
-              <HeadAngle x="-10" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="90169887425305430">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>10.268598379344043</Distance>
-              <HeadAngle x="-13.50604" y="204.768921" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="85415541537379948">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>13.511950825144648</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="90526986140090934">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>47.07240966946145</Distance>
-              <HeadAngle x="-2.1783936" y="1.45226622" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="129984162078778481">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>21.85537596991626</Distance>
-              <HeadAngle x="21.3482628" y="69.27292" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="112784719508263993">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>21.85537596991626</Distance>
-              <HeadAngle x="-10" y="0" />
+              <Distance>32.790237901236175</Distance>
+              <HeadAngle x="5.22818" y="-45.7463341" />
             </CameraControllerSettings>
           </EntityCameraData>
           <BuildColorSlots>
@@ -1559,8 +1293,8 @@
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.799999952</Y>
-              <Z>0.6</Z>
+              <Y>-1</Y>
+              <Z>1</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1572,13 +1306,14 @@
       </item>
       <item>
         <Key xsi:type="PlayerId">
-          <ClientId>76561198121441370</ClientId>
+          <ClientId>76561198044986481</ClientId>
           <SerialId>0</SerialId>
         </Key>
         <Value xsi:type="MyObjectBuilder_Player">
-          <DisplayName>Co_okie</DisplayName>
-          <IdentityId>144115188075855875</IdentityId>
-          <Connected>false</Connected>
+          <DisplayName>ALVO</DisplayName>
+          <IdentityId>144115188075855886</IdentityId>
+          <Connected>true</Connected>
+          <ForceRealPlayer>true</ForceRealPlayer>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -1587,42 +1322,49 @@
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder3Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>4</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpitSeat" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>5</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>6</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
                 </Data>
               </Slot>
               <Slot>
@@ -1643,327 +1385,61 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>30.978359567490564</Distance>
-            <HeadAngle x="45" y="0" />
+            <Distance>2.5</Distance>
+            <HeadAngle x="-13.3379993" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="85415541537379948">
+            <CameraControllerSettings EntityId="112090010474720494">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>2</Distance>
-              <HeadAngle x="-10" y="0" />
+              <Distance>2.23005919796991</Distance>
+              <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
         </Value>
       </item>
     </dictionary>
   </AllPlayersData>
-  <ChatHistory>
-    <MyObjectBuilder_ChatHistory>
-      <IdentityId>144115188075855873</IdentityId>
-      <PlayerChatHistory>
-        <MyObjectBuilder_PlayerChatHistory>
-          <Chat>
-            <PCI t="GPS:AdYa #1:19314.38:35454.22:48008.35:">
-              <I>1</I>
-              <T>641936</T>
-            </PCI>
-            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
-              <I>1</I>
-              <T>88043520</T>
-            </PCI>
-            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
-              <I>1</I>
-              <T>89433424</T>
-            </PCI>
-            <PCI t="GPS:Au Mine:16318.53:55739.04:21541.39:">
-              <I>1</I>
-              <T>120506704</T>
-            </PCI>
-            <PCI t="GPS:ALVO #1:17213.67:55345.35:21951.12:">
-              <I>4</I>
-              <T>120508800</T>
-            </PCI>
-            <PCI t="GPS:Fe, Ni:30006.92:49673.57:25490.04:">
-              <I>1</I>
-              <T>120998144</T>
-            </PCI>
-            <PCI t="dsf">
-              <I>4</I>
-              <T>121038944</T>
-            </PCI>
-            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
-              <I>1</I>
-              <T>124172064</T>
-            </PCI>
-            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
-              <I>1</I>
-              <T>125864016</T>
-            </PCI>
-            <PCI t="GPS:Fe Mine:18573.85:54052.71:23186.26:">
-              <I>1</I>
-              <T>215461104</T>
-            </PCI>
-          </Chat>
-          <ID>144115188075855876</ID>
-        </MyObjectBuilder_PlayerChatHistory>
-      </PlayerChatHistory>
-      <GlobalChatHistory>
-        <Chat>
-          <GCI t="boroda">
-            <I>1</I>
-          </GCI>
-          <GCI t="GPS:Crash #3:15859.89:55701.84:21573.52:">
-            <I>1</I>
-          </GCI>
-        </Chat>
-      </GlobalChatHistory>
-    </MyObjectBuilder_ChatHistory>
-    <MyObjectBuilder_ChatHistory>
-      <IdentityId>144115188075855876</IdentityId>
-      <PlayerChatHistory>
-        <MyObjectBuilder_PlayerChatHistory>
-          <Chat>
-            <PCI t="GPS:AdYa #1:19314.38:35454.22:48008.35:">
-              <I>1</I>
-              <T>641936</T>
-            </PCI>
-            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
-              <I>1</I>
-              <T>88043520</T>
-            </PCI>
-            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
-              <I>1</I>
-              <T>89433424</T>
-            </PCI>
-            <PCI t="GPS:Au Mine:16318.53:55739.04:21541.39:">
-              <I>1</I>
-              <T>120506704</T>
-            </PCI>
-            <PCI t="GPS:ALVO #1:17213.67:55345.35:21951.12:">
-              <I>4</I>
-              <T>120508800</T>
-            </PCI>
-            <PCI t="GPS:Fe, Ni:30006.92:49673.57:25490.04:">
-              <I>1</I>
-              <T>120998144</T>
-            </PCI>
-            <PCI t="dsf">
-              <I>4</I>
-              <T>121038944</T>
-            </PCI>
-            <PCI t="GPS:Fe, Au:18748.92:53984.36:23167.34:">
-              <I>1</I>
-              <T>124172064</T>
-            </PCI>
-            <PCI t="GPS:Ur Mine:19621.01:54015.8:22420.02:">
-              <I>1</I>
-              <T>125864016</T>
-            </PCI>
-            <PCI t="GPS:Fe Mine:18573.85:54052.71:23186.26:">
-              <I>1</I>
-              <T>215461104</T>
-            </PCI>
-          </Chat>
-          <ID>144115188075855873</ID>
-        </MyObjectBuilder_PlayerChatHistory>
-      </PlayerChatHistory>
-      <GlobalChatHistory>
-        <Chat>
-          <GCI t="dsfd">
-            <I>4</I>
-          </GCI>
-          <GCI t="GPS:Crash #3:15859.89:55701.84:21573.52:">
-            <I>1</I>
-          </GCI>
-        </Chat>
-      </GlobalChatHistory>
-    </MyObjectBuilder_ChatHistory>
-  </ChatHistory>
+  <ChatHistory />
   <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855874</long>
+    <long>144115188075855875</long>
+    <long>144115188075855876</long>
+    <long>144115188075855877</long>
+    <long>144115188075855878</long>
     <long>144115188075855879</long>
+    <long>144115188075855880</long>
+    <long>144115188075855881</long>
+    <long>144115188075855882</long>
+    <long>144115188075855883</long>
+    <long>144115188075855884</long>
+    <long>144115188075855885</long>
+    <long>144115188075855887</long>
   </NonPlayerIdentities>
   <Gps>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">144115188075855873</Key>
+        <Key xsi:type="xsd:long">144115188075855886</Key>
         <Value xsi:type="MyObjectBuilder_Gps">
           <Entries>
-            <Entry>
-              <name>Ur Mine</name>
-              <description>Current position</description>
-              <coords>
-                <X>19621.01</X>
-                <Y>54015.8</Y>
-                <Z>22420.02</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Ag Mine</name>
-              <description>Current position</description>
-              <coords>
-                <X>16318.53</X>
-                <Y>55739.04</Y>
-                <Z>21541.39</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Crash #1</name>
-              <description>New from private comms</description>
-              <coords>
-                <X>17213.67</X>
-                <Y>55345.35</Y>
-                <Z>21951.12</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Fe, Ni</name>
-              <description>Current position</description>
-              <coords>
-                <X>30006.92</X>
-                <Y>49673.57</Y>
-                <Z>25490.04</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Crash #2</name>
-              <description>Current position</description>
-              <coords>
-                <X>17653.45</X>
-                <Y>54648.84</Y>
-                <Z>22839.06</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Crash #3</name>
-              <description>Current position</description>
-              <coords>
-                <X>15859.89</X>
-                <Y>55701.84</Y>
-                <Z>21573.52</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
             <Entry>
               <name>Body Location</name>
               <description>Last known body location</description>
               <coords>
-                <X>20838.29</X>
-                <Y>53753.36</Y>
-                <Z>20391.56</Z>
+                <X>-8137.97</X>
+                <Y>-3471.25</Y>
+                <Z>17936.56</Z>
               </coords>
               <isFinal>true</isFinal>
               <showOnHud>true</showOnHud>
               <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Fe Mine</name>
-              <description>Current position</description>
-              <coords>
-                <X>18573.85</X>
-                <Y>54052.71</Y>
-                <Z>23186.26</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-          </Entries>
-        </Value>
-      </item>
-      <item>
-        <Key xsi:type="xsd:long">144115188075855876</Key>
-        <Value xsi:type="MyObjectBuilder_Gps">
-          <Entries>
-            <Entry>
-              <name>Crash #1</name>
-              <description>Current position</description>
-              <coords>
-                <X>17213.67</X>
-                <Y>55345.35</Y>
-                <Z>21951.12</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Ag Mine</name>
-              <description>New from private comms</description>
-              <coords>
-                <X>16318.53</X>
-                <Y>55739.04</Y>
-                <Z>21541.39</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Fe, Ni</name>
-              <description>New from private comms</description>
-              <coords>
-                <X>30006.92</X>
-                <Y>49673.57</Y>
-                <Z>25490.04</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Body location</name>
-              <description>Last known body location</description>
-              <coords>
-                <X>21423.49</X>
-                <Y>54395.21</Y>
-                <Z>21183.04</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Body Location</name>
-              <description>Last known body location</description>
-              <coords>
-                <X>21099.51</X>
-                <Y>54018.91</Y>
-                <Z>20557.2</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
-            </Entry>
-            <Entry>
-              <name>Fe Mine</name>
-              <description>New from private comms</description>
-              <coords>
-                <X>18573.85</X>
-                <Y>54052.71</Y>
-                <Z>23186.26</Z>
-              </coords>
-              <isFinal>true</isFinal>
-              <showOnHud>true</showOnHud>
-              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
             </Entry>
           </Entries>
         </Value>
@@ -1971,79 +1447,236 @@
     </dictionary>
   </Gps>
   <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_LocalizationSessionComponent">
+      <AdditionalPaths />
+      <CampaignPaths />
+      <CampaignModFolderName />
+      <Language>English</Language>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SharedStorageComponent">
+      <ExistingFieldsAndStaticAttribute>
+        <dictionary />
+      </ExistingFieldsAndStaticAttribute>
+      <BoolStorage>
+        <dictionary />
+      </BoolStorage>
+      <IntStorage>
+        <dictionary />
+      </IntStorage>
+      <LongStorage>
+        <dictionary />
+      </LongStorage>
+      <StringStorage>
+        <dictionary />
+      </StringStorage>
+      <FloatStorage>
+        <dictionary />
+      </FloatStorage>
+      <Vector3DStorage>
+        <dictionary />
+      </Vector3DStorage>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_VisualScriptManagerSessionComponent">
+      <FirstRun>false</FirstRun>
+      <LevelScriptFiles xsi:nil="true" />
+      <StateMachines xsi:nil="true" />
+      <ScriptStateMachineManager>
+        <ActiveStateMachines />
+      </ScriptStateMachineManager>
+      <Questlog>
+        <LineData />
+        <Title />
+        <Visible>false</Visible>
+      </Questlog>
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
-      <SpawnInfos>
-        <Info X="21092.419097672664" Y="54020.347598684573" Z="20575.707482106311" S="35241" A="44665" />
-      </SpawnInfos>
+      <SpawnInfos />
       <TimeoutInfos />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CampaignSessionComponent">
+      <IsVanilla>false</IsVanilla>
+      <Mod />
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>119213</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>23665</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
-      <LastCoordSysId>35</LastCoordSysId>
+      <LastCoordSysId>2</LastCoordSysId>
       <CoordSystems />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
-      <BaseSunDirection x="0.587417245" y="0" z="-0.80928427" />
-      <SunSpeed>213.757477</SunSpeed>
+      <BaseSunDirection x="0" y="0" z="1" />
     </MyObjectBuilder_SessionComponent>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CutsceneSessionComponent">
+      <Cutscenes />
+      <VoxelPrecachingWaypointNames />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentTrash">
+      <RemovalPaused>false</RemovalPaused>
+      <RemovalInterval>10</RemovalInterval>
+      <TrashOperation>1</TrashOperation>
+      <RemovalSettings>
+        <Flags>0</Flags>
+        <BlockCountThreshold>0</BlockCountThreshold>
+        <PlayerDistanceThreshold>0</PlayerDistanceThreshold>
+      </RemovalSettings>
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentResearch">
+      <DeserializeRequiredResearches>false</DeserializeRequiredResearches>
+      <WhitelistMode>false</WhitelistMode>
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
       <MarkedAreas>
         <EmptyArea>
           <Position>
-            <X>0.5</X>
-            <Y>0.5</Y>
-            <Z>0.5</Z>
+            <X>-16953.5</X>
+            <Y>113111.5</Y>
+            <Z>705795.5</Z>
           </Position>
-          <Radius>67200</Radius>
+          <Radius>51912</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>16384.5</X>
-            <Y>136384.5</Y>
-            <Z>-113615.5</Z>
+            <X>1065833.5</X>
+            <Y>-391610.5</Y>
+            <Z>-3674582.5</Z>
+          </Position>
+          <Radius>46968</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>1824841.5</X>
+            <Y>-364820.5</Y>
+            <Z>-5043357.5</Z>
+          </Position>
+          <Radius>27810</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>353484.5</X>
+            <Y>-114590.5</Y>
+            <Z>-861526.5</Z>
+          </Position>
+          <Radius>60461</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-817009.5</X>
+            <Y>-54648.5</Y>
+            <Z>5043358.5</Z>
+          </Position>
+          <Radius>515000</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>638077.5</X>
+            <Y>91486.5</Y>
+            <Z>-2248586.5</Z>
+          </Position>
+          <Radius>48822</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2370771.5</X>
+            <Y>-307504.5</Y>
+            <Z>8334984.5</Z>
+          </Position>
+          <Radius>395520</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2828705.5</X>
+            <Y>473977.5</Y>
+            <Z>11890720.5</Z>
+          </Position>
+          <Radius>48822</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-3080905.7637264072</X>
+            <Y>-320892.4734351185</Y>
+            <Z>8541797.8286098875</Z>
+          </Position>
+          <Radius>30904.12</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-1736444.9072087619</X>
+            <Y>-153145.9162229806</Y>
+            <Z>4744340.852408899</Z>
+          </Position>
+          <Radius>23715.75</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>14053.879371589959</X>
+            <Y>-97931.865170987629</Y>
+            <Z>5540751.6895633293</Z>
+          </Position>
+          <Radius>16491.8457</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-1852224.6936183618</X>
+            <Y>220511.8900702266</Y>
+            <Z>8407304.5348835234</Z>
+          </Position>
+          <Radius>15475.75</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-26261.654985213885</X>
+            <Y>-662018.40332069818</Y>
+            <Z>4854767.80730291</Z>
+          </Position>
+          <Radius>11847.5752</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2174694.5472880281</X>
+            <Y>-787710.0159460326</Y>
+            <Z>7839706.984243107</Z>
+          </Position>
+          <Radius>12363.6055</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-956592.43775446492</X>
+            <Y>262853.73195627419</Y>
+            <Z>5932942.75313126</Z>
+          </Position>
+          <Radius>14943.7549</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>726337.21858228755</X>
+            <Y>30959.044655946629</Y>
+            <Z>-2280945.9214652427</Z>
           </Position>
           <Radius>9785</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>131072.5</X>
-            <Y>131072.5</Y>
-            <Z>5731072.5</Z>
+            <X>-1214912.6226388363</X>
+            <Y>-563662.50126393931</Y>
+            <Z>4401302.29512978</Z>
           </Position>
-          <Radius>67200</Radius>
+          <Radius>17507.94</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>36384.5</X>
-            <Y>226384.5</Y>
-            <Z>5796384.5</Z>
+            <X>206745.71391250979</X>
+            <Y>-84238.643346727869</Y>
+            <Z>-869992.45259635767</Z>
           </Position>
-          <Radius>9785</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>1031072.5</X>
-            <Y>131072.5</Y>
-            <Z>1631072.5</Z>
-          </Position>
-          <Radius>67200</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>916384.5</X>
-            <Y>16384.5</Y>
-            <Z>1616384.5</Z>
-          </Position>
-          <Radius>10070</Radius>
+          <Radius>11847.5752</Radius>
         </EmptyArea>
       </MarkedAreas>
+      <DeletedAreas />
       <ExistingObjectsSeeds />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
@@ -2060,7 +1693,7 @@
       <dictionary>
         <item>
           <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
+            <stm>76561198068654781</stm>
             <ser>0</ser>
           </Key>
           <Value xsi:type="MyObjectBuilder_MissionTriggers">
@@ -2084,896 +1717,8 @@
         </item>
         <item>
           <Key xsi:type="pair">
-            <stm>76561198121441370</stm>
-            <ser>0</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
             <stm>76561198044986481</stm>
             <ser>0</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>1</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>2</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>3</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>4</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>5</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>6</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>7</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>8</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>9</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>10</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>11</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>12</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>13</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>14</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>15</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>16</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>17</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>18</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>19</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>20</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>21</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>22</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>23</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>24</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>25</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>26</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>27</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>28</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>29</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>30</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>31</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>32</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>33</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>34</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>35</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>36</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>37</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>38</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>39</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>40</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>41</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>42</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>43</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>44</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>45</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>46</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>47</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>48</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>49</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>50</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>51</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>52</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>53</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>54</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>55</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>56</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>57</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>58</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>59</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>60</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>61</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>62</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>63</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>64</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>65</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>66</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>67</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>68</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>69</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>70</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>71</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>72</ser>
-          </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
-            <WinTriggers />
-            <LoseTriggers />
-            <Won>false</Won>
-            <Lost>false</Lost>
-          </Value>
-        </item>
-        <item>
-          <Key xsi:type="pair">
-            <stm>76561198029540714</stm>
-            <ser>73</ser>
           </Key>
           <Value xsi:type="MyObjectBuilder_MissionTriggers">
             <WinTriggers />
@@ -2985,5 +1730,6 @@
       </dictionary>
     </Triggers>
   </MissionTriggers>
+  <CustomSkybox />
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
