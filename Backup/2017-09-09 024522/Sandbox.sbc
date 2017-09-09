@@ -1,0 +1,3137 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>428046080000</ElapsedGameTime>
+  <SessionName>AA World</SessionName>
+  <SpectatorPosition>
+    <Position x="325615.34650384524" y="-95135.401445800744" z="-907613.44610359636" />
+    <Forward x="-0.577350259" y="-0.577350259" z="-0.577350259" />
+    <Up x="-0.4082483" y="0.8164966" z="-0.4082483" />
+    <Orientation>
+      <X>-0.279848129</X>
+      <Y>0.364705175</Y>
+      <Z>0.1159169</Z>
+      <W>0.880476236</W>
+    </Orientation>
+  </SpectatorPosition>
+  <SpectatorIsLightOn>false</SpectatorIsLightOn>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>135567470188806952</CameraEntity>
+  <ControlledObject>135567470188806952</ControlledObject>
+  <Password />
+  <Description>The New World</Description>
+  <LastSaveTime>2017-09-09T02:45:21.6943561+03:00</LastSaveTime>
+  <SpectatorDistance>16.452301</SpectatorDistance>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot>0</SelectedSlot>
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_2_Large" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_1_Large" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyDiagonal" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalTip" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>9</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>10</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>11</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>12</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>13</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>14</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor04" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>15</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>16</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>17</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+        </Data>
+      </Slot>
+    </Slots>
+  </CharacterToolbar>
+  <ControlledEntities>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">135567470188806952</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198029540714</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+    </dictionary>
+  </ControlledEntities>
+  <Settings xsi:type="MyObjectBuilder_SessionSettings">
+    <GameMode>Survival</GameMode>
+    <InventorySizeMultiplier>10</InventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
+    <OnlineMode>FRIENDS</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>256</MaxFloatingObjects>
+    <MaxBackupSaves>5</MaxBackupSaves>
+    <MaxGridSize>50000</MaxGridSize>
+    <MaxBlocksPerPlayer>100000</MaxBlocksPerPlayer>
+    <EnableBlockLimits>true</EnableBlockLimits>
+    <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>true</AutoHealing>
+    <EnableCopyPaste>false</EnableCopyPaste>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>true</ThrusterDamage>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <EnableSpectator>false</EnableSpectator>
+    <WorldSizeKm>0</WorldSizeKm>
+    <RespawnShipDelete>true</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+    <WelderSpeedMultiplier>2</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>2</GrinderSpeedMultiplier>
+    <RealisticSound>true</RealisticSound>
+    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <PermanentDeath>false</PermanentDeath>
+    <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <EnableSaving>true</EnableSaving>
+    <EnableRespawnScreen>true</EnableRespawnScreen>
+    <InfiniteAmmo>false</InfiniteAmmo>
+    <EnableContainerDrops>true</EnableContainerDrops>
+    <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
+    <ProceduralDensity>0.25</ProceduralDensity>
+    <ProceduralSeed>841244236</ProceduralSeed>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <EnableIngameScripts>true</EnableIngameScripts>
+    <ViewDistance>20000</ViewDistance>
+    <FloraDensity>20</FloraDensity>
+    <EnableToolShake>true</EnableToolShake>
+    <VoxelGeneratorVersion>2</VoxelGeneratorVersion>
+    <EnableOxygen>true</EnableOxygen>
+    <EnableOxygenPressurization>true</EnableOxygenPressurization>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableEncounters>true</EnableEncounters>
+    <EnableFlora>true</EnableFlora>
+    <EnableConvertToStation>true</EnableConvertToStation>
+    <StationVoxelSupport>false</StationVoxelSupport>
+    <EnableSunRotation>true</EnableSunRotation>
+    <EnableRespawnShips>true</EnableRespawnShips>
+    <ScenarioEditMode>false</ScenarioEditMode>
+    <Scenario>false</Scenario>
+    <CanJoinRunning>false</CanJoinRunning>
+    <PhysicsIterations>4</PhysicsIterations>
+    <SunRotationIntervalMinutes>339.968536</SunRotationIntervalMinutes>
+    <EnableJetpack>true</EnableJetpack>
+    <SpawnWithTools>true</SpawnWithTools>
+    <StartInRespawnScreen>true</StartInRespawnScreen>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <MaxDrones>20</MaxDrones>
+    <EnableDrones>true</EnableDrones>
+    <EnableWolfs>true</EnableWolfs>
+    <EnableSpiders>true</EnableSpiders>
+    <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <BlockTypeLimits>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:string">Assembler</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Refinery</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Blast Furnace</Key>
+          <Value xsi:type="xsd:short">24</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Antenna</Key>
+          <Value xsi:type="xsd:short">30</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">Drill</Key>
+          <Value xsi:type="xsd:short">30</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">InteriorTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">GatlingTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MissileTurret</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ExtendedPistonBase</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MotorStator</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">MotorAdvancedStator</Key>
+          <Value xsi:type="xsd:short">50</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ShipWelder</Key>
+          <Value xsi:type="xsd:short">100</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:string">ShipGrinder</Key>
+          <Value xsi:type="xsd:short">150</Value>
+        </item>
+      </dictionary>
+    </BlockTypeLimits>
+    <EnableScripterRole>false</EnableScripterRole>
+    <MinDropContainerRespawnTime>5</MinDropContainerRespawnTime>
+    <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
+  </Settings>
+  <ScriptManagerData>
+    <variables>
+      <dictionary />
+    </variables>
+  </ScriptManagerData>
+  <AppVersion>1183301</AppVersion>
+  <Factions>
+    <Factions>
+      <MyObjectBuilder_Faction>
+        <FactionId>286206777291767696</FactionId>
+        <Tag>SPRT</Tag>
+        <Name>{LOCG:DisplayName_Faction_SpacePirates_Translation}</Name>
+        <Description>Hostile. All bandits, outlaws and other criminal scum recognized as "space pirates". Highly agressive.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855874</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>270301116718199005</FactionId>
+        <Tag>CIVL</Tag>
+        <Name>Civilian</Name>
+        <Description>Peaceful. Every loner or space traveller protected by Space Police is recognized as "civilian".</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855875</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>270745735668751897</FactionId>
+        <Tag>UCMF</Tag>
+        <Name>Military Forces</Name>
+        <Description>United Colonies Military Forces. Peaceful, but hostile if called as reinforcements, military objects are restricted and tresspassing will make them hostile.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855876</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>264987733354387876</FactionId>
+        <Tag>SEPD</Tag>
+        <Name>Space Police</Name>
+        <Description>Peaceful. Space law enforcement officers. Hostile when called by distress signals.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855877</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>221623937498687055</FactionId>
+        <Tag>ISTG</Tag>
+        <Name>Independent Space Traders Guild</Name>
+        <Description>Peaceful. Lone independent traders united into one faction for better coordination, their ships and rare stations are ready to trade with everyone.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855878</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>243136374998392023</FactionId>
+        <Tag>MMEC</Tag>
+        <Name>Medveds Military Elite Corporation</Name>
+        <Description>Neutral, but hostile if encountered during their operations. Locations of MMEC stations are currently unknown.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855879</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>259588791793557940</FactionId>
+        <Tag>AMPH</Tag>
+        <Name>Amphion Corp.</Name>
+        <Description>Peaceful. The Amphion Mining and Militia Corporation provides low-cost, maneuverable and utilitarian vessels. They prefer quick expansion with many small outposts and waystations.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855880</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>286337060434067459</FactionId>
+        <Tag>KUSS</Tag>
+        <Name>KUS Shipyards</Name>
+        <Description>Peaceful. Small industrialized corporation, going for quality, not quantity, thus they own just a few, but large industrial stations and ships.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855881</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>228482881141127555</FactionId>
+        <Tag>HS</Tag>
+        <Name>Hyperion Systems</Name>
+        <Description>Peaceful. Multinational defence, security and aerospace company. It's merchants are willing to trade with anyone, but are quick to anger if provoked.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855882</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>275020978529975242</FactionId>
+        <Tag>MA-I</Tag>
+        <Name>Mahriane Industries</Name>
+        <Description>Peaceful. Primarily specialzing on trading, they established wide network of trading stations across the system. Funded enough to hire huge battleships, to protect their interests.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855883</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>217636119612802361</FactionId>
+        <Tag>EXMC</Tag>
+        <Name>Extraterrestrial Mining Corporation</Name>
+        <Description>Peaceful. Specialized on resource gathering, the EXMC stations are found throughout the system, trading mostly resources and components.
+</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855884</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>267680684401783692</FactionId>
+        <Tag>IMDC</Tag>
+        <Name>Interstellar Mining and Defence Corp.</Name>
+        <Description>Peaceful. The Interstellar Mining and Defense Corporation is a multinational militarized enterprise, constructing ships and vehicles. They also have few tradiong outposts, yet other stations are not public.</Description>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855885</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>222170707521062817</FactionId>
+        <Tag>AAT</Tag>
+        <Name>2A Team</Name>
+        <Description />
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855873</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855888</PlayerId>
+            <IsLeader>false</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855889</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855891</PlayerId>
+            <IsLeader>false</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>true</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+    </Factions>
+    <Players>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855874</Key>
+          <Value xsi:type="xsd:long">286206777291767696</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855875</Key>
+          <Value xsi:type="xsd:long">270301116718199005</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855876</Key>
+          <Value xsi:type="xsd:long">270745735668751897</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855877</Key>
+          <Value xsi:type="xsd:long">264987733354387876</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855878</Key>
+          <Value xsi:type="xsd:long">221623937498687055</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855879</Key>
+          <Value xsi:type="xsd:long">243136374998392023</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855880</Key>
+          <Value xsi:type="xsd:long">259588791793557940</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855881</Key>
+          <Value xsi:type="xsd:long">286337060434067459</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855882</Key>
+          <Value xsi:type="xsd:long">228482881141127555</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855883</Key>
+          <Value xsi:type="xsd:long">275020978529975242</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855884</Key>
+          <Value xsi:type="xsd:long">217636119612802361</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855885</Key>
+          <Value xsi:type="xsd:long">267680684401783692</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855873</Key>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855888</Key>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855889</Key>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855891</Key>
+          <Value xsi:type="xsd:long">222170707521062817</Value>
+        </item>
+      </dictionary>
+    </Players>
+    <Relations>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>270745735668751897</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>264987733354387876</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>270301116718199005</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>264987733354387876</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>270745735668751897</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>221623937498687055</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>264987733354387876</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>259588791793557940</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>221623937498687055</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286337060434067459</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>259588791793557940</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228482881141127555</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>286337060434067459</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>275020978529975242</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>228482881141127555</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>217636119612802361</FactionId1>
+        <FactionId2>275020978529975242</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>275020978529975242</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>267680684401783692</FactionId1>
+        <FactionId2>217636119612802361</FactionId2>
+        <Relation>Neutral</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>286206777291767696</FactionId1>
+        <FactionId2>222170707521062817</FactionId2>
+        <Relation>Enemies</Relation>
+      </MyObjectBuilder_FactionRelation>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>243136374998392023</FactionId1>
+        <FactionId2>222170707521062817</FactionId2>
+        <Relation>Enemies</Relation>
+      </MyObjectBuilder_FactionRelation>
+    </Relations>
+    <Requests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>270301116718199005</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>270745735668751897</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>264987733354387876</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>221623937498687055</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>259588791793557940</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>286337060434067459</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>228482881141127555</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>275020978529975242</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>217636119612802361</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+      <MyObjectBuilder_FactionRequests>
+        <FactionId>267680684401783692</FactionId>
+        <FactionRequests>
+          <long>222170707521062817</long>
+        </FactionRequests>
+      </MyObjectBuilder_FactionRequests>
+    </Requests>
+  </Factions>
+  <Mods>
+    <ModItem>
+      <Name>401530181.sbm</Name>
+      <PublishedFileId>401530181</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940950366.sbm</Name>
+      <PublishedFileId>940950366</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940852605.sbm</Name>
+      <PublishedFileId>940852605</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>917662028.sbm</Name>
+      <PublishedFileId>917662028</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>878631000.sbm</Name>
+      <PublishedFileId>878631000</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>884550487.sbm</Name>
+      <PublishedFileId>884550487</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>913854484.sbm</Name>
+      <PublishedFileId>913854484</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>943687621.sbm</Name>
+      <PublishedFileId>943687621</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>941451759.sbm</Name>
+      <PublishedFileId>941451759</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>295393908.sbm</Name>
+      <PublishedFileId>295393908</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>295394554.sbm</Name>
+      <PublishedFileId>295394554</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>298550266.sbm</Name>
+      <PublishedFileId>298550266</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>306137508.sbm</Name>
+      <PublishedFileId>306137508</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>309057836.sbm</Name>
+      <PublishedFileId>309057836</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>392743762.sbm</Name>
+      <PublishedFileId>392743762</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>412134393.sbm</Name>
+      <PublishedFileId>412134393</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>412986157.sbm</Name>
+      <PublishedFileId>412986157</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>454075333.sbm</Name>
+      <PublishedFileId>454075333</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>531659576.sbm</Name>
+      <PublishedFileId>531659576</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>541493993.sbm</Name>
+      <PublishedFileId>541493993</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>577318708.sbm</Name>
+      <PublishedFileId>577318708</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>643820962.sbm</Name>
+      <PublishedFileId>643820962</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>649590538.sbm</Name>
+      <PublishedFileId>649590538</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>910410608.sbm</Name>
+      <PublishedFileId>910410608</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>960597257.sbm</Name>
+      <PublishedFileId>960597257</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>973526550.sbm</Name>
+      <PublishedFileId>973526550</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>396679430.sbm</Name>
+      <PublishedFileId>396679430</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>415051704.sbm</Name>
+      <PublishedFileId>415051704</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>416810412.sbm</Name>
+      <PublishedFileId>416810412</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>479115724.sbm</Name>
+      <PublishedFileId>479115724</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>532433982.sbm</Name>
+      <PublishedFileId>532433982</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>559347506.sbm</Name>
+      <PublishedFileId>559347506</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>583415747.sbm</Name>
+      <PublishedFileId>583415747</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>677790017.sbm</Name>
+      <PublishedFileId>677790017</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>785804182.sbm</Name>
+      <PublishedFileId>785804182</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>801185519.sbm</Name>
+      <PublishedFileId>801185519</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>971228947.sbm</Name>
+      <PublishedFileId>971228947</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>973528334.sbm</Name>
+      <PublishedFileId>973528334</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>1117772678.sbm</Name>
+      <PublishedFileId>1117772678</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>445996030.sbm</Name>
+      <PublishedFileId>445996030</PublishedFileId>
+    </ModItem>
+  </Mods>
+  <PromotedUsers>
+    <dictionary />
+  </PromotedUsers>
+  <CreativeTools />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EarthEasyStart" />
+  <RespawnCooldowns />
+  <Identities>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855873</IdentityId>
+      <DisplayName>AdYa</DisplayName>
+      <CharacterEntityId>135567470188806952</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0.272222221" y="0.4" z="1" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:57.6414197+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855874</IdentityId>
+      <DisplayName>Space Pirates</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:58.1859092+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855875</IdentityId>
+      <DisplayName>Civilian</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855876</IdentityId>
+      <DisplayName>Military Forces</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855877</IdentityId>
+      <DisplayName>Police</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855878</IdentityId>
+      <DisplayName>Traders</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855879</IdentityId>
+      <DisplayName>MMEC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855880</IdentityId>
+      <DisplayName>Amphion Corp.</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855881</IdentityId>
+      <DisplayName>KUS Shipyards</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855882</IdentityId>
+      <DisplayName>Hyperion Systems</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855883</IdentityId>
+      <DisplayName>Mahriane Industries</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855884</IdentityId>
+      <DisplayName>EXMC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855885</IdentityId>
+      <DisplayName>IMDC</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855886</IdentityId>
+      <DisplayName>ALVO</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0.575" y="0.09" z="1" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-03T22:21:58.3871803+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855887</IdentityId>
+      <DisplayName>AAT NPC9750</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855888</IdentityId>
+      <DisplayName>AAT NPC5150</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:01:44.2884447+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855889</IdentityId>
+      <DisplayName>Co_okie</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <Model>Tungsten</Model>
+      <ColorMask x="0.5638889" y="1" z="1" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:05:34.6029027+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855890</IdentityId>
+      <DisplayName>AdYa</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="-0.96" z="-0.5" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-06T23:27:51.7809661+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855891</IdentityId>
+      <DisplayName>ALVO</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0.333" y="-0.33" z="-0.05" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2017-09-08T23:04:59.8424209+03:00</LastLoginTime>
+    </MyObjectBuilder_Identity>
+  </Identities>
+  <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
+  <AllPlayersData>
+    <dictionary>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198029540714</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>AdYa</DisplayName>
+          <IdentityId>144115188075855873</IdentityId>
+          <Connected>true</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_2_Large" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_1_Large" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyDiagonal" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalTip" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>9</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>10</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>11</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>12</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>13</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>14</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor04" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>15</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>16</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>17</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>25.064120659469285</Distance>
+            <HeadAngle x="0" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="118333162308170350">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>53.456392757082632</Distance>
+              <HeadAngle x="8.858789" y="261.117" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="113516328255177419">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>110.84719363977172</Distance>
+              <HeadAngle x="15.5392065" y="-39.64676" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="82496322455755816">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>16.452300762580592</Distance>
+              <HeadAngle x="47.1985245" y="147.840149" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.81</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198044986481</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>ALVO</DisplayName>
+          <IdentityId>144115188075855891</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor32xb" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor07" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_AdvancedDoor" Subtype="LargeRoundedBlinds_WithGlass_SEM4" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>10</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Large_Letter_A" />
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>25.064120659469285</Distance>
+            <HeadAngle x="0" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="113516328255177419">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>26.161520958041788</Distance>
+              <HeadAngle x="-12.4894609" y="211.159" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="82496322455755816">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>110.84719363977172</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="118333162308170350">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>4.2026254924687478</Distance>
+              <HeadAngle x="-9.584933" y="-77.84126" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198121441370</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>Co_okie</DisplayName>
+          <IdentityId>144115188075855889</IdentityId>
+          <Connected>false</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>25.064120659469285</Distance>
+            <HeadAngle x="0" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="82496322455755816">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>58.509105682373054</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.799999952</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
+        </Value>
+      </item>
+    </dictionary>
+  </AllPlayersData>
+  <ChatHistory>
+    <MyObjectBuilder_ChatHistory>
+      <IdentityId>144115188075855873</IdentityId>
+      <PlayerChatHistory>
+        <MyObjectBuilder_PlayerChatHistory>
+          <Chat>
+            <PCI t="GPS:Unknown signal 1:264192.140983844:-63044.3175870308:-990510.23274847:">
+              <I>1</I>
+              <T>5256560</T>
+            </PCI>
+            <PCI t="GPS:ALVO #1:252933.27:-62102.95:-981020.06:">
+              <I>14</I>
+              <T>5727824</T>
+            </PCI>
+            <PCI t="GPS:Ship:265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>6270336</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ice:274709.81:-53790.59:-987656.69:">
+              <I>1</I>
+              <T>10906528</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ni (Initial):265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>11112656</T>
+            </PCI>
+            <PCI t="GPS:Fe, Mg, Ice:280448.28:-52164.91:-990888.31:">
+              <I>1</I>
+              <T>11453808</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ice:274709.81:-53790.59:-987656.69:">
+              <I>1</I>
+              <T>11513232</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ni (Initial):265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>11519440</T>
+            </PCI>
+            <PCI t="GPS:ALVO #1:280055.28:-53294.65:-995121.81:">
+              <I>14</I>
+              <T>12739712</T>
+            </PCI>
+          </Chat>
+          <ID>144115188075855886</ID>
+        </MyObjectBuilder_PlayerChatHistory>
+      </PlayerChatHistory>
+      <GlobalChatHistory>
+        <Chat>
+          <GCI t="GPS:AdYa #1:280063.22:-53289.59:-995113.5:">
+            <I>1</I>
+          </GCI>
+          <GCI t="GPS:Fe, Ice:274709.81:-53790.59:-987656.69:">
+            <I>1</I>
+          </GCI>
+          <GCI t="GPS:Fe, Mg, Ice:280448.28:-52164.91:-990888.31:">
+            <I>1</I>
+          </GCI>
+          <GCI t="GPS:Fe, Ni (Initial):265197.12:-61745.53:-987343.12:">
+            <I>1</I>
+          </GCI>
+          <GCI t="GPS:Fe:330192.34:-93293.05:-910059.5:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ice:327951.41:-94762.41:-910266.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ice:328660.47:-94140.48:-909884.69:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327596.56:-95467.49:-910576.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327858.88:-95533.9:-910680:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Fe:329047.56:-93415.39:-909506.75:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ni:329000.44:-93383.98:-909479.38:">
+            <I>17</I>
+          </GCI>
+        </Chat>
+      </GlobalChatHistory>
+    </MyObjectBuilder_ChatHistory>
+    <MyObjectBuilder_ChatHistory>
+      <IdentityId>144115188075855886</IdentityId>
+      <PlayerChatHistory>
+        <MyObjectBuilder_PlayerChatHistory>
+          <Chat>
+            <PCI t="GPS:Unknown signal 1:264192.140983844:-63044.3175870308:-990510.23274847:">
+              <I>1</I>
+              <T>5256560</T>
+            </PCI>
+            <PCI t="GPS:ALVO #1:252933.27:-62102.95:-981020.06:">
+              <I>14</I>
+              <T>5727824</T>
+            </PCI>
+            <PCI t="GPS:Ship:265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>6270336</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ice:274709.81:-53790.59:-987656.69:">
+              <I>1</I>
+              <T>10906528</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ni (Initial):265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>11112656</T>
+            </PCI>
+            <PCI t="GPS:Fe, Mg, Ice:280448.28:-52164.91:-990888.31:">
+              <I>1</I>
+              <T>11453808</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ice:274709.81:-53790.59:-987656.69:">
+              <I>1</I>
+              <T>11513232</T>
+            </PCI>
+            <PCI t="GPS:Fe, Ni (Initial):265197.12:-61745.53:-987343.12:">
+              <I>1</I>
+              <T>11519440</T>
+            </PCI>
+            <PCI t="GPS:ALVO #1:280055.28:-53294.65:-995121.81:">
+              <I>14</I>
+              <T>12739712</T>
+            </PCI>
+          </Chat>
+          <ID>144115188075855873</ID>
+        </MyObjectBuilder_PlayerChatHistory>
+      </PlayerChatHistory>
+      <GlobalChatHistory>
+        <Chat>
+          <GCI t="GPS:ALVO #1:252933.27:-62102.95:-981020.06:">
+            <I>14</I>
+          </GCI>
+          <GCI t="GPS:ALVO #1:280055.28:-53294.65:-995121.81:">
+            <I>14</I>
+          </GCI>
+        </Chat>
+      </GlobalChatHistory>
+    </MyObjectBuilder_ChatHistory>
+    <MyObjectBuilder_ChatHistory>
+      <IdentityId>144115188075855890</IdentityId>
+      <PlayerChatHistory />
+      <GlobalChatHistory>
+        <Chat>
+          <GCI t="GPS:Landing:328879.28:-93311.29:-909394.81:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Fe:330192.34:-93293.05:-910059.5:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ice:327951.41:-94762.41:-910266.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ice:328660.47:-94140.48:-909884.69:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327596.56:-95467.49:-910576.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327858.88:-95533.9:-910680:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Fe:329047.56:-93415.39:-909506.75:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ni:329000.44:-93383.98:-909479.38:">
+            <I>17</I>
+          </GCI>
+        </Chat>
+      </GlobalChatHistory>
+    </MyObjectBuilder_ChatHistory>
+    <MyObjectBuilder_ChatHistory>
+      <IdentityId>144115188075855889</IdentityId>
+      <PlayerChatHistory />
+      <GlobalChatHistory>
+        <Chat>
+          <GCI t="GPS:Landing:328879.28:-93311.29:-909394.81:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Fe:330192.34:-93293.05:-910059.5:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ice:327951.41:-94762.41:-910266.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ice:328660.47:-94140.48:-909884.69:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327596.56:-95467.49:-910576.38:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Ni:327858.88:-95533.9:-910680:">
+            <I>18</I>
+          </GCI>
+          <GCI t="GPS:Fe:329047.56:-93415.39:-909506.75:">
+            <I>17</I>
+          </GCI>
+          <GCI t="GPS:Ni:329000.44:-93383.98:-909479.38:">
+            <I>17</I>
+          </GCI>
+        </Chat>
+      </GlobalChatHistory>
+    </MyObjectBuilder_ChatHistory>
+  </ChatHistory>
+  <FactionChatHistory />
+  <NonPlayerIdentities>
+    <long>144115188075855874</long>
+    <long>144115188075855875</long>
+    <long>144115188075855876</long>
+    <long>144115188075855877</long>
+    <long>144115188075855878</long>
+    <long>144115188075855879</long>
+    <long>144115188075855880</long>
+    <long>144115188075855881</long>
+    <long>144115188075855882</long>
+    <long>144115188075855883</long>
+    <long>144115188075855884</long>
+    <long>144115188075855885</long>
+    <long>144115188075855887</long>
+    <long>144115188075855888</long>
+  </NonPlayerIdentities>
+  <Gps>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855886</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>ALVO #1</name>
+              <description>Current position</description>
+              <coords>
+                <X>280055.28</X>
+                <Y>-53294.65</Y>
+                <Z>-995121.81</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe, Ni (Initial)</name>
+              <description>New from private comms</description>
+              <coords>
+                <X>265197.12</X>
+                <Y>-61745.53</Y>
+                <Z>-987343.12</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe, Ice</name>
+              <description>New from private comms</description>
+              <coords>
+                <X>274709.81</X>
+                <Y>-53790.59</Y>
+                <Z>-987656.69</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe, Mg, Ice</name>
+              <description>New from private comms</description>
+              <coords>
+                <X>280448.28</X>
+                <Y>-52164.91</Y>
+                <Z>-990888.31</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855873</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>Fe, Ice</name>
+              <description>Current position</description>
+              <coords>
+                <X>274709.81</X>
+                <Y>-53790.59</Y>
+                <Z>-987656.69</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe, Ni (Initial)</name>
+              <description>Current position</description>
+              <coords>
+                <X>265197.12</X>
+                <Y>-61745.53</Y>
+                <Z>-987343.12</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe, Mg, Ice</name>
+              <description>Current position</description>
+              <coords>
+                <X>280448.28</X>
+                <Y>-52164.91</Y>
+                <Z>-990888.31</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855889</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>Ice</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>327951.41</X>
+                <Y>-94762.41</Y>
+                <Z>-910266.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ice</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>328660.47</X>
+                <Y>-94140.48</Y>
+                <Z>-909884.69</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Landing</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>328879.28</X>
+                <Y>-93311.29</Y>
+                <Z>-909394.81</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe</name>
+              <description>Current position</description>
+              <coords>
+                <X>330192.34</X>
+                <Y>-93293.05</Y>
+                <Z>-910059.5</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ni</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>327596.56</X>
+                <Y>-95467.49</Y>
+                <Z>-910576.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ni</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>327858.88</X>
+                <Y>-95533.9</Y>
+                <Z>-910680</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Silicom</name>
+              <description>Current position</description>
+              <coords>
+                <X>329714.03</X>
+                <Y>-93857.12</Y>
+                <Z>-910056.19</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ni</name>
+              <description>Current position</description>
+              <coords>
+                <X>329000.44</X>
+                <Y>-93383.98</Y>
+                <Z>-909479.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe</name>
+              <description>Current position</description>
+              <coords>
+                <X>329047.56</X>
+                <Y>-93415.39</Y>
+                <Z>-909506.75</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Cobalt</name>
+              <description>Current position</description>
+              <coords>
+                <X>329128.91</X>
+                <Y>-93474.31</Y>
+                <Z>-909541.44</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Cobalt</name>
+              <description>Current position</description>
+              <coords>
+                <X>329206.91</X>
+                <Y>-93549.12</Y>
+                <Z>-909574.94</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe</name>
+              <description>Current position</description>
+              <coords>
+                <X>328873.22</X>
+                <Y>-93296.58</Y>
+                <Z>-909374.75</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855890</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>Ni</name>
+              <description>Current position</description>
+              <coords>
+                <X>327596.56</X>
+                <Y>-95467.49</Y>
+                <Z>-910576.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ni</name>
+              <description>Current position</description>
+              <coords>
+                <X>327858.88</X>
+                <Y>-95533.9</Y>
+                <Z>-910680</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Landing</name>
+              <description>Current position</description>
+              <coords>
+                <X>328879.28</X>
+                <Y>-93311.29</Y>
+                <Z>-909394.81</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>false</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ice</name>
+              <description>Current position</description>
+              <coords>
+                <X>327951.41</X>
+                <Y>-94762.41</Y>
+                <Z>-910266.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ice</name>
+              <description>Current position</description>
+              <coords>
+                <X>328660.47</X>
+                <Y>-94140.48</Y>
+                <Z>-909884.69</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Fe</name>
+              <description>New from broadcast</description>
+              <coords>
+                <X>330192.34</X>
+                <Y>-93293.05</Y>
+                <Z>-910059.5</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Body Location old</name>
+              <description>Last known body location</description>
+              <coords>
+                <X>328279.14</X>
+                <Y>-100295.02</Y>
+                <Z>-914431.58</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Silicom</name>
+              <description>By: Co_okie</description>
+              <coords>
+                <X>329714.03</X>
+                <Y>-93857.12</Y>
+                <Z>-910056.19</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Body Location</name>
+              <description>Last known body location</description>
+              <coords>
+                <X>326580.09</X>
+                <Y>-96519.91</Y>
+                <Z>-909446.02</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Pirated</name>
+              <description>Current position</description>
+              <coords>
+                <X>327857.19</X>
+                <Y>-96189.05</Y>
+                <Z>-911023.38</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Pirated #2</name>
+              <description>Current position</description>
+              <coords>
+                <X>325372.19</X>
+                <Y>-94931.23</Y>
+                <Z>-907516.81</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855891</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>Body Location</name>
+              <description>Last known body location</description>
+              <coords>
+                <X>325346.8</X>
+                <Y>-94858.79</Y>
+                <Z>-907465.87</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Unknown signal 65</name>
+              <description />
+              <coords>
+                <X>327045.172183824</X>
+                <Y>-99469.907061702863</Y>
+                <Z>-911282.12677735952</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>true</alwaysVisible>
+              <color>
+                <PackedValue>4281335725</PackedValue>
+                <X>173</X>
+                <Y>255</Y>
+                <Z>47</Z>
+                <R>173</R>
+                <G>255</G>
+                <B>47</B>
+                <A>255</A>
+              </color>
+              <entityId>141274573249071603</entityId>
+              <DisplayName>Unknown signal</DisplayName>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
+    </dictionary>
+  </Gps>
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_LocalizationSessionComponent">
+      <AdditionalPaths />
+      <CampaignPaths />
+      <CampaignModFolderName />
+      <Language>English</Language>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SharedStorageComponent">
+      <ExistingFieldsAndStaticAttribute>
+        <dictionary />
+      </ExistingFieldsAndStaticAttribute>
+      <BoolStorage>
+        <dictionary />
+      </BoolStorage>
+      <IntStorage>
+        <dictionary />
+      </IntStorage>
+      <LongStorage>
+        <dictionary />
+      </LongStorage>
+      <StringStorage>
+        <dictionary />
+      </StringStorage>
+      <FloatStorage>
+        <dictionary />
+      </FloatStorage>
+      <Vector3DStorage>
+        <dictionary />
+      </Vector3DStorage>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_VisualScriptManagerSessionComponent">
+      <FirstRun>false</FirstRun>
+      <LevelScriptFiles xsi:nil="true" />
+      <StateMachines xsi:nil="true" />
+      <ScriptStateMachineManager>
+        <ActiveStateMachines />
+      </ScriptStateMachineManager>
+      <Questlog>
+        <LineData />
+        <Title />
+        <Visible>false</Visible>
+      </Questlog>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
+      <SpawnInfos />
+      <TimeoutInfos />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CampaignSessionComponent">
+      <IsVanilla>false</IsVanilla>
+      <Mod />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
+      <TimeSinceLastEventInMs>58945</TimeSinceLastEventInMs>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
+      <LastCoordSysId>8</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
+      <BaseSunDirection x="0" y="0" z="1" />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentContainerDropSystem">
+      <Definition Type="MyObjectBuilder_ContainerDropSystemDefinition" Subtype="Default" />
+      <PlayerData>
+        <PlayerContainerData>
+          <PlayerId>144115188075855873</PlayerId>
+          <Timer>680</Timer>
+          <Active>true</Active>
+          <Competetive>false</Competetive>
+          <ContainerId>93146396752195488</ContainerId>
+        </PlayerContainerData>
+        <PlayerContainerData>
+          <PlayerId>144115188075855886</PlayerId>
+          <Timer>466</Timer>
+          <Active>true</Active>
+          <Competetive>true</Competetive>
+          <ContainerId>0</ContainerId>
+        </PlayerContainerData>
+        <PlayerContainerData>
+          <PlayerId>144115188075855889</PlayerId>
+          <Timer>709</Timer>
+          <Active>true</Active>
+          <Competetive>true</Competetive>
+          <ContainerId>137575785445027557</ContainerId>
+        </PlayerContainerData>
+        <PlayerContainerData>
+          <PlayerId>144115188075855890</PlayerId>
+          <Timer>50</Timer>
+          <Active>true</Active>
+          <Competetive>true</Competetive>
+          <ContainerId>0</ContainerId>
+        </PlayerContainerData>
+        <PlayerContainerData>
+          <PlayerId>144115188075855891</PlayerId>
+          <Timer>329</Timer>
+          <Active>false</Active>
+          <Competetive>false</Competetive>
+          <ContainerId>141274573249071603</ContainerId>
+        </PlayerContainerData>
+      </PlayerData>
+      <GPSForRemoval />
+      <EntitiesForRemoval>
+        <MyEntityForRemoval>
+          <TimeLeft>122</TimeLeft>
+          <EntityId>125030057269900044</EntityId>
+        </MyEntityForRemoval>
+      </EntitiesForRemoval>
+      <ContainerIdSmall>66</ContainerIdSmall>
+      <ContainerIdLarge>5</ContainerIdLarge>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CutsceneSessionComponent">
+      <Cutscenes />
+      <VoxelPrecachingWaypointNames />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentTrash">
+      <RemovalPaused>false</RemovalPaused>
+      <RemovalInterval>10</RemovalInterval>
+      <TrashOperation>1</TrashOperation>
+      <RemovalSettings>
+        <Flags>0</Flags>
+        <BlockCountThreshold>0</BlockCountThreshold>
+        <PlayerDistanceThreshold>0</PlayerDistanceThreshold>
+      </RemovalSettings>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentResearch">
+      <DeserializeRequiredResearches>false</DeserializeRequiredResearches>
+      <WhitelistMode>false</WhitelistMode>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters">
+      <SavedEcounters />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
+      <MarkedAreas>
+        <EmptyArea>
+          <Position>
+            <X>1065833.5</X>
+            <Y>-391610.5</Y>
+            <Z>-3674582.5</Z>
+          </Position>
+          <Radius>46968</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-1736444.9072087619</X>
+            <Y>-153145.9162229806</Y>
+            <Z>4744340.852408899</Z>
+          </Position>
+          <Radius>23715.75</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>1824841.5</X>
+            <Y>-364820.5</Y>
+            <Z>-5043357.5</Z>
+          </Position>
+          <Radius>27810</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>14053.879371589959</X>
+            <Y>-97931.865170987629</Y>
+            <Z>5540751.6895633293</Z>
+          </Position>
+          <Radius>16491.8457</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-1852224.6936183618</X>
+            <Y>220511.8900702266</Y>
+            <Z>8407304.5348835234</Z>
+          </Position>
+          <Radius>15475.75</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>353484.5</X>
+            <Y>-114590.5</Y>
+            <Z>-861526.5</Z>
+          </Position>
+          <Radius>60461</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-817009.5</X>
+            <Y>-54648.5</Y>
+            <Z>5043358.5</Z>
+          </Position>
+          <Radius>515000</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-26261.654985213885</X>
+            <Y>-662018.40332069818</Y>
+            <Z>4854767.80730291</Z>
+          </Position>
+          <Radius>11847.5752</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>638077.5</X>
+            <Y>91486.5</Y>
+            <Z>-2248586.5</Z>
+          </Position>
+          <Radius>48822</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2370771.5</X>
+            <Y>-307504.5</Y>
+            <Z>8334984.5</Z>
+          </Position>
+          <Radius>395520</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2174694.5472880281</X>
+            <Y>-787710.0159460326</Y>
+            <Z>7839706.984243107</Z>
+          </Position>
+          <Radius>12363.6055</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2828705.5</X>
+            <Y>473977.5</Y>
+            <Z>11890720.5</Z>
+          </Position>
+          <Radius>48822</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-956592.43775446492</X>
+            <Y>262853.73195627419</Y>
+            <Z>5932942.75313126</Z>
+          </Position>
+          <Radius>14943.7549</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-3080905.7637264072</X>
+            <Y>-320892.4734351185</Y>
+            <Z>8541797.8286098875</Z>
+          </Position>
+          <Radius>30904.12</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>726337.21858228755</X>
+            <Y>30959.044655946629</Y>
+            <Z>-2280945.9214652427</Z>
+          </Position>
+          <Radius>9785</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-1214912.6226388363</X>
+            <Y>-563662.50126393931</Y>
+            <Z>4401302.29512978</Z>
+          </Position>
+          <Radius>17507.94</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>206745.71391250979</X>
+            <Y>-84238.643346727869</Y>
+            <Z>-869992.45259635767</Z>
+          </Position>
+          <Radius>11847.5752</Radius>
+        </EmptyArea>
+      </MarkedAreas>
+      <DeletedAreas />
+      <ExistingObjectsSeeds>
+        <MyObjectSeedParams>
+          <Index>1</Index>
+          <Seed>350161567</Seed>
+          <Type>Asteroid</Type>
+          <Generated>true</Generated>
+          <m_proxyId>-1</m_proxyId>
+        </MyObjectSeedParams>
+      </ExistingObjectsSeeds>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855874</PiratesIdentity>
+      <Drones />
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <GameDefinition Type="MyObjectBuilder_GameDefinition" Subtype="Default" />
+  <SessionComponentEnabled />
+  <SessionComponentDisabled />
+  <InGameTime>2081-01-01T07:00:00</InGameTime>
+  <MissionTriggers>
+    <Triggers>
+      <dictionary>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198068654781</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>0</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198044986481</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198121441370</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198029540714</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+      </dictionary>
+    </Triggers>
+  </MissionTriggers>
+  <CustomSkybox />
+  <RequiresDX>11</RequiresDX>
+</MyObjectBuilder_Checkpoint>
