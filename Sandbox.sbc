@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>429963520000</ElapsedGameTime>
+  <ElapsedGameTime>529551200000</ElapsedGameTime>
   <SessionName>AA World</SessionName>
   <SpectatorPosition>
     <Position x="325615.346451484" y="-95135.401408602847" z="-907613.44618927792" />
@@ -20,59 +20,17 @@
   <ControlledObject>135567470188806952</ControlledObject>
   <Password />
   <Description>The New World</Description>
-  <LastSaveTime>2017-09-09T21:43:06.7681639+03:00</LastSaveTime>
-  <SpectatorDistance>3.77565026</SpectatorDistance>
+  <LastSaveTime>2017-09-12T00:58:06.8895981+03:00</LastSaveTime>
+  <SpectatorDistance>46.51359</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot>1</SelectedSlot>
+    <SelectedSlot xsi:nil="true" />
     <Slots>
       <Slot>
         <Index>0</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>3</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_2_Large" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>4</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_1_Large" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>5</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyDiagonal" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>6</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalTip" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
         </Data>
       </Slot>
       <Slot>
@@ -107,35 +65,14 @@
         <Index>13</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+          <DefinitionId Type="MyObjectBuilder_OxygenFarm" Subtype="hmsquarewindowfarm_Large" />
         </Data>
       </Slot>
       <Slot>
         <Index>14</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor04" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>15</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>16</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>17</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+          <DefinitionId Type="MyObjectBuilder_AirVent" Subtype="hmwindowfarmdoor_Large" />
         </Data>
       </Slot>
     </Slots>
@@ -146,6 +83,13 @@
         <Key xsi:type="xsd:long">135567470188806952</Key>
         <Value xsi:type="PlayerId">
           <ClientId>76561198029540714</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">122159308190516987</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198044986481</ClientId>
           <SerialId>0</SerialId>
         </Value>
       </item>
@@ -922,48 +866,12 @@
   </Factions>
   <Mods>
     <ModItem>
+      <Name>396679430.sbm</Name>
+      <PublishedFileId>396679430</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>401530181.sbm</Name>
       <PublishedFileId>401530181</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>940950366.sbm</Name>
-      <PublishedFileId>940950366</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>940852605.sbm</Name>
-      <PublishedFileId>940852605</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>917662028.sbm</Name>
-      <PublishedFileId>917662028</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>878631000.sbm</Name>
-      <PublishedFileId>878631000</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>884550487.sbm</Name>
-      <PublishedFileId>884550487</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>913854484.sbm</Name>
-      <PublishedFileId>913854484</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>943687621.sbm</Name>
-      <PublishedFileId>943687621</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>941451759.sbm</Name>
-      <PublishedFileId>941451759</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>295393908.sbm</Name>
-      <PublishedFileId>295393908</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>295394554.sbm</Name>
-      <PublishedFileId>295394554</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>412134393.sbm</Name>
@@ -974,16 +882,32 @@
       <PublishedFileId>412986157</PublishedFileId>
     </ModItem>
     <ModItem>
+      <Name>445996030.sbm</Name>
+      <PublishedFileId>445996030</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>454075333.sbm</Name>
       <PublishedFileId>454075333</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>479115724.sbm</Name>
+      <PublishedFileId>479115724</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>531659576.sbm</Name>
       <PublishedFileId>531659576</PublishedFileId>
     </ModItem>
     <ModItem>
+      <Name>532433982.sbm</Name>
+      <PublishedFileId>532433982</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>541493993.sbm</Name>
       <PublishedFileId>541493993</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>559347506.sbm</Name>
+      <PublishedFileId>559347506</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>577318708.sbm</Name>
@@ -998,42 +922,6 @@
       <PublishedFileId>649590538</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>910410608.sbm</Name>
-      <PublishedFileId>910410608</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>960597257.sbm</Name>
-      <PublishedFileId>960597257</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>973526550.sbm</Name>
-      <PublishedFileId>973526550</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>396679430.sbm</Name>
-      <PublishedFileId>396679430</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>415051704.sbm</Name>
-      <PublishedFileId>415051704</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>479115724.sbm</Name>
-      <PublishedFileId>479115724</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>532433982.sbm</Name>
-      <PublishedFileId>532433982</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>559347506.sbm</Name>
-      <PublishedFileId>559347506</PublishedFileId>
-    </ModItem>
-    <ModItem>
-      <Name>583415747.sbm</Name>
-      <PublishedFileId>583415747</PublishedFileId>
-    </ModItem>
-    <ModItem>
       <Name>677790017.sbm</Name>
       <PublishedFileId>677790017</PublishedFileId>
     </ModItem>
@@ -1046,8 +934,20 @@
       <PublishedFileId>801185519</PublishedFileId>
     </ModItem>
     <ModItem>
+      <Name>910410608.sbm</Name>
+      <PublishedFileId>910410608</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>960597257.sbm</Name>
+      <PublishedFileId>960597257</PublishedFileId>
+    </ModItem>
+    <ModItem>
       <Name>971228947.sbm</Name>
       <PublishedFileId>971228947</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>973526550.sbm</Name>
+      <PublishedFileId>973526550</PublishedFileId>
     </ModItem>
     <ModItem>
       <Name>973528334.sbm</Name>
@@ -1058,8 +958,104 @@
       <PublishedFileId>1117772678</PublishedFileId>
     </ModItem>
     <ModItem>
-      <Name>445996030.sbm</Name>
-      <PublishedFileId>445996030</PublishedFileId>
+      <Name>878631000.sbm</Name>
+      <PublishedFileId>878631000</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>884550487.sbm</Name>
+      <PublishedFileId>884550487</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>913854484.sbm</Name>
+      <PublishedFileId>913854484</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>917662028.sbm</Name>
+      <PublishedFileId>917662028</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940852605.sbm</Name>
+      <PublishedFileId>940852605</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>940950366.sbm</Name>
+      <PublishedFileId>940950366</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>941451759.sbm</Name>
+      <PublishedFileId>941451759</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>943687621.sbm</Name>
+      <PublishedFileId>943687621</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>806331071.sbm</Name>
+      <PublishedFileId>806331071</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>603906728.sbm</Name>
+      <PublishedFileId>603906728</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>405687269.sbm</Name>
+      <PublishedFileId>405687269</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>862644452.sbm</Name>
+      <PublishedFileId>862644452</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>717073267.sbm</Name>
+      <PublishedFileId>717073267</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>497743061.sbm</Name>
+      <PublishedFileId>497743061</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>880622501.sbm</Name>
+      <PublishedFileId>880622501</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>884068546.sbm</Name>
+      <PublishedFileId>884068546</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>856221627.sbm</Name>
+      <PublishedFileId>856221627</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>678678053.sbm</Name>
+      <PublishedFileId>678678053</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>886585270.sbm</Name>
+      <PublishedFileId>886585270</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>500818376.sbm</Name>
+      <PublishedFileId>500818376</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>295394554.sbm</Name>
+      <PublishedFileId>295394554</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>308352587.sbm</Name>
+      <PublishedFileId>308352587</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>487835945.sbm</Name>
+      <PublishedFileId>487835945</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>735053366.sbm</Name>
+      <PublishedFileId>735053366</PublishedFileId>
+    </ModItem>
+    <ModItem>
+      <Name>758597413.sbm</Name>
+      <PublishedFileId>758597413</PublishedFileId>
     </ModItem>
   </Mods>
   <PromotedUsers>
@@ -1074,93 +1070,93 @@
       <DisplayName>AdYa</DisplayName>
       <CharacterEntityId>135567470188806952</CharacterEntityId>
       <Model>Default_Astronaut</Model>
-      <ColorMask x="0.272222221" y="0.4" z="1" />
+      <ColorMask x="0.0583333336" y="0.09" z="1" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:17.1357564+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:34:15.9655544+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855874</IdentityId>
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:17.7400542+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:34:16.813487+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
       <DisplayName>Civilian</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855876</IdentityId>
       <DisplayName>Military Forces</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855877</IdentityId>
       <DisplayName>Police</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855878</IdentityId>
       <DisplayName>Traders</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855879</IdentityId>
       <DisplayName>MMEC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855880</IdentityId>
       <DisplayName>Amphion Corp.</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855881</IdentityId>
       <DisplayName>KUS Shipyards</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855882</IdentityId>
       <DisplayName>Hyperion Systems</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855883</IdentityId>
       <DisplayName>Mahriane Industries</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855884</IdentityId>
       <DisplayName>EXMC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855885</IdentityId>
       <DisplayName>IMDC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855886</IdentityId>
@@ -1176,14 +1172,14 @@
       <DisplayName>AAT NPC9750</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855888</IdentityId>
       <DisplayName>AAT NPC5150</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-09T21:40:02.220136+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:33:57.3344778+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855889</IdentityId>
@@ -1206,13 +1202,25 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855891</IdentityId>
       <DisplayName>ALVO</DisplayName>
-      <CharacterEntityId>0</CharacterEntityId>
+      <CharacterEntityId>122159308190516987</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.333" y="-0.33" z="-0.05" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2017-09-08T23:04:59.8424209+03:00</LastLoginTime>
+      <LastLoginTime>2017-09-11T22:36:28.9413983+03:00</LastLoginTime>
     </MyObjectBuilder_Identity>
   </Identities>
+  <Clients>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198029540714</SteamId>
+      <Name>AdYa</Name>
+      <IsAdmin>true</IsAdmin>
+    </MyObjectBuilder_Client>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198044986481</SteamId>
+      <Name>ALVO</Name>
+      <IsAdmin>false</IsAdmin>
+    </MyObjectBuilder_Client>
+  </Clients>
   <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
@@ -1234,49 +1242,7 @@
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>1</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalk" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>2</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockLight_1corner" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>3</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_2_Large" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>4</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_InteriorLight" Subtype="Kham_Combo_Cat_Light_1_Large" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>5</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeSteelCatwalkOnlyDiagonal" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>6</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="SmallSteelCatwalk2x1InvDiagonalTip" />
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
                 </Data>
               </Slot>
               <Slot>
@@ -1311,59 +1277,28 @@
                 <Index>13</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                  <DefinitionId Type="MyObjectBuilder_OxygenFarm" Subtype="hmsquarewindowfarm_Large" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>14</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor04" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>15</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeBlockCorner_LCD_1" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>16</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeLCDPanelWide" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>17</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_TextPanel" Subtype="LargeTextPanel" />
+                  <DefinitionId Type="MyObjectBuilder_AirVent" Subtype="hmwindowfarmdoor_Large" />
                 </Data>
               </Slot>
             </Slots>
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>25.064120659469285</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>44.883594658451536</Distance>
+            <HeadAngle x="-46.21875" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="118333162308170350">
+            <CameraControllerSettings EntityId="87000493707361349">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>53.456392757082632</Distance>
-              <HeadAngle x="8.858789" y="261.117" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="113516328255177419">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>110.84719363977172</Distance>
-              <HeadAngle x="15.5392065" y="-39.64676" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="82496322455755816">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>16.452300762580592</Distance>
-              <HeadAngle x="47.1985245" y="147.840149" />
+              <Distance>46.513593086000469</Distance>
+              <HeadAngle x="4.06633472" y="119.956879" />
             </CameraControllerSettings>
           </EntityCameraData>
           <BuildColorSlots>
@@ -1399,8 +1334,8 @@
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.96</Y>
-              <Z>-0.5</Z>
+              <Y>-1</Y>
+              <Z>-1</Z>
             </Vector3>
             <Vector3>
               <X>0</X>
@@ -1448,8 +1383,8 @@
         <Value xsi:type="MyObjectBuilder_Player">
           <DisplayName>ALVO</DisplayName>
           <IdentityId>144115188075855891</IdentityId>
-          <Connected>false</Connected>
-          <ForceRealPlayer>false</ForceRealPlayer>
+          <Connected>true</Connected>
+          <ForceRealPlayer>true</ForceRealPlayer>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -1458,7 +1393,7 @@
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder3Item" />
                 </Data>
               </Slot>
               <Slot>
@@ -1478,8 +1413,8 @@
               <Slot>
                 <Index>3</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AutomaticRifleItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_OxygenGenerator" Subtype="" />
                 </Data>
               </Slot>
               <Slot>
@@ -1493,62 +1428,116 @@
                 <Index>5</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor32xb" />
+                  <DefinitionId Type="MyObjectBuilder_Conveyor" Subtype="snconv2" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>6</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Door" Subtype="SDoor07" />
+                  <DefinitionId Type="MyObjectBuilder_Conveyor" Subtype="snconv6" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>7</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="snconvtube2" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>8</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_AdvancedDoor" Subtype="LargeRoundedBlinds_WithGlass_SEM4" />
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>10</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Large_Letter_A" />
+                  <DefinitionId Type="MyObjectBuilder_ConveyorConnector" Subtype="snconvtube1" />
                 </Data>
               </Slot>
             </Slots>
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>25.064120659469285</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>44.883594658451536</Distance>
+            <HeadAngle x="-46.21875" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="113516328255177419">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>26.161520958041788</Distance>
-              <HeadAngle x="-12.4894609" y="211.159" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="82496322455755816">
+            <CameraControllerSettings EntityId="87000493707361349">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>110.84719363977172</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-            <CameraControllerSettings EntityId="118333162308170350">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>4.2026254924687478</Distance>
-              <HeadAngle x="-9.584933" y="-77.84126" />
+              <Distance>20.000000000000004</Distance>
+              <HeadAngle x="-2.32361817" y="-2.2186482" />
             </CameraControllerSettings>
           </EntityCameraData>
-          <BuildColorSlots />
+          <BuildColorSlots>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-1</Y>
+              <Z>1</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
         </Value>
       </item>
       <item>
@@ -1597,17 +1586,10 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>25.064120659469285</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>44.883594658451536</Distance>
+            <HeadAngle x="-46.21875" y="0" />
           </CharacterCameraData>
-          <EntityCameraData>
-            <CameraControllerSettings EntityId="82496322455755816">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>58.509105682373054</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
-          </EntityCameraData>
-          <BuildColorSlots />
+          <EntityCameraData />
         </Value>
       </item>
     </dictionary>
@@ -1992,6 +1974,52 @@
                 <X>280448.28</X>
                 <Y>-52164.91</Y>
                 <Z>-990888.31</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Ni</name>
+              <description>Current position</description>
+              <coords>
+                <X>325335.03</X>
+                <Y>-97315.1</Y>
+                <Z>-908256.31</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>false</alwaysVisible>
+              <color>
+                <PackedValue>4294035829</PackedValue>
+                <X>117</X>
+                <Y>201</Y>
+                <Z>241</Z>
+                <R>117</R>
+                <G>201</G>
+                <B>241</B>
+                <A>255</A>
+              </color>
+              <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Mg</name>
+              <description>Current position</description>
+              <coords>
+                <X>325194.06</X>
+                <Y>-97226.02</Y>
+                <Z>-908089.75</Z>
               </coords>
               <isFinal>true</isFinal>
               <showOnHud>true</showOnHud>
@@ -2562,9 +2590,9 @@
               <name>Body Location</name>
               <description>Last known body location</description>
               <coords>
-                <X>325346.8</X>
-                <Y>-94858.79</Y>
-                <Z>-907465.87</Z>
+                <X>328150</X>
+                <Y>-96578.32</Y>
+                <Z>-911309.32</Z>
               </coords>
               <isFinal>true</isFinal>
               <showOnHud>true</showOnHud>
@@ -2580,6 +2608,30 @@
                 <A>255</A>
               </color>
               <entityId>0</entityId>
+            </Entry>
+            <Entry>
+              <name>Unknown signal 79</name>
+              <description />
+              <coords>
+                <X>327739.7163033851</X>
+                <Y>-99156.027694787568</Y>
+                <Z>-911413.27034847764</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+              <alwaysVisible>true</alwaysVisible>
+              <color>
+                <PackedValue>4281335725</PackedValue>
+                <X>173</X>
+                <Y>255</Y>
+                <Z>47</Z>
+                <R>173</R>
+                <G>255</G>
+                <B>47</B>
+                <A>255</A>
+              </color>
+              <entityId>127542550954225692</entityId>
+              <DisplayName>Unknown signal</DisplayName>
             </Entry>
           </Entries>
         </Value>
@@ -2639,11 +2691,11 @@
       <Mod />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>21773</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>86590</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
-      <LastCoordSysId>8</LastCoordSysId>
+      <LastCoordSysId>10</LastCoordSysId>
       <CoordSystems />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
@@ -2655,43 +2707,48 @@
       <PlayerData>
         <PlayerContainerData>
           <PlayerId>144115188075855873</PlayerId>
-          <Timer>506</Timer>
+          <Timer>317</Timer>
           <Active>true</Active>
           <Competetive>false</Competetive>
-          <ContainerId>0</ContainerId>
+          <ContainerId>91007329894642110</ContainerId>
         </PlayerContainerData>
         <PlayerContainerData>
           <PlayerId>144115188075855886</PlayerId>
-          <Timer>292</Timer>
+          <Timer>174</Timer>
           <Active>true</Active>
           <Competetive>true</Competetive>
           <ContainerId>0</ContainerId>
         </PlayerContainerData>
         <PlayerContainerData>
           <PlayerId>144115188075855889</PlayerId>
-          <Timer>535</Timer>
+          <Timer>13</Timer>
           <Active>true</Active>
           <Competetive>true</Competetive>
           <ContainerId>0</ContainerId>
         </PlayerContainerData>
         <PlayerContainerData>
           <PlayerId>144115188075855890</PlayerId>
-          <Timer>424</Timer>
+          <Timer>283</Timer>
           <Active>true</Active>
           <Competetive>true</Competetive>
           <ContainerId>0</ContainerId>
         </PlayerContainerData>
         <PlayerContainerData>
           <PlayerId>144115188075855891</PlayerId>
-          <Timer>277</Timer>
-          <Active>true</Active>
+          <Timer>931</Timer>
+          <Active>false</Active>
           <Competetive>false</Competetive>
-          <ContainerId>0</ContainerId>
+          <ContainerId>127542550954225692</ContainerId>
         </PlayerContainerData>
       </PlayerData>
       <GPSForRemoval />
-      <EntitiesForRemoval />
-      <ContainerIdSmall>66</ContainerIdSmall>
+      <EntitiesForRemoval>
+        <MyEntityForRemoval>
+          <TimeLeft>297</TimeLeft>
+          <EntityId>96404004768844113</EntityId>
+        </MyEntityForRemoval>
+      </EntitiesForRemoval>
+      <ContainerIdSmall>80</ContainerIdSmall>
       <ContainerIdLarge>5</ContainerIdLarge>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CutsceneSessionComponent">
@@ -2736,19 +2793,19 @@
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>1824841.5</X>
-            <Y>-364820.5</Y>
-            <Z>-5043357.5</Z>
-          </Position>
-          <Radius>27810</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
             <X>14053.879371589959</X>
             <Y>-97931.865170987629</Y>
             <Z>5540751.6895633293</Z>
           </Position>
           <Radius>16491.8457</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>1824841.5</X>
+            <Y>-364820.5</Y>
+            <Z>-5043357.5</Z>
+          </Position>
+          <Radius>27810</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
@@ -2792,27 +2849,11 @@
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>-26261.654985213885</X>
-            <Y>-662018.40332069818</Y>
-            <Z>4854767.80730291</Z>
-          </Position>
-          <Radius>11847.5752</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
             <X>-2828705.5</X>
             <Y>473977.5</Y>
             <Z>11890720.5</Z>
           </Position>
           <Radius>48822</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
-            <X>-2174694.5472880281</X>
-            <Y>-787710.0159460326</Y>
-            <Z>7839706.984243107</Z>
-          </Position>
-          <Radius>12363.6055</Radius>
         </EmptyArea>
         <EmptyArea>
           <Position>
@@ -2824,14 +2865,6 @@
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>-956592.43775446492</X>
-            <Y>262853.73195627419</Y>
-            <Z>5932942.75313126</Z>
-          </Position>
-          <Radius>14943.7549</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
             <X>-1214912.6226388363</X>
             <Y>-563662.50126393931</Y>
             <Z>4401302.29512978</Z>
@@ -2840,19 +2873,43 @@
         </EmptyArea>
         <EmptyArea>
           <Position>
-            <X>726337.21858228755</X>
-            <Y>30959.044655946629</Y>
-            <Z>-2280945.9214652427</Z>
-          </Position>
-          <Radius>9785</Radius>
-        </EmptyArea>
-        <EmptyArea>
-          <Position>
             <X>206745.71391250979</X>
             <Y>-84238.643346727869</Y>
             <Z>-869992.45259635767</Z>
           </Position>
           <Radius>11847.5752</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-26261.654985213885</X>
+            <Y>-662018.40332069818</Y>
+            <Z>4854767.80730291</Z>
+          </Position>
+          <Radius>11847.5752</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-2174694.5472880281</X>
+            <Y>-787710.0159460326</Y>
+            <Z>7839706.984243107</Z>
+          </Position>
+          <Radius>12363.6055</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>-956592.43775446492</X>
+            <Y>262853.73195627419</Y>
+            <Z>5932942.75313126</Z>
+          </Position>
+          <Radius>14943.7549</Radius>
+        </EmptyArea>
+        <EmptyArea>
+          <Position>
+            <X>726337.21858228755</X>
+            <Y>30959.044655946629</Y>
+            <Z>-2280945.9214652427</Z>
+          </Position>
+          <Radius>9785</Radius>
         </EmptyArea>
       </MarkedAreas>
       <DeletedAreas />
